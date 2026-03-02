@@ -1,0 +1,29 @@
+name: Sync Upstream Links
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync-links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run sync:links
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain data/repos.json)" ]]; then
+            git config user.name github-actions
+            git config user.email github-actions@users.noreply.github.com
+            git add data/repos.json
+            git commit -m "chore(data): sync upstream repo links"
+            git push
+          fi
