@@ -74,7 +74,7 @@ export default async function Image({ params }: { params: Promise<{ owner: strin
                         color: '#1a1a1a',
                         opacity: 0.6
                     }}>
-                        𝕏 /FossRadar
+                        GITHUB /FossRadar
                     </div>
                 </div>
 
