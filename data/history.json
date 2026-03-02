@@ -1,1 +1,578 @@
-{}
+{
+  "Alfresco/alfresco-content-app": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 201
+    }
+  ],
+  "crater-invoice/crater": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 8265
+    }
+  ],
+  "Nexedi/erp5": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 206
+    }
+  ],
+  "espocrm/espocrm": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 2811
+    }
+  ],
+  "freeats/freeats": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 42
+    }
+  ],
+  "idurar/idurar-erp-crm": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 8212
+    }
+  ],
+  "invoiceninja/invoiceninja": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 9564
+    }
+  ],
+  "logicaldoc/community": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 134
+    }
+  ],
+  "nuxeo/nuxeo": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 696
+    }
+  ],
+  "odoo/odoo": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 49244
+    }
+  ],
+  "openkm/document-management-system": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 834
+    }
+  ],
+  "SolidInvoice/SolidInvoice": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 859
+    }
+  ],
+  "salesagility/SuiteCRM": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 5307
+    }
+  ],
+  "toeverything/AFFiNE": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 63443
+    }
+  ],
+  "AppFlowy-IO/AppFlowy": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 68319
+    }
+  ],
+  "bigbluebutton/bigbluebutton": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 9041
+    }
+  ],
+  "BookStackApp/BookStack": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 18359
+    }
+  ],
+  "vector-im/element-web": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 12735
+    }
+  ],
+  "vector-im/element-call": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 895
+    }
+  ],
+  "mattermost/focalboard": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 25920
+    }
+  ],
+  "jech/galene": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 1263
+    }
+  ],
+  "jitsi/jitsi-meet": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 28711
+    }
+  ],
+  "laurent22/joplin": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 53699
+    }
+  ],
+  "kanboard/kanboard": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 9476
+    }
+  ],
+  "logseq/logseq": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 41293
+    }
+  ],
+  "mattermost/mattermost-server": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 35609
+    }
+  ],
+  "wikimedia/mediawiki": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 4974
+    }
+  ],
+  "moinwiki/moin": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 365
+    }
+  ],
+  "streetwriters/notesnook": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 13746
+    }
+  ],
+  "plankanban/planka": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 11609
+    }
+  ],
+  "relatedcode/Messenger": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 4796
+    }
+  ],
+  "RocketChat/Rocket.Chat": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 44773
+    }
+  ],
+  "siyuan-note/siyuan": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 41583
+    }
+  ],
+  "spacebarchat/spacebarchat": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 6603
+    }
+  ],
+  "wekan/wekan": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 20858
+    }
+  ],
+  "xwiki/xwiki-platform": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 1208
+    }
+  ],
+  "zulip/zulip": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 24768
+    }
+  ],
+  "abilian/awesome-free-software": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 11
+    }
+  ],
+  "johnjago/awesome-free-software": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 2614
+    }
+  ],
+  "RunaCapital/awesome-oss-alternatives": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 18830
+    }
+  ],
+  "awesome-selfhosted/awesome-selfhosted": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 276080
+    }
+  ],
+  "abilian/hop3": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 10
+    }
+  ],
+  "abilian/nua": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 39
+    }
+  ],
+  "caronc/apprise": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 15953
+    }
+  ],
+  "appwrite/appwrite": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 54992
+    }
+  ],
+  "authgear/authgear-server": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 1437
+    }
+  ],
+  "caprover/caprover": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 14881
+    }
+  ],
+  "coollabsio/coolify": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 51231
+    }
+  ],
+  "coroot/coroot": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 7448
+    }
+  ],
+  "dokku/dokku": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 31884
+    }
+  ],
+  "Graylog2/graylog2-server": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 7972
+    }
+  ],
+  "hyperdxio/hyperdx": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 9348
+    }
+  ],
+  "JanssenProject/jans": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 610
+    }
+  ],
+  "keycloak/keycloak": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 33089
+    }
+  ],
+  "logto-io/logto": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 11623
+    }
+  ],
+  "mnfst/manifest": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 3474
+    }
+  ],
+  "meilisearch/MeiliSearch": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 56145
+    }
+  ],
+  "nhost/nhost": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 9090
+    }
+  ],
+  "novuhq/novu": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 38636
+    }
+  ],
+  "binwiederhier/ntfy": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 29014
+    }
+  ],
+  "getsentry/sentry": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 43251
+    }
+  ],
+  "signoz/signoz": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 25923
+    }
+  ],
+  "valeriansaliou/sonic": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 21150
+    }
+  ],
+  "supabase/supabase": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 98403
+    }
+  ],
+  "supertokens/supertokens-core": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 14946
+    }
+  ],
+  "quickwit-oss/tantivy": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 14638
+    }
+  ],
+  "typesense/typesense": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 25297
+    }
+  ],
+  "bugzilla/bugzilla": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 809
+    }
+  ],
+  "buildbot/buildbot": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 5433
+    }
+  ],
+  "harness/drone": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 33835
+    }
+  ],
+  "GerritCodeReview/gerrit": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 1149
+    }
+  ],
+  "go-gitea/gitea": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 54000
+    }
+  ],
+  "gitlabhq/gitlabhq": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 24243
+    }
+  ],
+  "gogs/gogs": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 47541
+    }
+  ],
+  "jenkinsci/jenkins": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 25057
+    }
+  ],
+  "Pagure/pagure": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 221
+    }
+  ],
+  "makeplane/plane": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 46111
+    }
+  ],
+  "redmine/redmine": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 5896
+    }
+  ],
+  "reviewboard/reviewboard": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 1696
+    }
+  ],
+  "taigaio/taiga": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 546
+    }
+  ],
+  "11ty/eleventy": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 19434
+    }
+  ],
+  "myles/awesome-static-generators": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 3643
+    }
+  ],
+  "btw-so/btw": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 1077
+    }
+  ],
+  "TryGhost/Ghost": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 51946
+    }
+  ],
+  "gohugoio/hugo": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 86853
+    }
+  ],
+  "jekyll/jekyll": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 51417
+    }
+  ],
+  "lektor/lektor": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 3926
+    }
+  ],
+  "matomo-org/matomo": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 21314
+    }
+  ],
+  "getpelican/pelican": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 13232
+    }
+  ],
+  "plausible/analytics": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 24309
+    }
+  ],
+  "prismelabs/analytics": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 122
+    }
+  ],
+  "milesmcc/shynet": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 3122
+    }
+  ],
+  "umami-software/umami": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 35472
+    }
+  ],
+  "WordPress/WordPress": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 20918
+    }
+  ],
+  "writefreely/writefreely": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 5081
+    }
+  ],
+  "getzola/zola": [
+    {
+      "date": "2026-03-02T11:27:23.610Z",
+      "stars": 16688
+    }
+  ]
+}
