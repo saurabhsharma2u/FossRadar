@@ -12,4 +12,6 @@ export type Repo = {
   language?: string;
   lastCommit?: string;
   archived?: boolean;
+  self_hostable?: boolean;
+  alternatives?: string;
 };

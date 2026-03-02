@@ -1,6 +1,8 @@
 import './globals.css';
 import { Outfit } from 'next/font/google';
 import { Metadata } from 'next';
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
 
 const outfit = Outfit({ subsets: ['latin'] });
 
@@ -18,22 +20,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://fossradar.com',
-    title: 'FossRadar | Better Open Source Alternatives',
-    description: 'Find high-quality FOSS replacements for common SaaS products. Community-driven and privacy-focused.',
+    title: 'FossRadar | Find FOSS Alternatives to Notion, Slack, & more',
+    description: 'A curated radar for discovering high-quality Open Source replacements for Notion, Slack, Trello, and other common SaaS products.',
     siteName: 'FossRadar',
-    images: [
-      {
-        url: '/og-image.png', // You should create this asset
-        width: 1200,
-        height: 630,
-        alt: 'FossRadar Preview'
-      }
-    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'FossRadar | Better Open Source Alternatives',
-    description: 'Find high-quality FOSS replacements for common SaaS products.',
+    description: 'Find FOSS replacements for Notion, Slack, and common SaaS products.',
     creator: '@fossradar',
   },
   robots: {
@@ -45,7 +39,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" data-theme="dark">
+    <html lang="en" data-theme="dark" suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -65,7 +59,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className={outfit.className}>
-        {children}
+        <div className="container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+          <Navbar />
+          <div style={{ flex: 1 }}>
+            {children}
+          </div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

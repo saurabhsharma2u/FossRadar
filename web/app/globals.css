@@ -197,6 +197,7 @@ select:focus {
   line-height: 1.5;
   margin-bottom: 1.5rem;
   flex-grow: 1;
+  overflow-wrap: break-word;
 }
 
 .card-stats {
@@ -233,6 +234,21 @@ select:focus {
   color: #1a1a1a;
 }
 
+.badge.active {
+  background: #4ade80;
+  color: #1a1a1a;
+}
+
+.badge.stale {
+  background: #fbbf24;
+  color: #1a1a1a;
+}
+
+.badge.abandoned {
+  background: #f87171;
+  color: #1a1a1a;
+}
+
 .card-footer {
   margin-top: auto;
   padding-top: 1rem;
@@ -240,6 +256,8 @@ select:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .btn-link {
@@ -252,6 +270,50 @@ select:focus {
   border: 2px solid var(--border);
   box-shadow: 3px 3px 0px var(--border);
   transition: all 0.1s;
+  white-space: nowrap;
+}
+
+.share-container {
+  position: relative;
+  display: inline-block;
+}
+
+.share-dropdown {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  right: 0;
+  background: var(--card-bg);
+  border: 3px solid var(--border);
+  box-shadow: 4px 4px 0px var(--border);
+  z-index: 100;
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.share-item {
+  padding: 0.8rem 1rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--border);
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.1s;
+}
+
+.share-item:last-child {
+  border-bottom: none;
+}
+
+.share-item:hover {
+  background: var(--accent);
+  color: #1a1a1a;
 }
 
 .btn-link:hover {

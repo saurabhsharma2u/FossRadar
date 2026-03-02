@@ -15,6 +15,10 @@ assignees: []
 **Category:** 
 *(e.g., Collaboration, Business, Web, Platform Services, DevOps, Software Development)*
 
+### Self-Hostable
+**Self-Hostable:** [Yes / No]
+*(Can this project be self-hosted?)*
+
 ### Why is this a great alternative?
 *(Optional) Briefly describe why this is a good addition to the radar.*
 

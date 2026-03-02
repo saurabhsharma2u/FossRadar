@@ -14,6 +14,8 @@ export type RepoRecord = {
   archived?: boolean;
   homepage?: string;
   lastSynced?: string;
+  self_hostable?: boolean;
+  alternatives?: string[];
 };
 
 type GraphNode = {
@@ -73,9 +75,9 @@ export function mapGraphData(repo: RepoRecord, node: GraphNode): RepoRecord {
     description: node.description ?? repo.description,
     stars: node.stargazerCount,
     forks: node.forkCount,
-    license: node.licenseInfo?.spdxId ?? 'NOASSERTION',
+    license: node.licenseInfo?.spdxId ?? '',
     topics: node.repositoryTopics?.nodes?.map((n) => n.topic.name) ?? [],
-    language: node.primaryLanguage?.name ?? 'Unknown',
+    language: node.primaryLanguage?.name ?? '',
     lastCommit: node.pushedAt,
     archived: node.isArchived,
     homepage: node.homepageUrl ?? ''

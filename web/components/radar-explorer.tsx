@@ -13,38 +13,28 @@ interface ExplorerProps {
 export default function RadarExplorer({ repos, history }: ExplorerProps) {
     const [query, setQuery] = useState('');
     const [category, setCategory] = useState('All');
+    const [language, setLanguage] = useState('All');
     const [sort, setSort] = useState('stars');
     const [hideArchived, setHideArchived] = useState(true);
-    const [theme, setTheme] = useState('dark');
     const [visibleCount, setVisibleCount] = useState(12);
 
     useEffect(() => {
-        const saved = localStorage.getItem('theme') || 'dark';
-        setTheme(saved);
-    }, []);
-
-    useEffect(() => {
         setVisibleCount(12);
-    }, [query, category, sort, hideArchived]);
+    }, [query, category, language, sort, hideArchived]);
 
-    const toggleTheme = () => {
-        const next = theme === 'dark' ? 'light' : 'dark';
-        setTheme(next);
-        document.documentElement.setAttribute('data-theme', next);
-        localStorage.setItem('theme', next);
-    };
-
-    const categories = useMemo(() => ['All', ...new Set(repos.map((r) => r.category))], [repos]);
+    const categories = useMemo(() => ['All', ...new Set(repos.map((r) => r.category))].sort(), [repos]);
+    const languages = useMemo(() => ['All', ...new Set(repos.map((r) => r.language).filter(Boolean) as string[])].sort(), [repos]);
 
     const fuse = useMemo(() => new Fuse(repos, {
-        keys: ['name', 'description', 'topics', 'category'],
+        keys: ['name', 'description', 'topics', 'category', 'alternatives'],
         threshold: 0.35
     }), [repos]);
 
     const filtered = useMemo(() => {
         const base = query ? fuse.search(query).map((r) => r.item) : repos;
         const c = category === 'All' ? base : base.filter((r) => r.category === category);
-        const a = hideArchived ? c.filter((r) => !r.archived) : c;
+        const l = language === 'All' ? c : c.filter((r) => r.language === language);
+        const a = hideArchived ? l.filter((r) => !r.archived) : l;
 
         return [...a].sort((x, y) => {
             if (sort === 'updated') return (Date.parse(y.lastCommit || '') || 0) - (Date.parse(x.lastCommit || '') || 0);
@@ -56,7 +46,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
             if (sort === 'alpha') return x.name.localeCompare(y.name);
             return (y.stars || 0) - (x.stars || 0);
         });
-    }, [query, category, hideArchived, sort, fuse, repos]);
+    }, [query, category, language, hideArchived, sort, fuse, repos]);
 
     const displayed = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
 
@@ -87,14 +77,6 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
 
     return (
         <>
-            <header>
-                <div className="brand">
-                    <span>FOSS</span>RADAR
-                </div>
-                <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle Theme">
-                    {theme === 'dark' ? '🌞' : '🌒'}
-                </button>
-            </header>
 
             <section className="hero">
                 <h1>Discover Open Source Alternatives.</h1>
@@ -120,6 +102,17 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                         onChange={(e) => setCategory(e.target.value)}
                     >
                         {categories.map((c) => <option key={c} value={c}>{c}</option>)}
+                    </select>
+                </div>
+
+                <div className="control-item">
+                    <label htmlFor="language">Language</label>
+                    <select
+                        id="language"
+                        value={language}
+                        onChange={(e) => setLanguage(e.target.value)}
+                    >
+                        {languages.map((l) => <option key={l} value={l}>{l}</option>)}
                     </select>
                 </div>
 
