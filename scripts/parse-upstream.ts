@@ -1,8 +1,9 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { RepoRecord } from '../lib/github';
 
-const UPSTREAM =
-  'https://raw.githubusercontent.com/saurabhsharma2u/awesome-foss-alternatives/refs/heads/main/README.md';
+const UPSTREAMS = [
+  'https://raw.githubusercontent.com/sfermigier/awesome-foss-alternatives/refs/heads/main/README.md',
+];
 const DATA_FILE = 'data/repos.json';
 
 export function parseMarkdown(md: string): RepoRecord[] {
@@ -17,7 +18,7 @@ export function parseMarkdown(md: string): RepoRecord[] {
       continue;
     }
 
-    const match = line.match(/\[([^\]]+)\]\((https?:\/\/github\.com\/([^/\s)]+)\/([^/\s)#?]+)\)/i);
+    const match = line.match(/\[([^\]]+)\]\((https?:\/\/github\.com\/([^/\s)]+)\/([^/\s)#?]+))\)/i);
     if (match) {
       const [, name, url, owner, repo] = match;
       repos.push({ name: name.trim(), owner, repo, url, category });
@@ -35,8 +36,27 @@ export function parseMarkdown(md: string): RepoRecord[] {
 }
 
 async function main() {
-  const upstream = await fetch(UPSTREAM).then((r) => r.text());
-  const parsed = parseMarkdown(upstream);
+  let allParsed: RepoRecord[] = [];
+
+  for (const url of UPSTREAMS) {
+    try {
+      console.log(`Fetching from ${url}...`);
+      const upstream = await fetch(url).then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.text();
+      });
+      const parsed = parseMarkdown(upstream);
+      allParsed = [...allParsed, ...parsed];
+    } catch (error) {
+      console.error(`Failed to fetch ${url}:`, error);
+    }
+  }
+
+  // Deduplicate across all sources
+  const parsedMap = new Map<string, RepoRecord>();
+  for (const p of allParsed) {
+    parsedMap.set(`${p.owner}/${p.repo}`.toLowerCase(), p);
+  }
 
   let existing: RepoRecord[] = [];
   try {
@@ -45,11 +65,27 @@ async function main() {
     existing = [];
   }
 
-  const byKey = new Map(existing.map((r) => [`${r.owner}/${r.repo}`.toLowerCase(), r]));
-  const merged = parsed.map((p) => ({ ...byKey.get(`${p.owner}/${p.repo}`.toLowerCase()), ...p }));
+  // Start with existing records to ensure manual entries are preserved
+  const finalMap = new Map<string, RepoRecord>();
+  for (const r of existing) {
+    const key = `${r.owner}/${r.repo}`.toLowerCase();
+    finalMap.set(key, r);
+  }
+
+  // Overwrite/Add with new parsed results from upstream
+  for (const p of parsedMap.values()) {
+    const key = `${p.owner}/${p.repo}`.toLowerCase();
+    const existingRepo = finalMap.get(key);
+    // Merge: Upstream 'p' updates name/url/category, but we keep existing additional metadata
+    finalMap.set(key, { ...existingRepo, ...p });
+  }
+
+  const merged = Array.from(finalMap.values()).sort((a, b) =>
+    a.category.localeCompare(b.category) || a.name.localeCompare(b.name)
+  );
 
   await writeFile(DATA_FILE, `${JSON.stringify(merged, null, 2)}\n`);
-  console.log(`Parsed ${merged.length} repositories`);
+  console.log(`Success: Consolidated ${merged.length} unique repositories from multiple sources.`);
 }
 
 if (process.argv[1]?.includes('parse-upstream.ts')) {

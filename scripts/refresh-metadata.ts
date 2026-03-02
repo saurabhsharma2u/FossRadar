@@ -30,20 +30,27 @@ async function main() {
   const refreshed: RepoRecord[] = [];
 
   for (const batch of batches) {
-    let nodes;
+    let nodes: Record<string, any>;
     try {
-      nodes = await runBatch(batch, token);
+      // Fetch the batch as a dictionary of results
+      const res = await runBatch(batch, token);
+      nodes = res;
     } catch (error) {
-      console.warn('Batch failed; preserving previous metadata', error);
+      console.warn('Batch failed; preserving previous metadata for this chunk', error);
       refreshed.push(...batch);
       continue;
     }
 
-    for (let i = 0; i < batch.length; i++) {
-      const node = nodes[i];
-      const existing = batch[i];
-      refreshed.push(node ? { ...mapGraphData(existing, node), lastSynced: now } : existing);
-    }
+    batch.forEach((existing, idx) => {
+      const node = nodes[`r${idx}`];
+      if (node) {
+        console.log(`Refreshed: ${existing.owner}/${existing.repo}`);
+        refreshed.push({ ...mapGraphData(existing, node), lastSynced: now });
+      } else {
+        console.warn(`Missing data for ${existing.owner}/${existing.repo}; preserving existing.`);
+        refreshed.push(existing);
+      }
+    });
   }
 
   let history: Record<string, { date: string; stars: number }[]> = {};

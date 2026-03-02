@@ -1,1 +1,674 @@
-[]
+[
+  {
+    "name": "Alfresco",
+    "owner": "Alfresco",
+    "repo": "alfresco-content-app",
+    "url": "https://github.com/Alfresco/alfresco-content-app",
+    "category": "Business"
+  },
+  {
+    "name": "Crater",
+    "owner": "crater-invoice",
+    "repo": "crater",
+    "url": "https://github.com/crater-invoice/crater",
+    "category": "Business"
+  },
+  {
+    "name": "ERP5",
+    "owner": "Nexedi",
+    "repo": "erp5",
+    "url": "https://github.com/Nexedi/erp5",
+    "category": "Business"
+  },
+  {
+    "name": "EspoCRM",
+    "owner": "espocrm",
+    "repo": "espocrm",
+    "url": "https://github.com/espocrm/espocrm",
+    "category": "Business"
+  },
+  {
+    "name": "FreeATS",
+    "owner": "freeats",
+    "repo": "freeats",
+    "url": "https://github.com/freeats/freeats",
+    "category": "Business"
+  },
+  {
+    "name": "IDURAR ERP CRM",
+    "owner": "idurar",
+    "repo": "idurar-erp-crm",
+    "url": "https://github.com/idurar/idurar-erp-crm",
+    "category": "Business"
+  },
+  {
+    "name": "Invoice Ninja",
+    "owner": "invoiceninja",
+    "repo": "invoiceninja",
+    "url": "https://github.com/invoiceninja/invoiceninja",
+    "category": "Business"
+  },
+  {
+    "name": "LogicalDOC",
+    "owner": "logicaldoc",
+    "repo": "community",
+    "url": "https://github.com/logicaldoc/community",
+    "category": "Business"
+  },
+  {
+    "name": "Nuxeo",
+    "owner": "nuxeo",
+    "repo": "nuxeo",
+    "url": "https://github.com/nuxeo/nuxeo",
+    "category": "Business"
+  },
+  {
+    "name": "Odoo",
+    "owner": "odoo",
+    "repo": "odoo",
+    "url": "https://github.com/odoo/odoo",
+    "category": "Business"
+  },
+  {
+    "name": "OpenKM",
+    "owner": "openkm",
+    "repo": "document-management-system",
+    "url": "https://github.com/openkm/document-management-system",
+    "category": "Business"
+  },
+  {
+    "name": "SolidInvoice",
+    "owner": "SolidInvoice",
+    "repo": "SolidInvoice",
+    "url": "https://github.com/SolidInvoice/SolidInvoice",
+    "category": "Business"
+  },
+  {
+    "name": "SuiteCRM",
+    "owner": "salesagility",
+    "repo": "SuiteCRM",
+    "url": "https://github.com/salesagility/SuiteCRM",
+    "category": "Business"
+  },
+  {
+    "name": "AFFiNE",
+    "owner": "toeverything",
+    "repo": "AFFiNE",
+    "url": "https://github.com/toeverything/AFFiNE",
+    "category": "Collaboration"
+  },
+  {
+    "name": "AppFlowy",
+    "owner": "AppFlowy-IO",
+    "repo": "AppFlowy",
+    "url": "https://github.com/AppFlowy-IO/AppFlowy",
+    "category": "Collaboration"
+  },
+  {
+    "name": "BigBlueButton",
+    "owner": "bigbluebutton",
+    "repo": "bigbluebutton",
+    "url": "https://github.com/bigbluebutton/bigbluebutton",
+    "category": "Collaboration"
+  },
+  {
+    "name": "BookStack",
+    "owner": "BookStackApp",
+    "repo": "BookStack",
+    "url": "https://github.com/BookStackApp/BookStack",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Element",
+    "owner": "vector-im",
+    "repo": "element-web",
+    "url": "https://github.com/vector-im/element-web",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Element Call",
+    "owner": "vector-im",
+    "repo": "element-call",
+    "url": "https://github.com/vector-im/element-call",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Focalboard",
+    "owner": "mattermost",
+    "repo": "focalboard",
+    "url": "https://github.com/mattermost/focalboard",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Galene",
+    "owner": "jech",
+    "repo": "galene",
+    "url": "https://github.com/jech/galene",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Jitsi Meet",
+    "owner": "jitsi",
+    "repo": "jitsi-meet",
+    "url": "https://github.com/jitsi/jitsi-meet",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Joplin",
+    "owner": "laurent22",
+    "repo": "joplin",
+    "url": "https://github.com/laurent22/joplin",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Kanboard",
+    "owner": "kanboard",
+    "repo": "kanboard",
+    "url": "https://github.com/kanboard/kanboard",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Logseq",
+    "owner": "logseq",
+    "repo": "logseq",
+    "url": "https://github.com/logseq/logseq",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Mattermost",
+    "owner": "mattermost",
+    "repo": "mattermost-server",
+    "url": "https://github.com/mattermost/mattermost-server",
+    "category": "Collaboration"
+  },
+  {
+    "name": "MediaWiki",
+    "owner": "wikimedia",
+    "repo": "mediawiki",
+    "url": "https://github.com/wikimedia/mediawiki",
+    "category": "Collaboration"
+  },
+  {
+    "name": "MoinMoin",
+    "owner": "moinwiki",
+    "repo": "moin",
+    "url": "https://github.com/moinwiki/moin",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Notesnook",
+    "owner": "streetwriters",
+    "repo": "notesnook",
+    "url": "https://github.com/streetwriters/notesnook",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Planka",
+    "owner": "plankanban",
+    "repo": "planka",
+    "url": "https://github.com/plankanban/planka",
+    "category": "Collaboration"
+  },
+  {
+    "name": "RelatedChat",
+    "owner": "relatedcode",
+    "repo": "Messenger",
+    "url": "https://github.com/relatedcode/Messenger",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Rocket.chat",
+    "owner": "RocketChat",
+    "repo": "Rocket.Chat",
+    "url": "https://github.com/RocketChat/Rocket.Chat",
+    "category": "Collaboration"
+  },
+  {
+    "name": "SiYuan",
+    "owner": "siyuan-note",
+    "repo": "siyuan",
+    "url": "https://github.com/siyuan-note/siyuan",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Spacebar",
+    "owner": "spacebarchat",
+    "repo": "spacebarchat",
+    "url": "https://github.com/spacebarchat/spacebarchat",
+    "category": "Collaboration"
+  },
+  {
+    "name": "WeKan",
+    "owner": "wekan",
+    "repo": "wekan",
+    "url": "https://github.com/wekan/wekan",
+    "category": "Collaboration"
+  },
+  {
+    "name": "XWiki",
+    "owner": "xwiki",
+    "repo": "xwiki-platform",
+    "url": "https://github.com/xwiki/xwiki-platform",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Zulip",
+    "owner": "zulip",
+    "repo": "zulip",
+    "url": "https://github.com/zulip/zulip",
+    "category": "Collaboration"
+  },
+  {
+    "name": "Awesome Free Software",
+    "owner": "abilian",
+    "repo": "awesome-free-software",
+    "url": "https://github.com/abilian/awesome-free-software",
+    "category": "Other lists of free / open source software"
+  },
+  {
+    "name": "Awesome Free Software",
+    "owner": "johnjago",
+    "repo": "awesome-free-software",
+    "url": "https://github.com/johnjago/awesome-free-software",
+    "category": "Other lists of free / open source software"
+  },
+  {
+    "name": "Awesome open-source alternatives to SaaS",
+    "owner": "RunaCapital",
+    "repo": "awesome-oss-alternatives",
+    "url": "https://github.com/RunaCapital/awesome-oss-alternatives",
+    "category": "Other lists of free / open source software"
+  },
+  {
+    "name": "Awesome-Selfhosted",
+    "owner": "awesome-selfhosted",
+    "repo": "awesome-selfhosted",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "category": "Other lists of free / open source software"
+  },
+  {
+    "name": "Abilian Hop3",
+    "owner": "abilian",
+    "repo": "hop3",
+    "url": "https://github.com/abilian/hop3",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Abilian Nua",
+    "owner": "abilian",
+    "repo": "nua",
+    "url": "https://github.com/abilian/nua",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Apprise",
+    "owner": "caronc",
+    "repo": "apprise",
+    "url": "https://github.com/caronc/apprise",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Appwrite",
+    "owner": "appwrite",
+    "repo": "appwrite",
+    "url": "https://github.com/appwrite/appwrite",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Authgear",
+    "owner": "authgear",
+    "repo": "authgear-server",
+    "url": "https://github.com/authgear/authgear-server",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "CapRover",
+    "owner": "caprover",
+    "repo": "caprover",
+    "url": "https://github.com/caprover/caprover",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Coolify",
+    "owner": "coollabsio",
+    "repo": "coolify",
+    "url": "https://github.com/coollabsio/coolify",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Coroot",
+    "owner": "coroot",
+    "repo": "coroot",
+    "url": "https://github.com/coroot/coroot",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Dokku",
+    "owner": "dokku",
+    "repo": "dokku",
+    "url": "https://github.com/dokku/dokku",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Graylog",
+    "owner": "Graylog2",
+    "repo": "graylog2-server",
+    "url": "https://github.com/Graylog2/graylog2-server",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "hyperdx",
+    "owner": "hyperdxio",
+    "repo": "hyperdx",
+    "url": "https://github.com/hyperdxio/hyperdx",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Janssen",
+    "owner": "JanssenProject",
+    "repo": "jans",
+    "url": "https://github.com/JanssenProject/jans",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Keycloak",
+    "owner": "keycloak",
+    "repo": "keycloak",
+    "url": "https://github.com/keycloak/keycloak",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Logto",
+    "owner": "logto-io",
+    "repo": "logto",
+    "url": "https://github.com/logto-io/logto",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Manifest",
+    "owner": "mnfst",
+    "repo": "manifest",
+    "url": "https://github.com/mnfst/manifest",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Mellisearch",
+    "owner": "meilisearch",
+    "repo": "MeiliSearch",
+    "url": "https://github.com/meilisearch/MeiliSearch",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Nhost",
+    "owner": "nhost",
+    "repo": "nhost",
+    "url": "https://github.com/nhost/nhost",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Novu",
+    "owner": "novuhq",
+    "repo": "novu",
+    "url": "https://github.com/novuhq/novu",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "ntfy",
+    "owner": "binwiederhier",
+    "repo": "ntfy",
+    "url": "https://github.com/binwiederhier/ntfy",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Sentry",
+    "owner": "getsentry",
+    "repo": "sentry",
+    "url": "https://github.com/getsentry/sentry",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "signoz",
+    "owner": "signoz",
+    "repo": "signoz",
+    "url": "https://github.com/signoz/signoz",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Sonic",
+    "owner": "valeriansaliou",
+    "repo": "sonic",
+    "url": "https://github.com/valeriansaliou/sonic",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Supabase",
+    "owner": "supabase",
+    "repo": "supabase",
+    "url": "https://github.com/supabase/supabase",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "SuperTokens",
+    "owner": "supertokens",
+    "repo": "supertokens-core",
+    "url": "https://github.com/supertokens/supertokens-core",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Tantivy",
+    "owner": "quickwit-oss",
+    "repo": "tantivy",
+    "url": "https://github.com/quickwit-oss/tantivy",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Typesense",
+    "owner": "typesense",
+    "repo": "typesense",
+    "url": "https://github.com/typesense/typesense",
+    "category": "Platforms services and devops"
+  },
+  {
+    "name": "Bugzilla",
+    "owner": "bugzilla",
+    "repo": "bugzilla",
+    "url": "https://github.com/bugzilla/bugzilla",
+    "category": "Software development"
+  },
+  {
+    "name": "Buildbot",
+    "owner": "buildbot",
+    "repo": "buildbot",
+    "url": "https://github.com/buildbot/buildbot",
+    "category": "Software development"
+  },
+  {
+    "name": "Drone",
+    "owner": "harness",
+    "repo": "drone",
+    "url": "https://github.com/harness/drone",
+    "category": "Software development"
+  },
+  {
+    "name": "Gerrit",
+    "owner": "GerritCodeReview",
+    "repo": "gerrit",
+    "url": "https://github.com/GerritCodeReview/gerrit",
+    "category": "Software development"
+  },
+  {
+    "name": "Gitea",
+    "owner": "go-gitea",
+    "repo": "gitea",
+    "url": "https://github.com/go-gitea/gitea",
+    "category": "Software development"
+  },
+  {
+    "name": "Gitlab",
+    "owner": "gitlabhq",
+    "repo": "gitlabhq",
+    "url": "https://github.com/gitlabhq/gitlabhq",
+    "category": "Software development"
+  },
+  {
+    "name": "Gogs",
+    "owner": "gogs",
+    "repo": "gogs",
+    "url": "https://github.com/gogs/gogs",
+    "category": "Software development"
+  },
+  {
+    "name": "Jenkins",
+    "owner": "jenkinsci",
+    "repo": "jenkins",
+    "url": "https://github.com/jenkinsci/jenkins",
+    "category": "Software development"
+  },
+  {
+    "name": "Pagure",
+    "owner": "Pagure",
+    "repo": "pagure",
+    "url": "https://github.com/Pagure/pagure",
+    "category": "Software development"
+  },
+  {
+    "name": "Plane",
+    "owner": "makeplane",
+    "repo": "plane",
+    "url": "https://github.com/makeplane/plane",
+    "category": "Software development"
+  },
+  {
+    "name": "Redmine",
+    "owner": "redmine",
+    "repo": "redmine",
+    "url": "https://github.com/redmine/redmine",
+    "category": "Software development"
+  },
+  {
+    "name": "Review Board",
+    "owner": "reviewboard",
+    "repo": "reviewboard",
+    "url": "https://github.com/reviewboard/reviewboard",
+    "category": "Software development"
+  },
+  {
+    "name": "Taiga",
+    "owner": "taigaio",
+    "repo": "taiga",
+    "url": "https://github.com/taigaio/taiga",
+    "category": "Software development"
+  },
+  {
+    "name": "11ty",
+    "owner": "11ty",
+    "repo": "eleventy",
+    "url": "https://github.com/11ty/eleventy",
+    "category": "Web"
+  },
+  {
+    "name": "Awesome Static Web Site Generators",
+    "owner": "myles",
+    "repo": "awesome-static-generators",
+    "url": "https://github.com/myles/awesome-static-generators",
+    "category": "Web"
+  },
+  {
+    "name": "btw",
+    "owner": "btw-so",
+    "repo": "btw",
+    "url": "https://github.com/btw-so/btw",
+    "category": "Web"
+  },
+  {
+    "name": "Ghost",
+    "owner": "TryGhost",
+    "repo": "Ghost",
+    "url": "https://github.com/TryGhost/Ghost",
+    "category": "Web"
+  },
+  {
+    "name": "Hugo",
+    "owner": "gohugoio",
+    "repo": "hugo",
+    "url": "https://github.com/gohugoio/hugo",
+    "category": "Web"
+  },
+  {
+    "name": "Jekyll",
+    "owner": "jekyll",
+    "repo": "jekyll",
+    "url": "https://github.com/jekyll/jekyll",
+    "category": "Web"
+  },
+  {
+    "name": "Lektor",
+    "owner": "lektor",
+    "repo": "lektor",
+    "url": "https://github.com/lektor/lektor",
+    "category": "Web"
+  },
+  {
+    "name": "Matomo",
+    "owner": "matomo-org",
+    "repo": "matomo",
+    "url": "https://github.com/matomo-org/matomo",
+    "category": "Web"
+  },
+  {
+    "name": "Pelican",
+    "owner": "getpelican",
+    "repo": "pelican",
+    "url": "https://github.com/getpelican/pelican",
+    "category": "Web"
+  },
+  {
+    "name": "Plausible",
+    "owner": "plausible",
+    "repo": "analytics",
+    "url": "https://github.com/plausible/analytics",
+    "category": "Web"
+  },
+  {
+    "name": "Prisme Analytics",
+    "owner": "prismelabs",
+    "repo": "analytics",
+    "url": "https://github.com/prismelabs/analytics",
+    "category": "Web"
+  },
+  {
+    "name": "Shynet",
+    "owner": "milesmcc",
+    "repo": "shynet",
+    "url": "https://github.com/milesmcc/shynet",
+    "category": "Web"
+  },
+  {
+    "name": "Umami",
+    "owner": "umami-software",
+    "repo": "umami",
+    "url": "https://github.com/umami-software/umami",
+    "category": "Web"
+  },
+  {
+    "name": "Wordpress",
+    "owner": "WordPress",
+    "repo": "WordPress",
+    "url": "https://github.com/WordPress/WordPress",
+    "category": "Web"
+  },
+  {
+    "name": "WriteFreely",
+    "owner": "writefreely",
+    "repo": "writefreely",
+    "url": "https://github.com/writefreely/writefreely",
+    "category": "Web"
+  },
+  {
+    "name": "Zola",
+    "owner": "getzola",
+    "repo": "zola",
+    "url": "https://github.com/getzola/zola",
+    "category": "Web"
+  }
+]

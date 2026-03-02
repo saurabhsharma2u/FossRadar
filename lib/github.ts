@@ -28,7 +28,7 @@ type GraphNode = {
   homepageUrl: string | null;
 };
 
-export async function queryReposBatch(batch: RepoRecord[], token: string): Promise<GraphNode[]> {
+export async function queryReposBatch(batch: RepoRecord[], token: string): Promise<Record<string, GraphNode>> {
   const selections = batch
     .map(
       (r, idx) => `r${idx}: repository(owner: \"${r.owner}\", name: \"${r.repo}\") {
@@ -64,7 +64,7 @@ export async function queryReposBatch(batch: RepoRecord[], token: string): Promi
     throw new Error(JSON.stringify(json.errors));
   }
 
-  return batch.map((_, idx) => json.data[`r${idx}`]).filter(Boolean);
+  return json.data;
 }
 
 export function mapGraphData(repo: RepoRecord, node: GraphNode): RepoRecord {
