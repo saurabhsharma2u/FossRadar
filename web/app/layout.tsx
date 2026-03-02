@@ -1,6 +1,7 @@
 import './globals.css';
 import { Outfit } from 'next/font/google';
 import { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );
