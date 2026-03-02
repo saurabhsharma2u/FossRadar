@@ -1,0 +1,31 @@
+name: Refresh Repository Metadata
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  refresh-metadata:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run refresh:metadata
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Commit changes
+        run: |
+          if [[ -n "$(git status --porcelain data/repos.json data/history.json)" ]]; then
+            git config user.name github-actions
+            git config user.email github-actions@users.noreply.github.com
+            git add data/repos.json data/history.json
+            git commit -m "chore(data): refresh repository metadata"
+            git push
+          fi
