@@ -1,5 +1,3 @@
-'use client';
-
 import Fuse from 'fuse.js';
 import { useMemo, useState, useEffect } from 'react';
 import { RepoCard } from '@/components/repo-card';

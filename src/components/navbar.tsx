@@ -1,7 +1,4 @@
-'use client';
-
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
 
 export default function Navbar() {
     const [theme, setTheme] = useState('dark');
@@ -20,11 +17,11 @@ export default function Navbar() {
 
     return (
         <header style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Link href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <a href="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <div className="brand">
                     <span>FOSS</span>RADAR
                 </div>
-            </Link>
+            </a>
 
             <div className="nav-actions" style={{ display: 'flex', alignItems: 'center' }}>
                 <a

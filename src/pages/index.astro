@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import RadarExplorer from '../components/radar-explorer';
+import repoData from '../data/repos.json';
+import historyData from '../data/history.json';
+import type { Repo } from '../lib/types';
+
+const repos = repoData as Repo[];
+const history = historyData as Record<string, { date: string; stars: number }[]>;
+---
+
+<Layout>
+	<main class="container">
+		<RadarExplorer client:load repos={repos} history={history} />
+	</main>
+</Layout>

@@ -1,0 +1,66 @@
+---
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import '../styles/globals.css';
+
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const { 
+	title = 'FossRadar | Discover Better Open Source Alternatives', 
+	description = 'A curated, soft-brutalist radar for discovering powerful Free and Open Source software replacements (FOSS) for common SaaS tools.'
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-theme="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		{/* SEO and OpenGraph */}
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content={description} />
+
+		<link rel="manifest" href="/site.webmanifest" />
+
+		<script is:inline>
+			(function() {
+				const saved = localStorage.getItem('theme');
+				if (saved) {
+					document.documentElement.setAttribute('data-theme', saved);
+				} else {
+					document.documentElement.setAttribute('data-theme', 'dark');
+				}
+			})();
+		</script>
+	</head>
+	<body>
+		<div class="container" style="min-height: 100vh; display: flex; flexDirection: column;">
+			<Navbar client:load />
+			<div style="flex: 1;">
+				<slot />
+			</div>
+			<Footer />
+		</div>
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>

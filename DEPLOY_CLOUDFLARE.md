@@ -1,6 +1,6 @@
-# Deploying FossRadar to Cloudflare Workers
+# Deploying FossRadar to Cloudflare Pages
 
-FossRadar has been migrated to **vinext**, enabling native deployment to Cloudflare Workers via GitHub auto-sync.
+FossRadar is now built with **Astro** as a fully static site. This provides the best possible performance and SEO while being completely free to host on Cloudflare Pages.
 
 ## Local Development
 
@@ -10,39 +10,19 @@ To run the app locally:
 npm run dev
 ```
 
-## GitHub Auto-Sync Setup
+## Cloudflare Pages Setup
 
-If you have already linked your GitHub repository to a Cloudflare Worker, Cloudflare will automatically build and deploy new versions when you push to the `main` branch.
+1.  Push your code to GitHub.
+2.  Go to the **Cloudflare Dashboard** > **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**.
+3.  Select the `FossRadar` repository.
+4.  Use these **Build Settings**:
+    - **Framework preset**: `Astro`
+    - **Build command**: `npm run build`
+    - **Build output directory**: `dist`
+5.  Click **Save and Deploy**.
 
-### Recommended Build Settings
-
-In your Cloudflare Dashboard (Workers & Pages > your-worker > Settings > Builds):
-
-- **Build Command**: `npm run build`
-- **Output Directory**: `dist/client`
-- **Compatibility Flag**: `nodejs_compat` (This is already in `wrangler.jsonc`)
-
-## KV Namespace for Caching (ISR)
-
-This app uses Cloudflare KV for edge caching.
-
-1.  Create a KV namespace:
-    ```bash
-    npx wrangler kv namespace create VINEXT_CACHE
-    ```
-2.  Add the generated ID to the `kv_namespaces` section in your `wrangler.jsonc` file:
-
-    ```json
-    "kv_namespaces": [
-      {
-        "binding": "VINEXT_CACHE",
-        "id": "YOUR_KV_NAMESPACE_ID"
-      }
-    ]
-    ```
-
-## Features
-
-- **X (Twitter) Integration**: Open Graph images automatically include the `X /FossRadar` handle.
-- **Image Optimization**: Powered by Cloudflare's Image Transformation.
-- **ISR**: Pages are cached globally on the Cloudflare edge.
+## Why this is better:
+- **Zero Configuration**: No `wrangler.toml` or KV bindings needed.
+- **Instant Loads**: Pure HTML is served directly from Cloudflare's global edge network.
+- **Infinite Scalability**: Static files can handle any amount of traffic with zero latency.
+- **Great SEO**: Every repository page is pre-rendered at build time.

@@ -1,7 +1,4 @@
-"use client";
-
 import { Repo } from '@/lib/types';
-import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 function getActivityStatus(lastCommit?: string) {
@@ -94,9 +91,9 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
         )}
       </div>
 
-      <Link href={`/${repo.owner}/${repo.repo}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <a href={`/${repo.owner}/${repo.repo}`} style={{ textDecoration: 'none', color: 'inherit' }}>
         <h3>{repo.name}</h3>
-      </Link>
+      </a>
       {repo.alternatives && (
         <div style={{ fontSize: '0.8rem', fontWeight: 800, marginBottom: '0.5rem', opacity: 0.8 }}>
           REPLACES: <span style={{ color: 'var(--secondary)' }}>{repo.alternatives}</span>
@@ -166,13 +163,13 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
               EXPLORE →
             </a>
           ) : (
-            <Link
+            <a
               className="btn-link"
               href={`/${repo.owner}/${repo.repo}`}
               style={{ fontSize: '0.75rem', padding: '0.4rem 0.8rem' }}
             >
               EXPLORE →
-            </Link>
+            </a>
           )}
         </div>
       </div>
