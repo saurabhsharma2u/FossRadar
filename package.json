@@ -8,9 +8,12 @@
     "preview": "astro preview",
     "astro": "astro",
     "sync:links": "tsx scripts/parse-upstream.ts",
-    "refresh:metadata": "tsx scripts/refresh-metadata.ts"
+    "refresh:metadata": "tsx scripts/refresh-metadata.ts",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/react": "^4.4.2",
     "@fontsource/inter": "^5.2.8",
     "@resvg/resvg-js": "^2.6.2",
@@ -30,7 +33,8 @@
     "tsx": "4.21.0",
     "typescript": "5.9.3",
     "vite": "^7.3.1",
-    "vitest": "4.0.18"
+    "vitest": "4.0.18",
+    "wrangler": "^4.70.0"
   },
   "overrides": {
     "eslint": "$eslint"
