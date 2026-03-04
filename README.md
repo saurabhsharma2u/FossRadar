@@ -2,10 +2,7 @@
 
 FossRadar is an open-source project designed to discover and track incredible free and open-source software alternatives.
 
-<img width="911" height="857" alt="image" src="https://github.com/user-attachments/assets/89442233-dcd1-4589-9373-251bfdb95c2a" />
-
-
-**Live Radar:** [https://foss-radar.vercel.app/](https://foss-radar.vercel.app/)
+**Live Radar:** [https://foss-radar.saurabh.app/](https://foss-radar.saurabh.app/)
 
 ## Inspiration
 This project draws inspiration from the amazing community-driven effort at [awesome-foss-alternatives](https://github.com/sfermigier/awesome-foss-alternatives).

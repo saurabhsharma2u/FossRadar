@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og';
-import repoData from '../../data/repos.json';
+import repoData from '@/data/repos.json';
 import { Repo } from '@/lib/types';
 
 export const runtime = 'edge';

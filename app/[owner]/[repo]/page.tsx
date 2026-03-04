@@ -1,5 +1,5 @@
-import repoData from '../../../../data/repos.json';
-import historyData from '../../../../data/history.json';
+import repoData from '@/data/repos.json';
+import historyData from '@/data/history.json';
 import { RepoCard } from '@/components/repo-card';
 import { Repo } from '@/lib/types';
 import Link from 'next/link';

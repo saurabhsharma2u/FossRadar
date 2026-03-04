@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   keywords: ['FOSS', 'Open Source', 'Software Alternatives', 'SaaS Alternatives', 'Privacy', 'Self-hosted'],
   authors: [{ name: 'FossRadar Contributors' }],
   creator: 'FossRadar',
-  metadataBase: new URL('https://foss-radar.vercel.app'), // Updated to Vercel deployment
+  metadataBase: new URL('https://foss-radar.saurabh.app'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://foss-radar.vercel.app',
+    url: 'https://foss-radar.saurabh.app',
     title: 'FossRadar | Find FOSS Alternatives to Notion, Slack, & more',
     description: 'A curated radar for discovering high-quality Open Source replacements for Notion, Slack, Trello, and other common SaaS products.',
     siteName: 'FossRadar',

@@ -3,29 +3,35 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "dev": "next dev web",
-    "build": "next build web",
-    "start": "next start web",
-    "lint": "next lint web",
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "lint": "vinext lint",
     "test": "vitest run",
     "sync:links": "tsx scripts/parse-upstream.ts",
-    "refresh:metadata": "tsx scripts/refresh-metadata.ts"
+    "refresh:metadata": "tsx scripts/refresh-metadata.ts",
+    "deploy": "vinext deploy"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.6.1",
     "fuse.js": "7.1.0",
     "next": "16.1.6",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.26.0",
     "@types/node": "25.3.3",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-rsc": "^0.5.21",
     "eslint": "^10.0.2",
     "eslint-config-next": "16.1.6",
     "tsx": "4.21.0",
     "typescript": "5.9.3",
-    "vitest": "4.0.18"
-  }
+    "vinext": "^0.0.19",
+    "vite": "^7.3.1",
+    "vitest": "4.0.18",
+    "wrangler": "^4.70.0"
+  },
+  "type": "module"
 }

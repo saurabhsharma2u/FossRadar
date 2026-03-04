@@ -1,5 +1,5 @@
-import repoData from '../../data/repos.json';
-import historyData from '../../data/history.json';
+import repoData from '@/data/repos.json';
+import historyData from '@/data/history.json';
 import RadarExplorer from '@/components/radar-explorer';
 import { Repo } from '@/lib/types';
 
