@@ -10,7 +10,5 @@ const history = historyData as Record<string, { date: string; stars: number }[]>
 ---
 
 <Layout>
-	<main class="container">
-		<RadarExplorer client:load repos={repos} history={history} />
-	</main>
+	<RadarExplorer client:load repos={repos} history={history} />
 </Layout>

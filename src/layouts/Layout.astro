@@ -6,11 +6,13 @@ import '../styles/globals.css';
 interface Props {
 	title?: string;
 	description?: string;
+	image?: string;
 }
 
 const { 
 	title = 'FossRadar | Discover Better Open Source Alternatives', 
-	description = 'A curated, soft-brutalist radar for discovering powerful Free and Open Source software replacements (FOSS) for common SaaS tools.'
+	description = 'A curated, soft-brutalist radar for discovering powerful Free and Open Source software replacements (FOSS) for common SaaS tools.',
+	image = '/opengraph-image.png'
 } = Astro.props;
 ---
 
@@ -28,9 +30,11 @@ const {
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
+		<meta property="og:image" content={new URL(image, Astro.site || Astro.url).toString()} />
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
+		<meta property="twitter:image" content={new URL(image, Astro.site || Astro.url).toString()} />
 
 		<link rel="manifest" href="/site.webmanifest" />
 
@@ -46,11 +50,11 @@ const {
 		</script>
 	</head>
 	<body>
-		<div class="container" style="min-height: 100vh; display: flex; flexDirection: column;">
+		<div class="container main-layout">
 			<Navbar client:load />
-			<div style="flex: 1;">
+			<main class="content-wrapper">
 				<slot />
-			</div>
+			</main>
 			<Footer />
 		</div>
 	</body>
@@ -62,5 +66,13 @@ const {
 		margin: 0;
 		width: 100%;
 		height: 100%;
+	}
+	.main-layout {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	.content-wrapper {
+		flex: 1;
 	}
 </style>
