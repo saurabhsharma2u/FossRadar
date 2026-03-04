@@ -7,4 +7,9 @@ export default defineConfig({
     output: 'static',
     integrations: [react()],
     adapter: cloudflare(),
+    vite: {
+        ssr: {
+            external: ['@resvg/resvg-js'],
+        }
+    }
 });

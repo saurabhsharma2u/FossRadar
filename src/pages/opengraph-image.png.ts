@@ -7,13 +7,7 @@ import fs from 'fs';
 
 export const GET = async () => {
     const repos = repoData as Repo[];
-    const featured = repos.slice(0, 3);
     const fontData = fs.readFileSync('./node_modules/@fontsource/inter/files/inter-latin-700-normal.woff');
-
-    const featuredCards = featured.map((repo: Repo) =>
-        `<div style="background: #fbbf24; padding: 10px 20px; border: 3px solid #0a0a0a; box-shadow: 4px 4px 0px #0a0a0a; font-size: 20px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;">${repo.name}</div>`
-    ).join('');
-
     const fullHtml = `
         <div style="height: 100%; width: 100%; display: flex; flex-direction: column; background-color: #ffffff; border: 12px solid #0a0a0a; padding: 64px 72px; position: relative; justify-content: space-between;">
 
@@ -25,7 +19,7 @@ export const GET = async () => {
                     RADAR
                 </div>
                 <div style="margin-left: auto; font-size: 18px; font-weight: 700; color: #6366f1; border: 3px solid #6366f1; padding: 6px 16px;">
-                    fossradar.dev
+                    foss-radar.saurabh.app
                 </div>
             </div>
 
@@ -40,9 +34,8 @@ export const GET = async () => {
             </div>
 
             <div style="display: flex; gap: 12px; align-items: center;">
-                ${featuredCards}
-                <div style="font-size: 18px; font-weight: 700; color: #6b7280; margin-left: 4px;">
-                    + ${repos.length - 3} more tools
+                <div style="font-size: 24px; font-weight: 800; color: #0a0a0a; background: #fbbf24; padding: 12px 24px; border: 3px solid #0a0a0a; box-shadow: 5px 5px 0px #0a0a0a; text-transform: uppercase; letter-spacing: 0.5px;">
+                    Discover ${repos.length}+ Open Source Tools
                 </div>
             </div>
 

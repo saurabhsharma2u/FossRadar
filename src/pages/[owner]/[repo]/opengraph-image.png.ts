@@ -71,11 +71,11 @@ export const GET: APIRoute = async ({ props }) => {
                 </div>
                 <div style="display: flex; gap: 20px; align-items: center;">
                     <div style="display: flex; align-items: center; gap: 6px; font-size: 18px; font-weight: 800; color: #0a0a0a;">
-                        <div style="display: flex;">⭐</div>
+                        <div style="display: flex;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
                         <div style="display: flex;">${stars}</div>
                     </div>
                     <div style="display: flex; align-items: center; gap: 6px; font-size: 18px; font-weight: 800; color: #0a0a0a;">
-                        <div style="display: flex;">🔱</div>
+                        <div style="display: flex;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-git-fork"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><path d="M12 12v3"/></svg></div>
                         <div style="display: flex;">${forks}</div>
                     </div>
                     ${langBadge}
