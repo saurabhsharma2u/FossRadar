@@ -56,6 +56,10 @@ export default async function Image({ params }: { params: Promise<{ owner: strin
                 <div style={{ fontSize: '30px', fontWeight: 500, color: '#4b5563', textAlign: 'center', maxWidth: '800px' }}>
                     {repo.description}
                 </div>
+
+                <div style={{ position: 'absolute', bottom: '80px', right: '80px', fontSize: '24px', fontWeight: 800, color: '#6366f1' }}>
+                    X /FossRadar
+                </div>
             </div>
         ),
         {

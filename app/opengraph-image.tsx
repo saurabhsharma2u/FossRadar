@@ -68,6 +68,10 @@ export default async function Image() {
                         + 90 more
                     </div>
                 </div>
+
+                <div style={{ position: 'absolute', bottom: '80px', right: '80px', fontSize: '24px', fontWeight: 800, color: '#6366f1' }}>
+                    X /FossRadar
+                </div>
             </div>
         ),
         {
