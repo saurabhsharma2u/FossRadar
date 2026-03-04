@@ -1,7 +1,7 @@
 import './globals.css';
 import { Outfit } from 'next/font/google';
 import { Metadata } from 'next';
-import { Analytics } from '@vercel/analytics/next';
+
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ['FOSS', 'Open Source', 'Software Alternatives', 'SaaS Alternatives', 'Privacy', 'Self-hosted'],
   authors: [{ name: 'FossRadar Contributors' }],
   creator: 'FossRadar',
-  metadataBase: new URL('https://foss-radar.saurabh.app'),
+
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -67,7 +67,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
           <Footer />
         </div>
-        <Analytics />
       </body>
     </html>
   );
