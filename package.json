@@ -5,12 +5,15 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "npm run build && wrangler dev",
     "astro": "astro",
     "sync:links": "tsx scripts/parse-upstream.ts",
-    "refresh:metadata": "tsx scripts/refresh-metadata.ts"
+    "refresh:metadata": "tsx scripts/refresh-metadata.ts",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/react": "^4.4.2",
     "astro": "^5.18.0",
     "fuse.js": "7.1.0",
