@@ -77,6 +77,23 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
         <>
 
             <section className="hero">
+                <div style={{
+                    background: 'var(--accent)',
+                    color: '#000',
+                    padding: '0.4rem 1rem',
+                    fontWeight: 950,
+                    fontSize: '0.8rem',
+                    marginBottom: '1rem',
+                    border: '3px solid var(--border)',
+                    boxShadow: '4px 4px 0px var(--border)',
+                    textTransform: 'uppercase',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.6rem'
+                }}>
+                    <span style={{ display: 'inline-block', width: '8px', height: '8px', background: '#f43f5e', borderRadius: '50%', animation: 'pulse 1.5s infinite' }}></span>
+                    {repos.length} OSS TRACKED
+                </div>
                 <h1>Discover Open Source Alternatives.</h1>
                 <p>A soft-brutalist radar for uncovering incredible Free and Open Source software replacements for common SaaS tools.</p>
             </section>
@@ -128,10 +145,10 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                     </select>
                 </div>
 
-                <div className="control-item" style={{ flex: '0 0 auto', justifyContent: 'center' }}>
-                    <label style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <div className="control-item checkbox">
+                    <label style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem', padding: 0 }}>
                         <input
-                            style={{ width: 'auto', border: '2px solid' }}
+                            style={{ width: 'auto', border: '2px solid', boxShadow: 'none' }}
                             type="checkbox"
                             checked={hideArchived}
                             onChange={() => setHideArchived((v) => !v)}
@@ -147,24 +164,28 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                 ))}
             </section>
 
-            <div id="scroll-sentinel" style={{ height: '2.5rem', margin: '1rem 0' }}>
+            <div style={{ marginTop: '2rem', textAlign: 'right', fontWeight: 950, fontSize: '0.9rem', textTransform: 'uppercase', opacity: 0.6 }}>
+                Showing {displayed.length} of {filtered.length} radar signals
+            </div>
+
+            <div id="scroll-sentinel" style={{ height: '3rem', margin: '2rem 0' }}>
                 {visibleCount < filtered.length && (
-                    <div style={{ textAlign: 'center', fontWeight: 900, textTransform: 'uppercase', opacity: 0.6 }}>
-                        Scanning more radar signals...
+                    <div style={{ textAlign: 'center', fontWeight: 950, textTransform: 'uppercase', opacity: 0.5 }}>
+                        — EXTENDING RADAR RANGE —
                     </div>
                 )}
             </div>
 
             {filtered.length > 0 && visibleCount >= filtered.length && (
-                <div style={{ textAlign: 'center', margin: '2rem 0', fontWeight: 900, textTransform: 'uppercase', opacity: 0.4 }}>
-                    — End of Radar Range —
+                <div style={{ textAlign: 'center', margin: '3rem 0', fontWeight: 950, textTransform: 'uppercase', opacity: 0.3 }}>
+                    — EDGE OF VISIBLE FOSS GALAXY —
                 </div>
             )}
 
             {filtered.length === 0 && (
-                <div className="card" style={{ padding: '4rem', textAlign: 'center', backgroundColor: '#ff8a80', color: '#1a1a1a' }}>
-                    <h2 style={{ fontSize: '3rem', fontWeight: 900 }}>NO MATCHES</h2>
-                    <p>We couldn't find any FOSS alternatives for your search. Try adjusting filters or suggesting a new repo!</p>
+                <div className="card" style={{ padding: '5rem', textAlign: 'center', backgroundColor: 'var(--secondary)', color: '#fff' }}>
+                    <h2 style={{ fontSize: '4rem', fontWeight: 950, letterSpacing: '-2px' }}>SIGNAL LOST</h2>
+                    <p style={{ fontSize: '1.2rem', maxWidth: '100%', opacity: 1 }}>We couldn't find any FOSS alternatives for your search. Try adjusting your filters or suggesting a new repository!</p>
                 </div>
             )}
         </>

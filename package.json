@@ -12,22 +12,25 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.4.2",
+    "@fontsource/inter": "^5.2.8",
+    "@resvg/resvg-js": "^2.6.2",
+    "@vercel/og": "^0.10.1",
     "astro": "^5.18.0",
     "fuse.js": "7.1.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "satori": "^0.24.1",
+    "satori-html": "^0.3.2"
   },
   "devDependencies": {
     "@types/node": "25.3.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "eslint": "^10.0.2",
-    "eslint-config-next": "16.1.6",
     "tsx": "4.21.0",
     "typescript": "5.9.3",
     "vite": "^7.3.1",
-    "vitest": "4.0.18",
-    "wrangler": "^4.70.0"
+    "vitest": "4.0.18"
   },
   "overrides": {
     "eslint": "$eslint"

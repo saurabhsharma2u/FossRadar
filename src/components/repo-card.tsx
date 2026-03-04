@@ -81,60 +81,68 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
   return (
     <article className="card">
       <div className="card-meta">
-        <span className="badge lang">{repo.language || ''}</span>
+        <span className="badge lang">{repo.language || 'Unknown'}</span>
         {status && <span className={`badge ${status.class}`} title={status.title}>{status.label}</span>}
-        {repo.archived && <span className="badge" style={{ backgroundColor: '#ff5555', color: 'white' }}>ARCHIVED</span>}
+        {repo.archived && <span className="badge abandoned">ARCHIVED</span>}
         {repo.self_hostable && (
-          <span className="badge" style={{ backgroundColor: '#4ade80', color: '#1a1a1a', fontWeight: 900 }}>
-            🏠 SELF-HOSTABLE
+          <span className="badge" style={{ background: '#ecfdf5', color: '#065f46', borderColor: '#10b981' }}>
+            SELF-HOSTABLE
           </span>
         )}
       </div>
 
       <a href={`/${repo.owner}/${repo.repo}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-        <h3>{repo.name}</h3>
+        <h3 style={{ margin: '1rem 0 0.5rem 0' }}>{repo.name}</h3>
       </a>
+
       {repo.alternatives && (
-        <div style={{ fontSize: '0.8rem', fontWeight: 800, marginBottom: '0.5rem', opacity: 0.8 }}>
-          REPLACES: <span style={{ color: 'var(--secondary)' }}>{repo.alternatives}</span>
+        <div style={{ fontSize: '0.75rem', fontWeight: 900, marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+          <span style={{ opacity: 0.6 }}>REPLACING: </span>
+          <span style={{ color: 'var(--secondary)' }}>{repo.alternatives}</span>
         </div>
       )}
-      <p>{repo.description || 'No description provided by the maintainer.'}</p>
 
-      <div className="card-stats">
+      <p style={{ opacity: 0.8, fontSize: '1rem', lineHeight: '1.4' }}>
+        {repo.description || 'No description provided by the maintainer.'}
+      </p>
+
+      <div className="card-stats" style={{ marginTop: '1rem' }}>
         <span>⭐ {repo.stars?.toLocaleString() || 0}</span>
         <span>🔱 {repo.forks?.toLocaleString() || 0}</span>
       </div>
 
-      <div className="card-meta">
+      <div className="card-meta" style={{ marginTop: 'auto', paddingTop: '1rem' }}>
         {repo.license && <span className="badge license">{repo.license}</span>}
         {(repo.topics || []).slice(0, 3).map((topic) => (
-          <span className="badge" key={topic}>#{topic}</span>
+          <span className="badge" key={topic} style={{ background: 'transparent', opacity: 0.7 }}>#{topic}</span>
         ))}
       </div>
 
       <div className="card-footer">
         <small
-          title={`Date: ${absoluteTime}`}
+          title={`Last Commit: ${absoluteTime}`}
           style={{
-            fontWeight: 800,
-            opacity: 0.7,
-            cursor: 'pointer',
+            fontWeight: 950,
+            opacity: 0.5,
+            cursor: 'help',
             textDecoration: 'underline dotted',
-            textUnderlineOffset: '3px'
+            textUnderlineOffset: '4px',
+            fontSize: '0.75rem'
           }}
         >
           {relativeTime}
         </small>
-        <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'center' }}>
+
+        <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
           <div className="share-container">
             <button
               className="btn-link"
               onClick={() => setIsShareOpen(!isShareOpen)}
               style={{
-                background: copied ? '#4ade80' : 'var(--accent)',
-                fontSize: '0.75rem',
-                padding: '0.4rem 0.8rem'
+                background: copied ? '#10b981' : 'var(--accent)',
+                color: copied ? '#fff' : '#000',
+                padding: '0.5rem 1rem',
+                fontSize: '0.75rem'
               }}
             >
               {copied ? 'COPIED!' : 'SHARE'}
@@ -152,25 +160,15 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
             )}
           </div>
 
-          {isExternal ? (
-            <a
-              className="btn-link"
-              href={repo.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontSize: '0.75rem', padding: '0.4rem 0.8rem' }}
-            >
-              EXPLORE →
-            </a>
-          ) : (
-            <a
-              className="btn-link"
-              href={`/${repo.owner}/${repo.repo}`}
-              style={{ fontSize: '0.75rem', padding: '0.4rem 0.8rem' }}
-            >
-              EXPLORE →
-            </a>
-          )}
+          <a
+            className="btn-link"
+            href={isExternal ? repo.url : `/${repo.owner}/${repo.repo}`}
+            target={isExternal ? "_blank" : "_self"}
+            rel={isExternal ? "noopener noreferrer" : ""}
+            style={{ padding: '0.5rem 1rem', fontSize: '0.75rem' }}
+          >
+            EXPLORE →
+          </a>
         </div>
       </div>
     </article>
