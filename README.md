@@ -4,6 +4,7 @@ FossRadar is an open-source project designed to discover and track incredible fr
 
 **Live Radar:** [https://foss-radar.saurabh.app/](https://foss-radar.saurabh.app/)
 
+
 ## Inspiration
 This project draws inspiration from the amazing community-driven effort at [awesome-foss-alternatives](https://github.com/sfermigier/awesome-foss-alternatives).
 
