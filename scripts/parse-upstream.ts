@@ -1,5 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
-import { RepoRecord } from '../lib/github';
+import { RepoRecord } from '../src/lib/github';
 
 const UPSTREAMS = [
   'https://raw.githubusercontent.com/sfermigier/awesome-foss-alternatives/refs/heads/main/README.md',
@@ -27,7 +27,10 @@ export function parseMarkdown(md: string): RepoRecord[] {
 
   const deduped = new Map<string, RepoRecord>();
   for (const r of repos) {
-    deduped.set(`${r.owner}/${r.repo}`.toLowerCase(), r);
+    const key = `${r.owner}/${r.repo}`.toLowerCase();
+    if (!deduped.has(key)) {
+      deduped.set(key, r);
+    }
   }
 
   return [...deduped.values()].sort((a, b) =>

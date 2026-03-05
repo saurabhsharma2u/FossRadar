@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { mapGraphData } from '../lib/github';
+import { mapGraphData } from '../src/lib/github';
 
 describe('mapGraphData', () => {
   it('maps GraphQL node into repo', () => {

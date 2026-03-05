@@ -1,5 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
-import { mapGraphData, queryReposBatch, RepoRecord } from '../lib/github';
+import { mapGraphData, queryReposBatch, RepoRecord } from '../src/lib/github';
 
 const DATA_FILE = 'data/repos.json';
 const HISTORY_FILE = 'data/history.json';
