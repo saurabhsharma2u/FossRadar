@@ -4,7 +4,7 @@ import { RepoRecord } from '../src/lib/github';
 const UPSTREAMS = [
   'https://raw.githubusercontent.com/sfermigier/awesome-foss-alternatives/refs/heads/main/README.md',
 ];
-const DATA_FILE = 'data/repos.json';
+const DATA_FILE = 'src/data/repos.json';
 
 export function parseMarkdown(md: string): RepoRecord[] {
   const lines = md.split('\n');

@@ -20,10 +20,10 @@ jobs:
       - run: npm run sync:links
       - name: Commit changes
         run: |
-          if [[ -n "$(git status --porcelain data/repos.json)" ]]; then
+          if [[ -n "$(git status --porcelain src/data/repos.json)" ]]; then
             git config user.name github-actions
             git config user.email github-actions@users.noreply.github.com
-            git add data/repos.json
+            git add src/data/repos.json
             git commit -m "chore(data): sync upstream repo links"
             git push
           fi
