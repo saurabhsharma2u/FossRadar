@@ -360,6 +360,7 @@
     "forks": 4950,
     "license": "AGPL-3.0",
     "hasFunding": true,
+    "platforms": ["Linux", "macOS", "Windows", "Docker", "iOS", "Android"],
     "topics": [
       "content-management",
       "content-services",

@@ -157,6 +157,16 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
 
       <div className="card-meta" style={{ marginTop: 'auto', paddingTop: '1rem' }}>
         {repo.license && <span className="badge license">{repo.license}</span>}
+        {(repo.platforms || []).map((platform) => {
+          const icons: Record<string, string> = {
+            Linux: '🐧', macOS: '🍎', Windows: '🪟', Docker: '🐳', Web: '🌐', iOS: '📱', Android: '🤖'
+          };
+          return (
+            <span className="badge" key={platform} style={{ background: '#e0f2fe', color: '#831843', borderColor: '#be185d' }} title={`Supports ${platform}`}>
+              {icons[platform] || '📦'} {platform}
+            </span>
+          );
+        })}
         {(repo.topics || []).slice(0, 3).map((topic) => (
           <span className="badge" key={topic} style={{ background: 'transparent', opacity: 0.7 }}>#{topic}</span>
         ))}

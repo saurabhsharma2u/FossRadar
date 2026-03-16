@@ -175,8 +175,8 @@
 - Would get picked up by newsletters every year
 
 ### Platform support matrix
-- Linux / macOS / Windows / Mobile / Web / Docker per project
-- Critical for self-hosters, currently absent everywhere
+- [x] Linux / macOS / Windows / Mobile / Web / Docker per project
+- [x] Critical for self-hosters, currently absent everywhere
 
 ---
 

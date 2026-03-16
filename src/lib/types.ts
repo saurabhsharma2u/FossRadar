@@ -20,4 +20,5 @@ export type Repo = {
     publishedAt: string;
   };
   hasFunding?: boolean;
+  platforms?: string[];
 };
