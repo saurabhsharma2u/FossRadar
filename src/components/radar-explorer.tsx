@@ -101,6 +101,14 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
         return series[series.length - 1].stars - series[Math.max(0, series.length - 8)].stars;
     }
 
+    function getSparkline(r: Repo) {
+        const key = `${r.owner}/${r.repo}`;
+        const series = history[key] || [];
+        if (series.length < 2) return undefined;
+        // Last 90 days roughly (or last 10 data points if frequent)
+        return series.slice(-10).map(s => s.stars);
+    }
+
     const risingStars = useMemo(() => {
         if (query || category !== 'All' || language !== 'All' || license !== 'All' || onlySelfHostable) return [];
         return repos
@@ -226,7 +234,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                     </div>
                     <div className="grid">
                         {risingStars.map((repo) => (
-                            <RepoCard key={`rising-${repo.owner}/${repo.repo}`} repo={repo} />
+                            <RepoCard key={`rising-${repo.owner}/${repo.repo}`} repo={repo} sparklineData={getSparkline(repo)} />
                         ))}
                     </div>
                     <hr style={{ border: 'none', borderBottom: '4px dashed var(--border)', marginTop: '3rem', opacity: 0.2 }} />
@@ -235,7 +243,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
 
             <section className="grid">
                 {displayed.map((repo) => (
-                    <RepoCard key={`${repo.owner}/${repo.repo}`} repo={repo} />
+                    <RepoCard key={`${repo.owner}/${repo.repo}`} repo={repo} sparklineData={getSparkline(repo)} />
                 ))}
             </section>
 

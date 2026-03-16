@@ -58,7 +58,7 @@ function getRelativeTime(dateString?: string) {
   return `${diffInYears}y ago`;
 }
 
-export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?: boolean }) {
+export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Repo; isExternal?: boolean; sparklineData?: number[] }) {
   const [copied, setCopied] = useState(false);
   const [isShareOpen, setIsShareOpen] = useState(false);
   const status = getActivityStatus(repo.lastCommit, repo.latestRelease?.publishedAt);
@@ -98,6 +98,37 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
   };
 
   const hasReplacements = (repo.replaces && repo.replaces.length > 0) || repo.alternatives;
+
+  const renderSparkline = () => {
+    if (!sparklineData || sparklineData.length < 2) return null;
+    const min = Math.min(...sparklineData);
+    const max = Math.max(...sparklineData);
+    const range = max - min || 1;
+    const width = 60;
+    const height = 15;
+    
+    const points = sparklineData.map((val, i) => {
+      const x = (i / (sparklineData.length - 1)) * width;
+      const y = height - ((val - min) / range) * height;
+      return `${x},${y}`;
+    }).join(' ');
+
+    const isGrowing = sparklineData[sparklineData.length - 1] >= sparklineData[0];
+    const color = isGrowing ? '#10b981' : '#ef4444';
+
+    return (
+      <svg viewBox={`0 0 ${width} ${height}`} style={{ width: '60px', height: '15px', overflow: 'visible', marginLeft: '0.5rem' }}>
+        <polyline
+          fill="none"
+          stroke={color}
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          points={points}
+        />
+      </svg>
+    );
+  };
 
   return (
     <article className="card">
@@ -146,9 +177,12 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
         {repo.description || 'No description provided by the maintainer.'}
       </p>
 
-      <div className="card-stats" style={{ marginTop: '1rem' }}>
-        <span>⭐ {repo.stars?.toLocaleString() || 0}</span>
-        <span>🔱 {repo.forks?.toLocaleString() || 0}</span>
+      <div className="card-stats" style={{ marginTop: '1rem', display: 'flex', alignItems: 'center' }}>
+        <span style={{ display: 'flex', alignItems: 'center' }}>
+          ⭐ {repo.stars?.toLocaleString() || 0}
+          {renderSparkline()}
+        </span>
+        <span style={{ marginLeft: '1rem' }}>🔱 {repo.forks?.toLocaleString() || 0}</span>
       </div>
 
       {repo.latestRelease && (

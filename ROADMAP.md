@@ -45,9 +45,9 @@
 > Goal: Introduce signals that make FossRadar genuinely more useful than awesome-lists or alternativeto.net.
 
 ### Star history sparklines
-- Inline 90-day trajectory chart on each card
-- Surfaces rising projects before they blow up
-- A project at 5k trending up is more interesting than 50k flatlined
+- [x] Inline 90-day trajectory chart on each card
+- [x] Surfaces rising projects before they blow up
+- [x] A project at 5k trending up is more interesting than 50k flatlined
 
 ### Fork tracker
 - When a project goes quiet, surface the most actively maintained fork automatically
