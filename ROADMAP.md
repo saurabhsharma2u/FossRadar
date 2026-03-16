@@ -63,8 +63,8 @@
 - [x] One of the first filters FOSS-minded users apply, currently absent
 
 ### License clarity filter
-- Surface license type prominently: MIT / Apache / AGPL / GPL / BSL
-- "Commercial-safe" quick filter (MIT + Apache only)
+- [x] Surface license type prominently: MIT / Apache / AGPL / GPL / BSL
+- [x] "Commercial-safe" quick filter (MIT + Apache only)
 - Flag recent license changes (BSL risk, HashiCorp-style moves)
 
 ### Funding / sustainability indicator

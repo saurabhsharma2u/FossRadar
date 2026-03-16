@@ -12,6 +12,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
     const [query, setQuery] = useState('');
     const [category, setCategory] = useState('All');
     const [language, setLanguage] = useState('All');
+    const [license, setLicense] = useState('All');
     const [sort, setSort] = useState('stars');
     const [hideArchived, setHideArchived] = useState(true);
     const [onlySelfHostable, setOnlySelfHostable] = useState(false);
@@ -30,24 +31,38 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
 
     useEffect(() => {
         setVisibleCount(12);
-    }, [query, category, language, sort, hideArchived, onlySelfHostable]);
+    }, [query, category, language, license, sort, hideArchived, onlySelfHostable]);
 
     const categories = useMemo(() => ['All', ...new Set(repos.map((r) => r.category))].sort(), [repos]);
     const languages = useMemo(() => ['All', ...new Set(repos.map((r) => r.language).filter(Boolean) as string[])].sort(), [repos]);
+    const licenses = useMemo(() => {
+        const allLicenses = repos.map((r) => r.license).filter(Boolean) as string[];
+        return ['All', 'Commercial-safe (MIT/Apache)', ...new Set(allLicenses)].sort();
+    }, [repos]);
 
     const fuse = useMemo(() => new Fuse(repos, {
-        keys: ['name', 'description', 'topics', 'category', 'alternatives'],
+        keys: ['name', 'description', 'topics', 'category', 'alternatives', 'license'],
         threshold: 0.35
     }), [repos]);
 
     const filtered = useMemo(() => {
-        const base = query ? fuse.search(query).map((r) => r.item) : repos;
-        const c = category === 'All' ? base : base.filter((r) => r.category === category);
-        const l = language === 'All' ? c : c.filter((r) => r.language === language);
-        const a = hideArchived ? l.filter((r) => !r.archived) : l;
-        const s = onlySelfHostable ? a.filter((r) => r.self_hostable) : a;
+        let base = query ? fuse.search(query).map((r) => r.item) : repos;
+        
+        if (category !== 'All') base = base.filter((r) => r.category === category);
+        if (language !== 'All') base = base.filter((r) => r.language === language);
+        
+        if (license !== 'All') {
+            if (license === 'Commercial-safe (MIT/Apache)') {
+                base = base.filter((r) => ['MIT', 'Apache-2.0'].includes(r.license || ''));
+            } else {
+                base = base.filter((r) => r.license === license);
+            }
+        }
+        
+        if (hideArchived) base = base.filter((r) => !r.archived);
+        if (onlySelfHostable) base = base.filter((r) => r.self_hostable);
 
-        return [...s].sort((x, y) => {
+        return [...base].sort((x, y) => {
             if (sort === 'updated') return (Date.parse(y.lastCommit || '') || 0) - (Date.parse(x.lastCommit || '') || 0);
             if (sort === 'growth') {
                 const dx = growth(x);
@@ -57,7 +72,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
             if (sort === 'alpha') return x.name.localeCompare(y.name);
             return (y.stars || 0) - (x.stars || 0);
         });
-    }, [query, category, language, hideArchived, onlySelfHostable, sort, fuse, repos]);
+    }, [query, category, language, license, hideArchived, onlySelfHostable, sort, fuse, repos]);
 
     const displayed = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
 
@@ -141,6 +156,17 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                         onChange={(e) => setLanguage(e.target.value)}
                     >
                         {languages.map((l) => <option key={l} value={l}>{l}</option>)}
+                    </select>
+                </div>
+
+                <div className="control-item">
+                    <label htmlFor="license">License</label>
+                    <select
+                        id="license"
+                        value={license}
+                        onChange={(e) => setLicense(e.target.value)}
+                    >
+                        {licenses.map((l) => <option key={l} value={l}>{l}</option>)}
                     </select>
                 </div>
 
