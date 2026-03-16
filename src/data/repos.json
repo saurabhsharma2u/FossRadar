@@ -854,34 +854,6 @@
     "owner": "Tymeslot",
     "repo": "tymeslot",
     "url": "https://github.com/Tymeslot/tymeslot",
-    "category": "Collaboration",
-    "description": "Open-source meeting scheduling platform built with Elixir/Phoenix LiveView. Self-host or use the managed cloud at tymeslot.app.",
-    "stars": 44,
-    "forks": 3,
-    "license": "NOASSERTION",
-    "topics": [
-      "calendar",
-      "scheduling",
-      "appointment",
-      "appointment-booking",
-      "appointment-scheduling",
-      "appointments",
-      "calendars",
-      "calendly-alternative",
-      "docker",
-      "elixir"
-    ],
-    "language": "Elixir",
-    "lastCommit": "2026-03-15T16:29:00Z",
-    "archived": false,
-    "homepage": "https://tymeslot.app",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
-  },
-  {
-    "name": "Tymeslot",
-    "owner": "Tymeslot",
-    "repo": "tymeslot",
-    "url": "https://github.com/Tymeslot/tymeslot",
     "category": "Collaboration"
   },
   {
