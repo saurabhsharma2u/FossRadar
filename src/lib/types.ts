@@ -14,4 +14,9 @@ export type Repo = {
   archived?: boolean;
   self_hostable?: boolean;
   alternatives?: string;
+  replaces?: string[];
+  latestRelease?: {
+    tagName: string;
+    publishedAt: string;
+  };
 };

@@ -35,8 +35,8 @@
 - Replaces the current binary Active/Archived label with nuance
 
 ### Fix the version stamp
-- Show latest release version + date, not just "last commit"
-- Flag the gap when last commit >> last release (signals unmaintained release line)
+- [x] Show latest release version + date, not just "last commit"
+- [x] Flag the gap when last commit >> last release (signals unmaintained release line)
 
 ---
 

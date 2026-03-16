@@ -16,6 +16,11 @@ export type RepoRecord = {
   lastSynced?: string;
   self_hostable?: boolean;
   alternatives?: string[];
+  replaces?: string[];
+  latestRelease?: {
+    tagName: string;
+    publishedAt: string;
+  };
 };
 
 type GraphNode = {
@@ -28,6 +33,10 @@ type GraphNode = {
   pushedAt: string;
   isArchived: boolean;
   homepageUrl: string | null;
+  latestRelease: {
+    tagName: string;
+    publishedAt: string;
+  } | null;
 };
 
 export async function queryReposBatch(batch: RepoRecord[], token: string): Promise<Record<string, GraphNode>> {
@@ -43,6 +52,10 @@ export async function queryReposBatch(batch: RepoRecord[], token: string): Promi
       pushedAt
       isArchived
       homepageUrl
+      latestRelease {
+        tagName
+        publishedAt
+      }
     }`
     )
     .join('\n');
@@ -80,6 +93,10 @@ export function mapGraphData(repo: RepoRecord, node: GraphNode): RepoRecord {
     language: node.primaryLanguage?.name ?? '',
     lastCommit: node.pushedAt,
     archived: node.isArchived,
-    homepage: node.homepageUrl ?? ''
+    homepage: node.homepageUrl ?? '',
+    latestRelease: node.latestRelease ? {
+      tagName: node.latestRelease.tagName,
+      publishedAt: node.latestRelease.publishedAt
+    } : undefined
   };
 }

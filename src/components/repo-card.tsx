@@ -1,5 +1,5 @@
 import { Repo } from '@/lib/types';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function getActivityStatus(lastCommit?: string) {
   if (!lastCommit) return null;
@@ -59,6 +59,13 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
     day: 'numeric'
   }) : 'N/A';
 
+  const lastReleaseTime = repo.latestRelease?.publishedAt ? new Date(repo.latestRelease.publishedAt) : null;
+  const lastCommitTime = repo.lastCommit ? new Date(repo.lastCommit) : null;
+  
+  // Flag the gap when last commit >> last release (e.g. 6 months)
+  const showStaleReleaseWarning = lastReleaseTime && lastCommitTime && 
+    (lastCommitTime.getTime() - lastReleaseTime.getTime() > 1000 * 60 * 60 * 24 * 180);
+
   const getUrl = () => `${window.location.origin}/${repo.owner}/${repo.repo}`;
 
   const handleCopy = (e: React.MouseEvent) => {
@@ -110,6 +117,22 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
         <span>⭐ {repo.stars?.toLocaleString() || 0}</span>
         <span>🔱 {repo.forks?.toLocaleString() || 0}</span>
       </div>
+
+      {repo.latestRelease && (
+        <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <span className="badge" style={{ background: 'var(--accent)', color: '#000', padding: '0.1rem 0.4rem', border: '2px solid var(--border)', boxShadow: '2px 2px 0px var(--border)', fontSize: '0.6rem' }}>
+            v{repo.latestRelease.tagName}
+          </span>
+          <span style={{ opacity: 0.6 }}>
+            Released {getRelativeTime(repo.latestRelease.publishedAt)}
+          </span>
+          {showStaleReleaseWarning && (
+            <span title="Last commit is much newer than the last release - possible unmaintained release line" style={{ cursor: 'help' }}>
+              ⚠️
+            </span>
+          )}
+        </div>
+      )}
 
       <div className="card-meta" style={{ marginTop: 'auto', paddingTop: '1rem' }}>
         {repo.license && <span className="badge license">{repo.license}</span>}
