@@ -68,8 +68,8 @@
 - Flag recent license changes (BSL risk, HashiCorp-style moves)
 
 ### Funding / sustainability indicator
-- Show if project has OpenCollective, GitHub Sponsors, or commercial backer
-- Solo-dev MIT project vs VC-backed carries very different longevity risk
+- [x] Show if project has OpenCollective, GitHub Sponsors, or commercial backer
+- [x] Solo-dev MIT project vs VC-backed carries very different longevity risk
 
 ---
 

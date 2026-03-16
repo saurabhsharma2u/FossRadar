@@ -19,4 +19,5 @@ export type Repo = {
     tagName: string;
     publishedAt: string;
   };
+  hasFunding?: boolean;
 };

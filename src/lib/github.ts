@@ -21,6 +21,7 @@ export type RepoRecord = {
     tagName: string;
     publishedAt: string;
   };
+  hasFunding?: boolean;
 };
 
 type GraphNode = {
@@ -37,6 +38,8 @@ type GraphNode = {
     tagName: string;
     publishedAt: string;
   } | null;
+  hasSponsorshipsEnabled: boolean;
+  fundingLinks: { platform: string; url: string }[];
 };
 
 export async function queryReposBatch(batch: RepoRecord[], token: string): Promise<Record<string, GraphNode>> {
@@ -56,6 +59,8 @@ export async function queryReposBatch(batch: RepoRecord[], token: string): Promi
         tagName
         publishedAt
       }
+      hasSponsorshipsEnabled
+      fundingLinks { platform url }
     }`
     )
     .join('\n');
@@ -97,6 +102,7 @@ export function mapGraphData(repo: RepoRecord, node: GraphNode): RepoRecord {
     latestRelease: node.latestRelease ? {
       tagName: node.latestRelease.tagName,
       publishedAt: node.latestRelease.publishedAt
-    } : undefined
+    } : undefined,
+    hasFunding: node.hasSponsorshipsEnabled || (node.fundingLinks && node.fundingLinks.length > 0)
   };
 }

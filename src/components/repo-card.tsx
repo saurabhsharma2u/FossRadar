@@ -99,6 +99,11 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
             SELF-HOSTABLE
           </span>
         )}
+        {repo.hasFunding && (
+          <span className="badge" style={{ background: '#fdf2f8', color: '#be185d', borderColor: '#f43f5e' }} title="Project accepts funding/sponsorships">
+            💖 FUNDED
+          </span>
+        )}
       </div>
 
       <a href={`/${repo.owner}/${repo.repo}`} style={{ textDecoration: 'none', color: 'inherit' }}>

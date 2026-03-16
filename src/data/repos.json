@@ -359,6 +359,7 @@
     "stars": 68612,
     "forks": 4950,
     "license": "AGPL-3.0",
+    "hasFunding": true,
     "topics": [
       "content-management",
       "content-services",
