@@ -16,10 +16,10 @@
       "adf"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T07:37:42Z",
+    "lastCommit": "2026-03-16T11:24:06Z",
     "archived": false,
     "homepage": "https://alfresco-content-app.netlify.app",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Crater",
@@ -44,7 +44,7 @@
     "lastCommit": "2024-08-10T09:32:07Z",
     "archived": false,
     "homepage": "https://craterapp.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "ERP5",
@@ -61,7 +61,7 @@
     "lastCommit": "2026-03-13T14:53:31Z",
     "archived": false,
     "homepage": "https://www.erp5.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "EspoCRM",
@@ -70,7 +70,7 @@
     "url": "https://github.com/espocrm/espocrm",
     "category": "Business",
     "description": "EspoCRM – Open Source CRM Application",
-    "stars": 2830,
+    "stars": 2833,
     "forks": 809,
     "license": "AGPL-3.0",
     "topics": [
@@ -89,7 +89,7 @@
     "lastCommit": "2026-03-16T07:16:03Z",
     "archived": false,
     "homepage": "https://www.espocrm.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "FreeATS",
@@ -115,7 +115,7 @@
     "lastCommit": "2025-06-09T13:34:40Z",
     "archived": false,
     "homepage": "https://www.freeats.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "IDURAR ERP CRM",
@@ -124,7 +124,7 @@
     "url": "https://github.com/idurar/idurar-erp-crm",
     "category": "Business",
     "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
-    "stars": 8252,
+    "stars": 8254,
     "forks": 2931,
     "license": "AGPL-3.0",
     "topics": [
@@ -143,7 +143,7 @@
     "lastCommit": "2025-08-16T00:37:46Z",
     "archived": false,
     "homepage": "https://cloud.idurarapp.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Invoice Ninja",
@@ -171,7 +171,7 @@
     "lastCommit": "2026-03-13T21:44:44Z",
     "archived": false,
     "homepage": "https://invoiceninja.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "LogicalDOC",
@@ -195,7 +195,7 @@
     "lastCommit": "2026-03-13T16:32:06Z",
     "archived": false,
     "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Nuxeo",
@@ -212,7 +212,7 @@
     "lastCommit": "2026-03-16T01:29:49Z",
     "archived": false,
     "homepage": "http://www.nuxeo.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Odoo",
@@ -221,8 +221,8 @@
     "url": "https://github.com/odoo/odoo",
     "category": "Business",
     "description": "Odoo. Open Source Apps To Grow Your Business.",
-    "stars": 49547,
-    "forks": 31809,
+    "stars": 49556,
+    "forks": 31816,
     "license": "NOASSERTION",
     "topics": [
       "odoo",
@@ -234,10 +234,10 @@
       "apps"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-16T07:31:31Z",
+    "lastCommit": "2026-03-16T11:36:10Z",
     "archived": false,
     "homepage": "https://www.odoo.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "OpenKM",
@@ -265,7 +265,7 @@
     "lastCommit": "2026-02-23T08:57:00Z",
     "archived": true,
     "homepage": "https://www.openkm.com/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "SolidInvoice",
@@ -290,7 +290,7 @@
     "lastCommit": "2026-03-13T14:46:53Z",
     "archived": false,
     "homepage": "https://solidinvoice.co",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "SuiteCRM",
@@ -299,7 +299,7 @@
     "url": "https://github.com/salesagility/SuiteCRM",
     "category": "Business",
     "description": "SuiteCRM - Open source CRM for the world",
-    "stars": 5323,
+    "stars": 5324,
     "forks": 2316,
     "license": "AGPL-3.0",
     "topics": [
@@ -318,7 +318,7 @@
     "lastCommit": "2026-03-04T14:05:39Z",
     "archived": false,
     "homepage": "https://www.suitecrm.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "AFFiNE",
@@ -327,8 +327,8 @@
     "url": "https://github.com/toeverything/AFFiNE",
     "category": "Collaboration",
     "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
-    "stars": 66040,
-    "forks": 4613,
+    "stars": 66054,
+    "forks": 4615,
     "license": "NOASSERTION",
     "topics": [
       "editor",
@@ -343,10 +343,10 @@
       "wiki"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-15T21:46:44Z",
+    "lastCommit": "2026-03-16T10:08:58Z",
     "archived": false,
     "homepage": "https://affine.pro",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "AppFlowy",
@@ -355,7 +355,7 @@
     "url": "https://github.com/AppFlowy-IO/AppFlowy",
     "category": "Collaboration",
     "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
-    "stars": 68610,
+    "stars": 68612,
     "forks": 4950,
     "license": "AGPL-3.0",
     "topics": [
@@ -374,7 +374,7 @@
     "lastCommit": "2026-03-09T12:03:33Z",
     "archived": false,
     "homepage": "https://appflowy.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "BigBlueButton",
@@ -395,10 +395,10 @@
       "bigbluebutton"
     ],
     "language": "JavaScript",
-    "lastCommit": "2026-03-15T18:58:57Z",
+    "lastCommit": "2026-03-16T09:37:41Z",
     "archived": false,
     "homepage": "https://bigbluebutton.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "BookStack",
@@ -408,7 +408,7 @@
     "category": "Collaboration",
     "description": "A platform to create documentation/wiki content built with PHP & Laravel",
     "stars": 18458,
-    "forks": 2350,
+    "forks": 2349,
     "license": "MIT",
     "topics": [
       "bookstack",
@@ -422,7 +422,7 @@
     "lastCommit": "2026-03-15T13:20:01Z",
     "archived": false,
     "homepage": "https://www.bookstackapp.com/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Element",
@@ -431,7 +431,7 @@
     "url": "https://github.com/vector-im/element-web",
     "category": "Collaboration",
     "description": "A glossy Matrix collaboration client for the web.",
-    "stars": 12832,
+    "stars": 12836,
     "forks": 2502,
     "license": "AGPL-3.0",
     "topics": [
@@ -439,10 +439,10 @@
       "matrix"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T06:43:11Z",
+    "lastCommit": "2026-03-16T11:41:47Z",
     "archived": false,
     "homepage": "https://element.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Element Call",
@@ -464,7 +464,7 @@
     "lastCommit": "2026-03-15T01:47:56Z",
     "archived": false,
     "homepage": "https://call.element.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Focalboard",
@@ -489,10 +489,10 @@
       "hacktoberfest"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-09T09:18:37Z",
+    "lastCommit": "2026-03-16T09:16:17Z",
     "archived": false,
     "homepage": "https://www.focalboard.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Galene",
@@ -501,7 +501,7 @@
     "url": "https://github.com/jech/galene",
     "category": "Collaboration",
     "description": "The Galène videoconference server",
-    "stars": 1270,
+    "stars": 1271,
     "forks": 181,
     "license": "MIT",
     "topics": [
@@ -518,7 +518,7 @@
     "lastCommit": "2026-03-14T12:24:27Z",
     "archived": false,
     "homepage": "https://galene.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Jitsi Meet",
@@ -527,7 +527,7 @@
     "url": "https://github.com/jitsi/jitsi-meet",
     "category": "Collaboration",
     "description": "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
-    "stars": 28813,
+    "stars": 28814,
     "forks": 7805,
     "license": "Apache-2.0",
     "topics": [
@@ -546,7 +546,7 @@
     "lastCommit": "2026-03-13T22:24:27Z",
     "archived": false,
     "homepage": "https://jitsi.org/meet",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Joplin",
@@ -555,7 +555,7 @@
     "url": "https://github.com/laurent22/joplin",
     "category": "Collaboration",
     "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-    "stars": 53918,
+    "stars": 53924,
     "forks": 5949,
     "license": "NOASSERTION",
     "topics": [
@@ -571,10 +571,10 @@
       "webdav"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T05:55:19Z",
+    "lastCommit": "2026-03-16T11:22:27Z",
     "archived": false,
     "homepage": "https://joplinapp.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Kanboard",
@@ -597,7 +597,7 @@
     "lastCommit": "2026-03-07T20:50:03Z",
     "archived": false,
     "homepage": "https://kanboard.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Logseq",
@@ -606,7 +606,7 @@
     "url": "https://github.com/logseq/logseq",
     "category": "Collaboration",
     "description": "A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://discuss.logseq.com/t/logseq-product-roadmap/34267",
-    "stars": 41569,
+    "stars": 41579,
     "forks": 2496,
     "license": "AGPL-3.0",
     "topics": [
@@ -625,7 +625,7 @@
     "lastCommit": "2026-03-16T05:59:06Z",
     "archived": false,
     "homepage": "https://logseq.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Mattermost",
@@ -634,8 +634,8 @@
     "url": "https://github.com/mattermost/mattermost-server",
     "category": "Collaboration",
     "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
-    "stars": 35837,
-    "forks": 8422,
+    "stars": 35839,
+    "forks": 8424,
     "license": "NOASSERTION",
     "topics": [
       "collaboration",
@@ -647,10 +647,10 @@
       "react"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T07:28:33Z",
+    "lastCommit": "2026-03-16T11:51:19Z",
     "archived": false,
     "homepage": "https://mattermost.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "MediaWiki",
@@ -659,7 +659,7 @@
     "url": "https://github.com/wikimedia/mediawiki",
     "category": "Collaboration",
     "description": "🌻 The collaborative editing software that runs Wikipedia. Mirror from https://gerrit.wikimedia.org/g/mediawiki/core. See https://mediawiki.org/wiki/Developer_access for contributing.",
-    "stars": 4997,
+    "stars": 4998,
     "forks": 1535,
     "license": "NOASSERTION",
     "topics": [
@@ -669,10 +669,10 @@
       "wikipedia"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-16T07:38:13Z",
+    "lastCommit": "2026-03-16T09:24:39Z",
     "archived": false,
     "homepage": "https://www.mediawiki.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "MoinMoin",
@@ -694,7 +694,7 @@
     "lastCommit": "2026-03-14T16:37:46Z",
     "archived": false,
     "homepage": "https://moinmo.in/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Notesnook",
@@ -703,8 +703,8 @@
     "url": "https://github.com/streetwriters/notesnook",
     "category": "Collaboration",
     "description": "A fully open source & end-to-end encrypted note taking alternative to Evernote.",
-    "stars": 13829,
-    "forks": 933,
+    "stars": 13833,
+    "forks": 934,
     "license": "GPL-3.0",
     "topics": [
       "note-taking",
@@ -719,10 +719,10 @@
       "reactjs"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T05:56:35Z",
+    "lastCommit": "2026-03-16T08:08:00Z",
     "archived": false,
     "homepage": "https://notesnook.com/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Planka",
@@ -731,7 +731,7 @@
     "url": "https://github.com/plankanban/planka",
     "category": "Collaboration",
     "description": "PLANKA is the Kanban-style project mastering tool for everyone",
-    "stars": 11670,
+    "stars": 11672,
     "forks": 1201,
     "license": "NOASSERTION",
     "topics": [
@@ -750,7 +750,7 @@
     "lastCommit": "2026-03-14T02:40:15Z",
     "archived": false,
     "homepage": "https://planka.app",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "RelatedChat",
@@ -767,7 +767,7 @@
     "lastCommit": "2026-01-27T08:40:57Z",
     "archived": false,
     "homepage": "https://relatedcode.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Rocket.chat",
@@ -776,8 +776,8 @@
     "url": "https://github.com/RocketChat/Rocket.Chat",
     "category": "Collaboration",
     "description": "The Secure CommsOS™ for mission-critical operations",
-    "stars": 44917,
-    "forks": 13401,
+    "stars": 44923,
+    "forks": 13402,
     "license": "NOASSERTION",
     "topics": [
       "chat",
@@ -792,10 +792,10 @@
       "mit"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-14T20:47:30Z",
+    "lastCommit": "2026-03-16T11:59:04Z",
     "archived": false,
     "homepage": "https://rocket.chat/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "SiYuan",
@@ -804,8 +804,8 @@
     "url": "https://github.com/siyuan-note/siyuan",
     "category": "Collaboration",
     "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
-    "stars": 41894,
-    "forks": 2608,
+    "stars": 41897,
+    "forks": 2609,
     "license": "AGPL-3.0",
     "topics": [
       "note-taking",
@@ -823,7 +823,7 @@
     "lastCommit": "2026-03-16T04:50:53Z",
     "archived": false,
     "homepage": "https://b3log.org/siyuan",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Spacebar",
@@ -847,14 +847,35 @@
     "lastCommit": "2026-02-13T17:13:39Z",
     "archived": false,
     "homepage": "https://spacebar.chat",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Tymeslot",
     "owner": "Tymeslot",
     "repo": "tymeslot",
     "url": "https://github.com/Tymeslot/tymeslot",
-    "category": "Collaboration"
+    "category": "Collaboration",
+    "description": "Open-source meeting scheduling platform built with Elixir/Phoenix LiveView. Self-host or use the managed cloud at tymeslot.app.",
+    "stars": 44,
+    "forks": 3,
+    "license": "NOASSERTION",
+    "topics": [
+      "calendar",
+      "scheduling",
+      "appointment",
+      "appointment-booking",
+      "appointment-scheduling",
+      "appointments",
+      "calendars",
+      "calendly-alternative",
+      "docker",
+      "elixir"
+    ],
+    "language": "Elixir",
+    "lastCommit": "2026-03-15T16:29:00Z",
+    "archived": false,
+    "homepage": "https://tymeslot.app",
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "WeKan",
@@ -863,7 +884,7 @@
     "url": "https://github.com/wekan/wekan",
     "category": "Collaboration",
     "description": "The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . New English strings for new features at imports/i18n/data/en.i18n.json . Non-English translations at https://app.transifex.com/wekan/wekan only.",
-    "stars": 20882,
+    "stars": 20883,
     "forks": 2956,
     "license": "MIT",
     "topics": [
@@ -881,7 +902,7 @@
     "lastCommit": "2026-03-16T01:07:24Z",
     "archived": false,
     "homepage": "https://wekan.fi",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "XWiki",
@@ -895,10 +916,10 @@
     "license": "LGPL-2.1",
     "topics": [],
     "language": "Java",
-    "lastCommit": "2026-03-15T10:21:59Z",
+    "lastCommit": "2026-03-16T10:35:28Z",
     "archived": false,
     "homepage": "http://platform.xwiki.org/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Zulip",
@@ -907,8 +928,8 @@
     "url": "https://github.com/zulip/zulip",
     "category": "Collaboration",
     "description": "Zulip server and web application. Open-source team chat that helps teams stay productive and focused.",
-    "stars": 24859,
-    "forks": 9688,
+    "stars": 24863,
+    "forks": 9689,
     "license": "Apache-2.0",
     "topics": [
       "zulip",
@@ -926,7 +947,7 @@
     "lastCommit": "2026-03-16T06:10:26Z",
     "archived": false,
     "homepage": "https://zulip.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Awesome open-source alternatives to SaaS",
@@ -954,7 +975,7 @@
     "lastCommit": "2025-09-03T17:43:01Z",
     "archived": false,
     "homepage": "https://runacap.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Abilian Hop3",
@@ -963,7 +984,7 @@
     "url": "https://github.com/abilian/hop3",
     "category": "Platforms services and devops",
     "description": "Hop3 - Open source platform as a service: deploy and manage your applications seamlessly",
-    "stars": 11,
+    "stars": 12,
     "forks": 2,
     "license": "Apache-2.0",
     "topics": [],
@@ -971,7 +992,7 @@
     "lastCommit": "2026-03-07T09:25:13Z",
     "archived": false,
     "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Abilian Nua",
@@ -998,7 +1019,7 @@
     "lastCommit": "2024-07-02T06:36:08Z",
     "archived": false,
     "homepage": "https://nua.rocks/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Apprise",
@@ -1026,7 +1047,7 @@
     "lastCommit": "2026-03-15T19:58:26Z",
     "archived": false,
     "homepage": "https://hub.docker.com/r/caronc/apprise",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Appwrite",
@@ -1035,8 +1056,8 @@
     "url": "https://github.com/appwrite/appwrite",
     "category": "Platforms services and devops",
     "description": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
-    "stars": 55133,
-    "forks": 5083,
+    "stars": 55147,
+    "forks": 5084,
     "license": "BSD-3-Clause",
     "topics": [
       "appwrite",
@@ -1051,10 +1072,10 @@
       "selfhosted"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T06:26:16Z",
+    "lastCommit": "2026-03-16T12:01:30Z",
     "archived": false,
     "homepage": "https://appwrite.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Authgear",
@@ -1082,7 +1103,7 @@
     "lastCommit": "2026-03-16T06:16:04Z",
     "archived": false,
     "homepage": "https://www.authgear.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "CapRover",
@@ -1110,7 +1131,7 @@
     "lastCommit": "2026-01-31T15:42:45Z",
     "archived": false,
     "homepage": "https://CapRover.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Coolify",
@@ -1119,7 +1140,7 @@
     "url": "https://github.com/coollabsio/coolify",
     "category": "Platforms services and devops",
     "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
-    "stars": 51742,
+    "stars": 51749,
     "forks": 3818,
     "license": "Apache-2.0",
     "topics": [
@@ -1138,7 +1159,7 @@
     "lastCommit": "2026-03-14T00:17:24Z",
     "archived": false,
     "homepage": "https://coolify.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Coroot",
@@ -1147,7 +1168,7 @@
     "url": "https://github.com/coroot/coroot",
     "category": "Platforms services and devops",
     "description": "Coroot is an open-source observability and APM tool with AI-powered Root Cause Analysis. It combines metrics, logs, traces, continuous profiling, and SLO-based alerting with predefined dashboards and inspections.",
-    "stars": 7478,
+    "stars": 7479,
     "forks": 354,
     "license": "Apache-2.0",
     "topics": [
@@ -1166,7 +1187,7 @@
     "lastCommit": "2026-03-12T18:10:43Z",
     "archived": false,
     "homepage": "https://coroot.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Dokku",
@@ -1194,7 +1215,7 @@
     "lastCommit": "2026-03-12T13:55:00Z",
     "archived": false,
     "homepage": "https://dokku.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Graylog",
@@ -1219,10 +1240,10 @@
       "syslog"
     ],
     "language": "Java",
-    "lastCommit": "2026-03-16T07:31:20Z",
+    "lastCommit": "2026-03-16T12:03:00Z",
     "archived": false,
     "homepage": "https://www.graylog.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "hyperdx",
@@ -1231,7 +1252,7 @@
     "url": "https://github.com/hyperdxio/hyperdx",
     "category": "Platforms services and devops",
     "description": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
-    "stars": 9373,
+    "stars": 9374,
     "forks": 374,
     "license": "MIT",
     "topics": [
@@ -1247,10 +1268,10 @@
       "apm"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T01:05:44Z",
+    "lastCommit": "2026-03-16T10:17:37Z",
     "archived": false,
     "homepage": "https://hyperdx.io/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Janssen",
@@ -1274,10 +1295,10 @@
       "access-management"
     ],
     "language": "Java",
-    "lastCommit": "2026-03-16T06:34:24Z",
+    "lastCommit": "2026-03-16T11:18:38Z",
     "archived": false,
     "homepage": "https://docs.jans.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Keycloak",
@@ -1286,8 +1307,8 @@
     "url": "https://github.com/keycloak/keycloak",
     "category": "Platforms services and devops",
     "description": "Open Source Identity and Access Management For Modern Applications and Services",
-    "stars": 33365,
-    "forks": 8146,
+    "stars": 33374,
+    "forks": 8147,
     "license": "Apache-2.0",
     "topics": [
       "keycloak",
@@ -1295,10 +1316,10 @@
       "saml"
     ],
     "language": "Java",
-    "lastCommit": "2026-03-16T02:04:04Z",
+    "lastCommit": "2026-03-16T11:54:19Z",
     "archived": false,
     "homepage": "https://www.keycloak.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Logto",
@@ -1307,7 +1328,7 @@
     "url": "https://github.com/logto-io/logto",
     "category": "Platforms services and devops",
     "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
-    "stars": 11704,
+    "stars": 11707,
     "forks": 734,
     "license": "MPL-2.0",
     "topics": [
@@ -1323,10 +1344,10 @@
       "sms"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T07:39:13Z",
+    "lastCommit": "2026-03-16T11:57:56Z",
     "archived": false,
     "homepage": "https://logto.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Manifest",
@@ -1336,7 +1357,7 @@
     "category": "Platforms services and devops",
     "description": "Smart LLM Routing for OpenClaw. Cut Costs up to 70% 🦞🦚",
     "stars": 3795,
-    "forks": 191,
+    "forks": 192,
     "license": "MIT",
     "topics": [
       "agent-skills",
@@ -1354,7 +1375,7 @@
     "lastCommit": "2026-03-16T04:42:57Z",
     "archived": false,
     "homepage": "https://manifest.build",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Mellisearch",
@@ -1363,7 +1384,7 @@
     "url": "https://github.com/meilisearch/MeiliSearch",
     "category": "Platforms services and devops",
     "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
-    "stars": 56419,
+    "stars": 56426,
     "forks": 2429,
     "license": "NOASSERTION",
     "topics": [
@@ -1379,10 +1400,10 @@
       "instantsearch"
     ],
     "language": "Rust",
-    "lastCommit": "2026-03-16T01:24:26Z",
+    "lastCommit": "2026-03-16T11:10:03Z",
     "archived": false,
     "homepage": "https://www.meilisearch.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Nhost",
@@ -1407,10 +1428,10 @@
       "flutter"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-14T11:43:39Z",
+    "lastCommit": "2026-03-16T11:30:57Z",
     "archived": false,
     "homepage": "https://nhost.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Novu",
@@ -1435,10 +1456,10 @@
       "notification-center"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T07:36:44Z",
+    "lastCommit": "2026-03-16T11:49:46Z",
     "archived": false,
     "homepage": "https://go.novu.co/github",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "ntfy",
@@ -1447,8 +1468,8 @@
     "url": "https://github.com/binwiederhier/ntfy",
     "category": "Platforms services and devops",
     "description": "Send push notifications to your phone or desktop using PUT/POST",
-    "stars": 29227,
-    "forks": 1203,
+    "stars": 29230,
+    "forks": 1204,
     "license": "Apache-2.0",
     "topics": [
       "rest-api",
@@ -1463,7 +1484,7 @@
     "lastCommit": "2026-03-16T02:01:31Z",
     "archived": false,
     "homepage": "https://ntfy.sh",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Sentry",
@@ -1472,7 +1493,7 @@
     "url": "https://github.com/getsentry/sentry",
     "category": "Platforms services and devops",
     "description": "Developer-first error tracking and performance monitoring",
-    "stars": 43370,
+    "stars": 43373,
     "forks": 4631,
     "license": "NOASSERTION",
     "topics": [
@@ -1488,10 +1509,10 @@
       "python"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-16T07:02:41Z",
+    "lastCommit": "2026-03-16T11:57:12Z",
     "archived": false,
     "homepage": "https://sentry.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "signoz",
@@ -1500,8 +1521,8 @@
     "url": "https://github.com/signoz/signoz",
     "category": "Platforms services and devops",
     "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool",
-    "stars": 26096,
-    "forks": 2029,
+    "stars": 26103,
+    "forks": 2030,
     "license": "NOASSERTION",
     "topics": [
       "observability",
@@ -1516,10 +1537,10 @@
       "typescript"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T07:23:50Z",
+    "lastCommit": "2026-03-16T11:57:45Z",
     "archived": false,
     "homepage": "https://signoz.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Sonic",
@@ -1547,7 +1568,7 @@
     "lastCommit": "2026-02-17T15:22:32Z",
     "archived": false,
     "homepage": "https://crates.io/crates/sonic-server",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Supabase",
@@ -1556,8 +1577,8 @@
     "url": "https://github.com/supabase/supabase",
     "category": "Platforms services and devops",
     "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-    "stars": 99067,
-    "forks": 11808,
+    "stars": 99087,
+    "forks": 11807,
     "license": "Apache-2.0",
     "topics": [
       "firebase",
@@ -1572,10 +1593,10 @@
       "vectors"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-16T07:35:57Z",
+    "lastCommit": "2026-03-16T11:55:26Z",
     "archived": false,
     "homepage": "https://supabase.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "SuperTokens",
@@ -1584,7 +1605,7 @@
     "url": "https://github.com/supertokens/supertokens-core",
     "category": "Platforms services and devops",
     "description": "Open source alternative to Auth0 / Firebase Auth / AWS Cognito ",
-    "stars": 14966,
+    "stars": 14968,
     "forks": 650,
     "license": "NOASSERTION",
     "topics": [
@@ -1600,10 +1621,10 @@
       "email-password-login"
     ],
     "language": "Java",
-    "lastCommit": "2026-03-13T15:11:35Z",
+    "lastCommit": "2026-03-16T11:36:18Z",
     "archived": false,
     "homepage": "https://supertokens.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Tantivy",
@@ -1612,7 +1633,7 @@
     "url": "https://github.com/quickwit-oss/tantivy",
     "category": "Platforms services and devops",
     "description": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust",
-    "stars": 14740,
+    "stars": 14741,
     "forks": 874,
     "license": "MIT",
     "topics": [
@@ -1620,10 +1641,10 @@
       "rust"
     ],
     "language": "Rust",
-    "lastCommit": "2026-03-13T19:38:31Z",
+    "lastCommit": "2026-03-16T09:43:41Z",
     "archived": false,
     "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Typesense",
@@ -1651,7 +1672,7 @@
     "lastCommit": "2026-03-14T04:42:28Z",
     "archived": false,
     "homepage": "https://typesense.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Bugzilla",
@@ -1670,7 +1691,7 @@
     "lastCommit": "2026-02-19T03:07:34Z",
     "archived": false,
     "homepage": "http://www.bugzilla.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Buildbot",
@@ -1689,10 +1710,10 @@
       "ci-framework"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-15T19:33:05Z",
+    "lastCommit": "2026-03-16T09:47:03Z",
     "archived": false,
     "homepage": "https://www.buildbot.net",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Drone",
@@ -1701,7 +1722,7 @@
     "url": "https://github.com/harness/drone",
     "category": "Software development",
     "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
-    "stars": 33899,
+    "stars": 33897,
     "forks": 2901,
     "license": "Apache-2.0",
     "topics": [
@@ -1720,7 +1741,7 @@
     "lastCommit": "2026-03-16T07:31:58Z",
     "archived": false,
     "homepage": "https://www.harness.io/open-source",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Gerrit",
@@ -1740,7 +1761,7 @@
     "lastCommit": "2026-03-14T18:59:42Z",
     "archived": false,
     "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Gitea",
@@ -1749,8 +1770,8 @@
     "url": "https://github.com/go-gitea/gitea",
     "category": "Software development",
     "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-    "stars": 54302,
-    "forks": 6479,
+    "stars": 54309,
+    "forks": 6480,
     "license": "MIT",
     "topics": [
       "gitea",
@@ -1768,7 +1789,7 @@
     "lastCommit": "2026-03-16T00:45:21Z",
     "archived": false,
     "homepage": "https://gitea.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Gitlab",
@@ -1786,10 +1807,10 @@
       "rails"
     ],
     "language": "Ruby",
-    "lastCommit": "2026-03-16T06:07:27Z",
+    "lastCommit": "2026-03-16T09:15:31Z",
     "archived": false,
     "homepage": "https://about.gitlab.com/getting-help/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Gogs",
@@ -1798,8 +1819,8 @@
     "url": "https://github.com/gogs/gogs",
     "category": "Software development",
     "description": "Gogs is a painless self-hosted Git service",
-    "stars": 47586,
-    "forks": 5071,
+    "stars": 47587,
+    "forks": 5070,
     "license": "MIT",
     "topics": [
       "gogs",
@@ -1817,7 +1838,7 @@
     "lastCommit": "2026-03-15T19:01:22Z",
     "archived": false,
     "homepage": "https://gogs.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Jenkins",
@@ -1845,7 +1866,7 @@
     "lastCommit": "2026-03-16T01:38:48Z",
     "archived": false,
     "homepage": "https://www.jenkins.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Pagure",
@@ -1867,7 +1888,7 @@
     "lastCommit": "2026-03-13T11:57:51Z",
     "archived": false,
     "homepage": "https://pagure.io/pagure",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Plane",
@@ -1876,8 +1897,8 @@
     "url": "https://github.com/makeplane/plane",
     "category": "Software development",
     "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-    "stars": 46628,
-    "forks": 3726,
+    "stars": 46631,
+    "forks": 3728,
     "license": "AGPL-3.0",
     "topics": [
       "django",
@@ -1892,10 +1913,10 @@
       "postgresql"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-13T22:42:34Z",
+    "lastCommit": "2026-03-16T09:52:54Z",
     "archived": false,
     "homepage": "http://plane.so",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Redmine",
@@ -1905,14 +1926,14 @@
     "category": "Software development",
     "description": "Mirror of redmine code source - Official Subversion repository is at https://svn.redmine.org/redmine - contact: @vividtone or maeda (at) farend (dot) jp",
     "stars": 5907,
-    "forks": 2412,
+    "forks": 2413,
     "license": "NOASSERTION",
     "topics": [],
     "language": "Ruby",
-    "lastCommit": "2026-03-15T09:30:08Z",
+    "lastCommit": "2026-03-16T09:20:10Z",
     "archived": false,
     "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Review Board",
@@ -1935,7 +1956,7 @@
     "lastCommit": "2026-03-14T03:48:11Z",
     "archived": false,
     "homepage": "https://www.reviewboard.org/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Taiga",
@@ -1952,7 +1973,7 @@
     "lastCommit": "2023-12-13T09:37:30Z",
     "archived": false,
     "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "11ty",
@@ -1961,8 +1982,8 @@
     "url": "https://github.com/11ty/eleventy",
     "category": "Web",
     "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML.",
-    "stars": 19501,
-    "forks": 565,
+    "stars": 19500,
+    "forks": 567,
     "license": "MIT",
     "topics": [
       "static-site-generator",
@@ -1973,10 +1994,10 @@
       "eleventy"
     ],
     "language": "JavaScript",
-    "lastCommit": "2026-03-13T22:36:34Z",
+    "lastCommit": "2026-03-16T11:58:27Z",
     "archived": false,
     "homepage": "https://www.11ty.dev/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Awesome Static Web Site Generators",
@@ -1996,7 +2017,7 @@
     "lastCommit": "2026-03-02T20:49:31Z",
     "archived": false,
     "homepage": "https://myles.github.io/awesome-static-generators/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "btw",
@@ -2021,7 +2042,7 @@
     "lastCommit": "2026-03-14T04:46:22Z",
     "archived": false,
     "homepage": "https://btw.so",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Ghost",
@@ -2030,8 +2051,8 @@
     "url": "https://github.com/TryGhost/Ghost",
     "category": "Web",
     "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
-    "stars": 52054,
-    "forks": 11383,
+    "stars": 52058,
+    "forks": 11382,
     "license": "MIT",
     "topics": [
       "journalism",
@@ -2044,10 +2065,10 @@
       "ghost"
     ],
     "language": "JavaScript",
-    "lastCommit": "2026-03-15T23:41:36Z",
+    "lastCommit": "2026-03-16T11:12:16Z",
     "archived": false,
     "homepage": "https://ghost.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Hugo",
@@ -2056,7 +2077,7 @@
     "url": "https://github.com/gohugoio/hugo",
     "category": "Web",
     "description": "The world’s fastest framework for building websites.",
-    "stars": 87097,
+    "stars": 87100,
     "forks": 8207,
     "license": "Apache-2.0",
     "topics": [
@@ -2069,10 +2090,10 @@
       "documentation-tool"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-15T17:32:41Z",
+    "lastCommit": "2026-03-16T11:12:56Z",
     "archived": false,
     "homepage": "https://gohugo.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Jekyll",
@@ -2081,8 +2102,8 @@
     "url": "https://github.com/jekyll/jekyll",
     "category": "Web",
     "description": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby",
-    "stars": 51459,
-    "forks": 10297,
+    "stars": 51460,
+    "forks": 10298,
     "license": "MIT",
     "topics": [
       "ruby",
@@ -2096,7 +2117,7 @@
     "lastCommit": "2026-03-11T15:41:20Z",
     "archived": false,
     "homepage": "https://jekyllrb.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Lektor",
@@ -2116,7 +2137,7 @@
     "lastCommit": "2026-03-14T18:05:11Z",
     "archived": false,
     "homepage": "https://www.getlektor.com/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Matomo",
@@ -2125,7 +2146,7 @@
     "url": "https://github.com/matomo-org/matomo",
     "category": "Web",
     "description": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
-    "stars": 21355,
+    "stars": 21354,
     "forks": 2815,
     "license": "GPL-3.0",
     "topics": [
@@ -2141,10 +2162,10 @@
       "marketing"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-16T07:38:57Z",
+    "lastCommit": "2026-03-16T09:09:13Z",
     "archived": false,
     "homepage": "https://matomo.org/",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Pelican",
@@ -2153,7 +2174,7 @@
     "url": "https://github.com/getpelican/pelican",
     "category": "Web",
     "description": "Static site generator that supports Markdown and reST syntax. Powered by Python.",
-    "stars": 13244,
+    "stars": 13245,
     "forks": 1831,
     "license": "AGPL-3.0",
     "topics": [
@@ -2165,7 +2186,7 @@
     "lastCommit": "2026-02-03T11:11:45Z",
     "archived": false,
     "homepage": "https://getpelican.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Plausible",
@@ -2174,8 +2195,8 @@
     "url": "https://github.com/plausible/analytics",
     "category": "Web",
     "description": "Simple, open source, lightweight and privacy-friendly web analytics alternative to Google Analytics.",
-    "stars": 24400,
-    "forks": 1359,
+    "stars": 24405,
+    "forks": 1358,
     "license": "AGPL-3.0",
     "topics": [
       "analytics",
@@ -2190,10 +2211,10 @@
       "web-analytics"
     ],
     "language": "Elixir",
-    "lastCommit": "2026-03-14T10:46:23Z",
+    "lastCommit": "2026-03-16T11:58:51Z",
     "archived": false,
     "homepage": "https://plausible.io",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Prisme Analytics",
@@ -2221,7 +2242,7 @@
     "lastCommit": "2026-02-12T21:59:23Z",
     "archived": false,
     "homepage": "https://www.prismeanalytics.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Shynet",
@@ -2249,7 +2270,7 @@
     "lastCommit": "2026-03-15T23:00:29Z",
     "archived": false,
     "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Umami",
@@ -2258,8 +2279,8 @@
     "url": "https://github.com/umami-software/umami",
     "category": "Web",
     "description": "Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.",
-    "stars": 35692,
-    "forks": 6664,
+    "stars": 35696,
+    "forks": 6665,
     "license": "MIT",
     "topics": [
       "analytics",
@@ -2276,7 +2297,7 @@
     "lastCommit": "2026-03-16T03:44:35Z",
     "archived": false,
     "homepage": "https://umami.is",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Wordpress",
@@ -2286,14 +2307,14 @@
     "category": "Web",
     "description": "WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.",
     "stars": 20951,
-    "forks": 12938,
+    "forks": 12937,
     "license": "NOASSERTION",
     "topics": [],
     "language": "PHP",
-    "lastCommit": "2026-03-15T22:52:10Z",
+    "lastCommit": "2026-03-16T08:34:09Z",
     "archived": false,
     "homepage": "https://wordpress.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "WriteFreely",
@@ -2321,7 +2342,7 @@
     "lastCommit": "2026-03-13T22:22:24Z",
     "archived": false,
     "homepage": "https://writefreely.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   },
   {
     "name": "Zola",
@@ -2330,7 +2351,7 @@
     "url": "https://github.com/getzola/zola",
     "category": "Web",
     "description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
-    "stars": 16733,
+    "stars": 16736,
     "forks": 1124,
     "license": "EUPL-1.2",
     "topics": [
@@ -2349,6 +2370,6 @@
     "lastCommit": "2026-03-16T07:04:17Z",
     "archived": false,
     "homepage": "https://www.getzola.org",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
+    "lastSynced": "2026-03-16T12:04:05.430Z"
   }
 ]
