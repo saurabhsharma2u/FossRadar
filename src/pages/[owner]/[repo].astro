@@ -1,7 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { RepoCard } from '../../components/repo-card';
+import { StarChart } from '../../components/star-chart';
 import repoData from '../../data/repos.json';
+import historyData from '../../data/history.json';
 import type { Repo } from '../../lib/types';
 
 export const prerender = true;
@@ -24,6 +26,8 @@ if (!repo) {
   return Astro.redirect('/404');
 }
 
+const history = (historyData as Record<string, any>)[`${owner}/${repoName}`] || [];
+
 const title = `${repo.name} | FOSS Alternative to ${repo.alternatives || 'SaaS'}`;
 const description = repo.description || `Discover ${repo.name}, a powerful open-source alternative to ${repo.alternatives || 'common SaaS tools'}.`;
 const ogImage = `/${owner}/${repoName}/opengraph-image.png`;
@@ -31,8 +35,9 @@ const ogImage = `/${owner}/${repoName}/opengraph-image.png`;
 
 <Layout title={title} description={description} image={ogImage}>
 	<div style="min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3rem; padding: 4rem 0;">
-		<div style="width: 100%; max-width: 650px;">
+		<div style="width: 100%; max-width: 650px; display: flex; flex-direction: column; gap: 2rem;">
 			<RepoCard client:load repo={repo} isExternal={true} />
+			<StarChart client:load history={history} />
 		</div>
 
 		<a href="/" class="btn-link" style="font-size: 1.1rem;">

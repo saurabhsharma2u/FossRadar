@@ -14,11 +14,23 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
     const [language, setLanguage] = useState('All');
     const [sort, setSort] = useState('stars');
     const [hideArchived, setHideArchived] = useState(true);
+    const [onlySelfHostable, setOnlySelfHostable] = useState(false);
     const [visibleCount, setVisibleCount] = useState(12);
 
     useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
+                e.preventDefault();
+                document.getElementById('search')?.focus();
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, []);
+
+    useEffect(() => {
         setVisibleCount(12);
-    }, [query, category, language, sort, hideArchived]);
+    }, [query, category, language, sort, hideArchived, onlySelfHostable]);
 
     const categories = useMemo(() => ['All', ...new Set(repos.map((r) => r.category))].sort(), [repos]);
     const languages = useMemo(() => ['All', ...new Set(repos.map((r) => r.language).filter(Boolean) as string[])].sort(), [repos]);
@@ -33,8 +45,9 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
         const c = category === 'All' ? base : base.filter((r) => r.category === category);
         const l = language === 'All' ? c : c.filter((r) => r.language === language);
         const a = hideArchived ? l.filter((r) => !r.archived) : l;
+        const s = onlySelfHostable ? a.filter((r) => r.self_hostable) : a;
 
-        return [...a].sort((x, y) => {
+        return [...s].sort((x, y) => {
             if (sort === 'updated') return (Date.parse(y.lastCommit || '') || 0) - (Date.parse(x.lastCommit || '') || 0);
             if (sort === 'growth') {
                 const dx = growth(x);
@@ -44,7 +57,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
             if (sort === 'alpha') return x.name.localeCompare(y.name);
             return (y.stars || 0) - (x.stars || 0);
         });
-    }, [query, category, language, hideArchived, sort, fuse, repos]);
+    }, [query, category, language, hideArchived, onlySelfHostable, sort, fuse, repos]);
 
     const displayed = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
 
@@ -100,10 +113,10 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
 
             <section className="controls">
                 <div className="control-item">
-                    <label htmlFor="search">Find Alternatives</label>
+                    <label htmlFor="search">Find Alternatives <span style={{ opacity: 0.5, fontSize: '0.6rem' }}>(Press /)</span></label>
                     <input
                         id="search"
-                        placeholder="Search software..."
+                        placeholder="Search software or proprietary tools..."
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                     />
@@ -154,6 +167,18 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                             onChange={() => setHideArchived((v) => !v)}
                         />
                         HIDE ARCHIVED
+                    </label>
+                </div>
+
+                <div className="control-item checkbox">
+                    <label style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '0.5rem', padding: 0 }}>
+                        <input
+                            style={{ width: 'auto', border: '2px solid', boxShadow: 'none' }}
+                            type="checkbox"
+                            checked={onlySelfHostable}
+                            onChange={() => setOnlySelfHostable((v) => !v)}
+                        />
+                        SELF-HOSTABLE ONLY
                     </label>
                 </div>
             </section>
