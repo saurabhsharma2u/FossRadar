@@ -19,9 +19,9 @@
 > Goal: Dramatically increase organic discovery and answer the question users actually arrive with.
 
 ### "Replaces X" tagging
-- Add `replaces: [Notion, Confluence]` metadata to every tracked project
-- Homepage search flow: "What does X replace?" as a primary entry point
-- Each project page lists the proprietary tools it replaces
+- [x] Add `replaces: [Notion, Confluence]` metadata to every tracked project
+- [x] Homepage search flow: "What does X replace?" as a primary entry point
+- [x] Each project page lists the proprietary tools it replaces
 - Reverse index: "Alternatives to Notion" pages with full SEO slugs
 
 ### Full-text search

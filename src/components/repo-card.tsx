@@ -79,11 +79,14 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
 
   const handleXShare = (e: React.MouseEvent) => {
     e.preventDefault();
-    const text = `Discovering ${repo.name} - an incredible FOSS alternative to ${repo.alternatives || 'SaaS tools'}! 🚀\n\n${getUrl()}\n\n#FossRadar #OpenSource @FossRadar`;
+    const replacements = repo.replaces?.join(', ') || repo.alternatives || 'SaaS tools';
+    const text = `Discovering ${repo.name} - an incredible FOSS alternative to ${replacements}! 🚀\n\n${getUrl()}\n\n#FossRadar #OpenSource @FossRadar`;
     const xUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(xUrl, '_blank', 'noreferrer');
     setIsShareOpen(false);
   };
+
+  const hasReplacements = (repo.replaces && repo.replaces.length > 0) || repo.alternatives;
 
   return (
     <article className="card">
@@ -102,10 +105,12 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
         <h3 style={{ margin: '1rem 0 0.5rem 0' }}>{repo.name}</h3>
       </a>
 
-      {repo.alternatives && (
+      {hasReplacements && (
         <div style={{ fontSize: '0.75rem', fontWeight: 900, marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-          <span style={{ opacity: 0.6 }}>REPLACING: </span>
-          <span style={{ color: 'var(--secondary)' }}>{repo.alternatives}</span>
+          <span style={{ opacity: 0.6 }}>REPLACES: </span>
+          <span style={{ color: 'var(--secondary)' }}>
+            {repo.replaces ? repo.replaces.join(', ') : repo.alternatives}
+          </span>
         </div>
       )}
 

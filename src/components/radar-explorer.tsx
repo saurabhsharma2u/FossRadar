@@ -41,7 +41,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
     }, [repos]);
 
     const fuse = useMemo(() => new Fuse(repos, {
-        keys: ['name', 'description', 'topics', 'category', 'alternatives', 'license'],
+        keys: ['name', 'description', 'topics', 'category', 'alternatives', 'replaces', 'license'],
         threshold: 0.35
     }), [repos]);
 
@@ -131,7 +131,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                     <label htmlFor="search">Find Alternatives <span style={{ opacity: 0.5, fontSize: '0.6rem' }}>(Press /)</span></label>
                     <input
                         id="search"
-                        placeholder="Search software or proprietary tools..."
+                        placeholder="Search software or what they replace (e.g. Notion)..."
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                     />
