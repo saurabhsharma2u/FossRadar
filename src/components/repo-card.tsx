@@ -1,24 +1,35 @@
 import { Repo } from '@/lib/types';
 import { useState } from 'react';
 
-function getActivityStatus(lastCommit?: string) {
+function getActivityStatus(lastCommit?: string, latestReleaseDate?: string) {
   if (!lastCommit) return null;
 
   const lastDate = new Date(lastCommit);
   const now = new Date();
-  const diffTime = Math.abs(now.getTime() - lastDate.getTime());
-  const diffMonths = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 30));
+  const commitDiffMonths = Math.floor((now.getTime() - lastDate.getTime()) / (1000 * 60 * 60 * 24 * 30));
 
-  if (diffMonths < 6) {
+  let releaseDiffMonths = -1;
+  if (latestReleaseDate) {
+    const releaseDate = new Date(latestReleaseDate);
+    releaseDiffMonths = Math.floor((now.getTime() - releaseDate.getTime()) / (1000 * 60 * 60 * 24 * 30));
+  }
+
+  if (commitDiffMonths < 3) {
+    if (releaseDiffMonths !== -1 && releaseDiffMonths > 24) {
+      return { label: 'Slowing', class: 'stale', title: 'Active commits but no recent releases' };
+    }
     return { label: 'Active', class: 'active', title: 'Recent activity' };
-  } else if (diffMonths < 12) {
-    return { label: `Stale (${diffMonths}mo)`, class: 'stale', title: `No commits for over ${diffMonths} months` };
+  } else if (commitDiffMonths < 12) {
+    if (releaseDiffMonths !== -1 && releaseDiffMonths > 12) {
+      return { label: 'At Risk', class: 'stale', title: 'Infrequent commits and no recent releases' };
+    }
+    return { label: `Slowing (${commitDiffMonths}mo)`, class: 'stale', title: `Slowing activity, last commit ${commitDiffMonths} months ago` };
   } else {
-    const years = Math.floor(diffMonths / 12);
+    const years = Math.floor(commitDiffMonths / 12);
     return {
-      label: years >= 1 ? `Inactive (${years}yr+)` : `Inactive (${diffMonths}mo+)`,
+      label: years >= 1 ? `At Risk (${years}yr+)` : `At Risk (${commitDiffMonths}mo+)`,
       class: 'abandoned',
-      title: 'Project appears to be inactive'
+      title: 'Project appears to be at risk of abandonment'
     };
   }
 }
@@ -50,7 +61,7 @@ function getRelativeTime(dateString?: string) {
 export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?: boolean }) {
   const [copied, setCopied] = useState(false);
   const [isShareOpen, setIsShareOpen] = useState(false);
-  const status = getActivityStatus(repo.lastCommit);
+  const status = getActivityStatus(repo.lastCommit, repo.latestRelease?.publishedAt);
 
   const relativeTime = getRelativeTime(repo.lastCommit);
   const absoluteTime = repo.lastCommit ? new Date(repo.lastCommit).toLocaleDateString('en-US', {

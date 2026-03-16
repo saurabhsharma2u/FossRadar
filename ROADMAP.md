@@ -30,9 +30,9 @@
 - [x] Keyboard shortcut accessible (`/` to focus)
 
 ### Health score
-- Composite signal beyond raw stars: commit frequency + release cadence + issue response time + contributor count trend
-- Displayed as a simple health badge (Active / Slowing / At Risk / Archived)
-- Replaces the current binary Active/Archived label with nuance
+- [x] Composite signal beyond raw stars: commit frequency + release cadence + issue response time + contributor count trend
+- [x] Displayed as a simple health badge (Active / Slowing / At Risk / Archived)
+- [x] Replaces the current binary Active/Archived label with nuance
 
 ### Fix the version stamp
 - [x] Show latest release version + date, not just "last commit"
