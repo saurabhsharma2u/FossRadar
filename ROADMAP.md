@@ -22,11 +22,11 @@
 - [x] Add `replaces: [Notion, Confluence]` metadata to every tracked project
 - [x] Homepage search flow: "What does X replace?" as a primary entry point
 - [x] Each project page lists the proprietary tools it replaces
-- Reverse index: "Alternatives to Notion" pages with full SEO slugs
+- [x] Reverse index: "Alternatives to Notion" pages with full SEO slugs
 
 ### Full-text search
-- Search across name, description, tags, and replaces fields
-- Fuzzy match support
+- [x] Search across name, description, tags, and replaces fields
+- [x] Fuzzy match support
 - [x] Keyboard shortcut accessible (`/` to focus)
 
 ### Health score

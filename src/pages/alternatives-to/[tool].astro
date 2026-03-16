@@ -1,0 +1,92 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { RepoCard } from '../../components/repo-card';
+import repoData from '../../data/repos.json';
+import type { Repo } from '../../lib/types';
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  function slugify(text: string) {
+    return text.toString().toLowerCase()
+      .replace(/\s+/g, '-')           // Replace spaces with -
+      .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+      .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+      .replace(/^-+/, '')             // Trim - from start of text
+      .replace(/-+$/, '');            // Trim - from end of text
+  }
+
+  const repos = repoData as Repo[];
+  const tools = new Map<string, { name: string, repos: Repo[] }>();
+
+  repos.forEach((repo) => {
+    const targets = new Set<string>();
+    
+    if (repo.replaces) {
+      repo.replaces.forEach(t => targets.add(t));
+    }
+    if (repo.alternatives) {
+      repo.alternatives.split(',').forEach(t => targets.add(t.trim()));
+    }
+
+    targets.forEach(tool => {
+      if (!tool || tool.toLowerCase() === 'saas' || tool.toLowerCase() === 'saas tools') return;
+      
+      const slug = slugify(tool);
+      if (!slug) return;
+
+      if (!tools.has(slug)) {
+        tools.set(slug, { name: tool, repos: [] });
+      }
+      tools.get(slug)!.repos.push(repo);
+    });
+  });
+
+  return Array.from(tools.entries()).map(([slug, data]) => ({
+    params: { tool: slug },
+    props: { toolName: data.name, repos: data.repos.sort((a, b) => (b.stars || 0) - (a.stars || 0)) },
+  }));
+}
+
+const { tool } = Astro.params;
+const { toolName, repos } = Astro.props;
+
+const title = `FOSS Alternatives to ${toolName} | FossRadar`;
+const description = `Discover ${repos.length} open-source alternatives to ${toolName}. Find self-hostable, free software replacements.`;
+---
+
+<Layout title={title} description={description}>
+  <div style="min-height: 70vh; padding: 4rem 2rem; max-width: 1400px; margin: 0 auto;">
+    
+    <div style="margin-bottom: 4rem; text-align: center; border: none;">
+      <h1 style="font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 950; text-transform: uppercase; letter-spacing: -1.5px; margin-bottom: 1rem;">
+        Alternatives to <span style="color: var(--secondary)">{toolName}</span>
+      </h1>
+      <p style="font-size: 1.2rem; opacity: 0.8; font-weight: 600; max-width: 600px; margin: 0 auto;">
+        We found {repos.length} open-source {repos.length === 1 ? 'project' : 'projects'} that can replace {toolName}.
+      </p>
+      <div style="margin-top: 2rem;">
+        <a href="/" class="btn-link" style="font-size: 1.1rem; padding: 0.8rem 1.5rem;">
+          ← BACK TO RADAR
+        </a>
+      </div>
+    </div>
+
+    <section class="grid">
+      {repos.map((repo) => (
+        <div style="height: 100%">
+          <RepoCard client:load repo={repo} isExternal={true} />
+        </div>
+      ))}
+    </section>
+
+  </div>
+</Layout>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+</style>
