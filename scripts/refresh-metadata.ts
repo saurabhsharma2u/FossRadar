@@ -1,5 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { mapGraphData, queryReposBatch, RepoRecord } from '../src/lib/github';
+import { IGNORED_REPOS } from '../src/lib/constants';
 
 const DATA_FILE = 'src/data/repos.json';
 const HISTORY_FILE = 'src/data/history.json';
@@ -24,9 +25,12 @@ async function main() {
   if (!token) throw new Error('GH_TOKEN is required');
 
   const repos: RepoRecord[] = JSON.parse(await readFile(DATA_FILE, 'utf8'));
+  const filteredRepos = repos.filter(
+    (r) => !IGNORED_REPOS.includes(`${r.owner}/${r.repo}`.toLowerCase())
+  );
   const now = new Date().toISOString();
 
-  const batches = chunk(repos, CHUNK_SIZE);
+  const batches = chunk(filteredRepos, CHUNK_SIZE);
   const refreshed: RepoRecord[] = [];
 
   for (const batch of batches) {

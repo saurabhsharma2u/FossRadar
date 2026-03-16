@@ -878,6 +878,13 @@
     "lastSynced": "2026-03-16T07:41:10.928Z"
   },
   {
+    "name": "Tymeslot",
+    "owner": "Tymeslot",
+    "repo": "tymeslot",
+    "url": "https://github.com/Tymeslot/tymeslot",
+    "category": "Collaboration"
+  },
+  {
     "name": "WeKan",
     "owner": "wekan",
     "repo": "wekan",
@@ -950,49 +957,6 @@
     "lastSynced": "2026-03-16T07:41:10.928Z"
   },
   {
-    "name": "Awesome Free Software",
-    "owner": "abilian",
-    "repo": "awesome-free-software",
-    "url": "https://github.com/abilian/awesome-free-software",
-    "category": "Other lists of free / open source software",
-    "description": "Your \"yellow pages\" of Enterprise Free Software Publishers, their products and success cases ",
-    "stars": 11,
-    "forks": 0,
-    "license": "",
-    "topics": [],
-    "language": "",
-    "lastCommit": "2024-07-04T11:53:42Z",
-    "archived": false,
-    "homepage": "http://www.afs.one",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
-  },
-  {
-    "name": "Awesome Free Software",
-    "owner": "johnjago",
-    "repo": "awesome-free-software",
-    "url": "https://github.com/johnjago/awesome-free-software",
-    "category": "Other lists of free / open source software",
-    "description": "Curated list of open-source, free as in freedom software.",
-    "stars": 2636,
-    "forks": 151,
-    "license": "CC0-1.0",
-    "topics": [
-      "gnu",
-      "free-software",
-      "awesome-list",
-      "software-freedom",
-      "awesome",
-      "gpl",
-      "libre",
-      "open-source"
-    ],
-    "language": "",
-    "lastCommit": "2025-04-29T13:18:01Z",
-    "archived": false,
-    "homepage": "",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
-  },
-  {
     "name": "Awesome open-source alternatives to SaaS",
     "owner": "RunaCapital",
     "repo": "awesome-oss-alternatives",
@@ -1018,32 +982,6 @@
     "lastCommit": "2025-09-03T17:43:01Z",
     "archived": false,
     "homepage": "https://runacap.com",
-    "lastSynced": "2026-03-16T07:41:10.928Z"
-  },
-  {
-    "name": "Awesome-Selfhosted",
-    "owner": "awesome-selfhosted",
-    "repo": "awesome-selfhosted",
-    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "category": "Other lists of free / open source software",
-    "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-    "stars": 280252,
-    "forks": 12869,
-    "license": "NOASSERTION",
-    "topics": [
-      "selfhosted",
-      "awesome",
-      "awesome-list",
-      "privacy",
-      "hosting",
-      "cloud",
-      "self-hosted",
-      "free-software"
-    ],
-    "language": "",
-    "lastCommit": "2026-03-11T23:32:52Z",
-    "archived": false,
-    "homepage": "https://awesome-selfhosted.net/",
     "lastSynced": "2026-03-16T07:41:10.928Z"
   },
   {

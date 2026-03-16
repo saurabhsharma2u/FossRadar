@@ -1,9 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { RepoRecord } from '../src/lib/github';
+import { IGNORED_REPOS, UPSTREAMS } from '../src/lib/constants';
 
-const UPSTREAMS = [
-  'https://raw.githubusercontent.com/sfermigier/awesome-foss-alternatives/refs/heads/main/README.md',
-];
 const DATA_FILE = 'src/data/repos.json';
 
 export function parseMarkdown(md: string): RepoRecord[] {
@@ -21,6 +19,8 @@ export function parseMarkdown(md: string): RepoRecord[] {
     const match = line.match(/\[([^\]]+)\]\((https?:\/\/github\.com\/([^/\s)]+)\/([^/\s)#?]+))\)/i);
     if (match) {
       const [, name, url, owner, repo] = match;
+      const key = `${owner}/${repo}`.toLowerCase();
+      if (IGNORED_REPOS.includes(key)) continue;
       repos.push({ name: name.trim(), owner, repo, url, category });
     }
   }
@@ -72,6 +72,7 @@ async function main() {
   const finalMap = new Map<string, RepoRecord>();
   for (const r of existing) {
     const key = `${r.owner}/${r.repo}`.toLowerCase();
+    if (IGNORED_REPOS.includes(key)) continue;
     finalMap.set(key, r);
   }
 

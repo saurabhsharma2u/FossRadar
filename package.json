@@ -13,7 +13,7 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.6.12",
+    "@astrojs/cloudflare": "^12.6.13",
     "@astrojs/react": "^4.4.2",
     "@fontsource/inter": "^5.2.8",
     "@resvg/resvg-js": "^2.6.2",
@@ -34,7 +34,7 @@
     "typescript": "5.9.3",
     "vite": "^7.3.1",
     "vitest": "4.0.18",
-    "wrangler": "^4.70.0"
+    "wrangler": "^4.35.0"
   },
   "overrides": {
     "eslint": "$eslint"

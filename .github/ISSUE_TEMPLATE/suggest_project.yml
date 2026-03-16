@@ -1,0 +1,49 @@
+name: "🚀 Suggest a Project"
+description: "Add a powerful FOSS alternative to the radar"
+title: "[ADD PROJECT]: "
+labels: ["project-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a FOSS alternative! We will review and update the radar data soon.
+  - type: input
+    id: repository
+    attributes:
+      label: Project Repository
+      description: Please provide the link to the main GitHub repository of the suggested software.
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the most appropriate category for the project.
+      options:
+        - Collaboration
+        - Business
+        - Web
+        - Platform Services
+        - DevOps
+        - Software Development
+        - Uncategorized
+    validations:
+      required: true
+  - type: dropdown
+    id: self-hostable
+    attributes:
+      label: Self-Hostable
+      description: Can this project be self-hosted?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this a great alternative? (optional)
+      description: Briefly describe why this is a good addition to the radar.
+    validations:
+      required: false
