@@ -364,6 +364,12 @@
       "hasAudit": true,
       "reportUrl": "https://blog.appflowy.io/appflowy-completes-soc-2-type-1-and-soc-2-type-2-compliance/"
     },
+    "enterpriseReady": {
+      "sso": true,
+      "auditLogs": true,
+      "sla": true,
+      "support": true
+    },
     "platforms": ["Linux", "macOS", "Windows", "Docker", "iOS", "Android"],
     "topics": [
       "content-management",

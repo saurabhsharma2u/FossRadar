@@ -25,4 +25,10 @@ export type Repo = {
     hasAudit: boolean;
     reportUrl?: string;
   };
+  enterpriseReady?: {
+    sso?: boolean;
+    auditLogs?: boolean;
+    sla?: boolean;
+    support?: boolean;
+  };
 };

@@ -115,8 +115,8 @@
 - Show count of CVEs + resolution speed — transparency, not just a red flag
 
 ### "Enterprise ready" checklist
-- SSO support, audit logs, SLA availability, professional support options
-- A lot of FOSS adoption is blocked at enterprise procurement for exactly these reasons
+- [x] SSO support, audit logs, SLA availability, professional support options
+- [x] A lot of FOSS adoption is blocked at enterprise procurement for exactly these reasons
 
 ### Enshittification risk flag
 - CLA requirements, corporate ownership, recent license change history
