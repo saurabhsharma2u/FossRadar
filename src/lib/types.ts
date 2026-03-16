@@ -21,4 +21,8 @@ export type Repo = {
   };
   hasFunding?: boolean;
   platforms?: string[];
+  securityAudit?: {
+    hasAudit: boolean;
+    reportUrl?: string;
+  };
 };

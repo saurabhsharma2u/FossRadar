@@ -107,8 +107,8 @@
 > Goal: Make FossRadar the source teams trust for evaluating production readiness.
 
 ### Security audit badge
-- Surface if a project has had a third-party security audit (many serious projects publish these)
-- Link directly to the published report
+- [x] Surface if a project has had a third-party security audit (many serious projects publish these)
+- [x] Link directly to the published report
 
 ### CVE history
 - Pull from OSV / GitHub advisories

@@ -115,6 +115,18 @@ export function RepoCard({ repo, isExternal = false }: { repo: Repo; isExternal?
             💖 FUNDED
           </span>
         )}
+        {repo.securityAudit?.hasAudit && (
+          <a 
+            href={repo.securityAudit.reportUrl || '#'} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="badge" 
+            style={{ background: '#f0fdf4', color: '#0369a1', borderColor: '#38bdf8', textDecoration: 'none' }} 
+            title="Third-party security audit completed"
+          >
+            🛡️ AUDITED
+          </a>
+        )}
       </div>
 
       <a href={`/${repo.owner}/${repo.repo}`} style={{ textDecoration: 'none', color: 'inherit' }}>
