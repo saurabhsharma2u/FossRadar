@@ -11,5 +11,7 @@
   "osmlab/awesome-openstreetmap",
   "myles/awesome-static-generators",
   "iipc/awesome-web-archiving",
-  "porter-dev/porter"
+  "porter-dev/porter",
+  "objectiv/objectiv-analytics",
+  "castledio/castled"
 ]

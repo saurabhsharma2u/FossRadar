@@ -46,7 +46,16 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
     }), [repos]);
 
     const filtered = useMemo(() => {
-        let base = query ? fuse.search(query).map((r) => r.item) : repos;
+        // Only show repos that have been synced (have stars or description)
+        let base = repos.filter(r => r.stars !== undefined || r.description);
+        
+        if (query) {
+            const fuseResult = new Fuse(base, {
+                keys: ['name', 'description', 'topics', 'category', 'alternatives', 'replaces', 'license'],
+                threshold: 0.35
+            });
+            base = fuseResult.search(query).map((r) => r.item);
+        }
         
         if (category !== 'All') base = base.filter((r) => r.category === category);
         if (language !== 'All') base = base.filter((r) => r.language === language);
@@ -112,7 +121,7 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
     const risingStars = useMemo(() => {
         if (query || category !== 'All' || language !== 'All' || license !== 'All' || onlySelfHostable) return [];
         return repos
-            .filter(r => (r.stars || 0) < 5000 && !r.archived)
+            .filter(r => (r.stars !== undefined || r.description) && (r.stars || 0) < 5000 && !r.archived)
             .sort((a, b) => growth(b) - growth(a))
             .slice(0, 3)
             .filter(r => growth(r) > 0);

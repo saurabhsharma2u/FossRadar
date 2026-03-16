@@ -143,7 +143,6 @@ async function main() {
         return r.text();
       });
       const parsed = parseMarkdown(upstream, source.isSelfHostable, source.format);
-      console.log(`Parsed ${parsed.length} repos from ${source.url}`);
       allParsed = [...allParsed, ...parsed];
     } catch (error) {
       console.error(`Failed to fetch ${source.url}:`, error);
@@ -167,7 +166,6 @@ async function main() {
       replaces: mergedReplaces.length > 0 ? mergedReplaces : undefined
     });
   }
-  console.log(`Total unique parsed repos: ${parsedMap.size}`);
 
   let existing: RepoRecord[] = [];
   try {
@@ -192,15 +190,20 @@ async function main() {
     const existingRepo = finalMap.get(key);
     
     // Merge logic: new data 'p' updates existing fields, 
-    // but we carefully merge arrays like 'replaces' and 'alternatives'
+    // but we carefully merge arrays and preserve existing metadata
     const mergedReplaces = [...new Set([
       ...(existingRepo?.replaces || []),
       ...(p.replaces || [])
     ])];
 
+    // Clean 'p' to remove undefined/null fields before merging
+    const cleanP = Object.fromEntries(
+      Object.entries(p).filter(([_, v]) => v !== undefined && v !== null)
+    );
+
     finalMap.set(key, { 
       ...existingRepo, 
-      ...p,
+      ...cleanP,
       replaces: mergedReplaces.length > 0 ? mergedReplaces : undefined
     });
   }
