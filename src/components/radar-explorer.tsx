@@ -101,6 +101,15 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
         return series[series.length - 1].stars - series[Math.max(0, series.length - 8)].stars;
     }
 
+    const risingStars = useMemo(() => {
+        if (query || category !== 'All' || language !== 'All' || license !== 'All' || onlySelfHostable) return [];
+        return repos
+            .filter(r => (r.stars || 0) < 5000 && !r.archived)
+            .sort((a, b) => growth(b) - growth(a))
+            .slice(0, 3)
+            .filter(r => growth(r) > 0);
+    }, [repos, history, query, category, language, license, onlySelfHostable]);
+
     return (
         <>
 
@@ -208,6 +217,21 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
                     </label>
                 </div>
             </section>
+
+            {risingStars.length > 0 && (
+                <section style={{ marginBottom: '4rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', marginBottom: '1.5rem' }}>
+                        <h2 style={{ fontSize: '1.5rem', fontWeight: 950, textTransform: 'uppercase', margin: 0 }}>📈 Rising Under the Radar</h2>
+                        <span className="badge" style={{ background: 'var(--accent)', color: '#000', fontSize: '0.6rem' }}>Fastest growing &lt;5k stars</span>
+                    </div>
+                    <div className="grid">
+                        {risingStars.map((repo) => (
+                            <RepoCard key={`rising-${repo.owner}/${repo.repo}`} repo={repo} />
+                        ))}
+                    </div>
+                    <hr style={{ border: 'none', borderBottom: '4px dashed var(--border)', marginTop: '3rem', opacity: 0.2 }} />
+                </section>
+            )}
 
             <section className="grid">
                 {displayed.map((repo) => (

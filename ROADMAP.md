@@ -78,9 +78,9 @@
 > Goal: Surface the right project at the right moment, including things users didn't know to look for.
 
 ### "Rising under the radar"
-- Projects under 1k stars with accelerating commit velocity and growing contributor count
-- Weekly refreshed, shown on homepage
-- This is the actual radar metaphor realised
+- [x] Projects under 1k stars with accelerating commit velocity and growing contributor count
+- [x] Weekly refreshed, shown on homepage
+- [x] This is the actual radar metaphor realised
 
 ### "Recently went FOSS" feed
 - Track companies open-sourcing previously proprietary tools
