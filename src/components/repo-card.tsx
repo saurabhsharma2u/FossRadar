@@ -58,6 +58,15 @@ function getRelativeTime(dateString?: string) {
   return `${diffInYears}y ago`;
 }
 
+function slugify(text: string) {
+  return text.toString().toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
+}
+
 export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Repo; isExternal?: boolean; sparklineData?: number[] }) {
   const [copied, setCopied] = useState(false);
   const [isShareOpen, setIsShareOpen] = useState(false);
@@ -168,7 +177,21 @@ export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Re
         <div style={{ fontSize: '0.75rem', fontWeight: 900, marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
           <span style={{ opacity: 0.6 }}>REPLACES: </span>
           <span style={{ color: 'var(--secondary)' }}>
-            {repo.replaces ? repo.replaces.join(', ') : repo.alternatives}
+            {repo.replaces ? (
+              repo.replaces.map((tool, idx) => (
+                <span key={tool}>
+                  <a href={`/alternatives-to-${slugify(tool)}`} style={{ color: 'inherit', textDecoration: 'underline' }}>{tool}</a>
+                  {idx < repo.replaces!.length - 1 ? ', ' : ''}
+                </span>
+              ))
+            ) : (
+              repo.alternatives?.split(',').map((tool, idx, arr) => (
+                <span key={tool}>
+                  <a href={`/alternatives-to-${slugify(tool.trim())}`} style={{ color: 'inherit', textDecoration: 'underline' }}>{tool.trim()}</a>
+                  {idx < arr.length - 1 ? ', ' : ''}
+                </span>
+              ))
+            )}
           </span>
         </div>
       )}

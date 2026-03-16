@@ -13,9 +13,9 @@ This project draws inspiration from the amazing community-driven effort at [awes
 ## Contributing
 We love community contributions! Whether you're fixing a bug, suggesting a new feature, or adding a powerful FOSS alternative to the radar, your help is appreciated.
 
-- **[Suggest a new project](https://github.com/saurabhsharma2u/FossRadar/issues/new?template=suggest_project.md)**
-- **[Report a bug](https://github.com/saurabhsharma2u/FossRadar/issues/new?template=bug_report.md)**
-- **[Request a feature](https://github.com/saurabhsharma2u/FossRadar/issues/new?template=feature_request.md)**
+- **[Suggest a new project](https://github.com/saurabhsharma2u/FossRadar/issues/new?template=suggest_project.yml)**
+- **[Report a bug](https://github.com/saurabhsharma2u/FossRadar/issues/new?template=bug_report.yml)**
+- **[Request a feature](https://github.com/saurabhsharma2u/FossRadar/issues/new?template=feature_request.yml)**
 
 For more details, please see our [Contribution Guidelines](./CONTRIBUTING.md).
 

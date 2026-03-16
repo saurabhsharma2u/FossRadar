@@ -20,7 +20,7 @@ export default function Footer() {
             <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center', marginTop: '1rem' }}>
                 <a href="https://github.com/saurabhsharma2u/FossRadar" target="_blank" rel="noreferrer" className="btn-link" style={{ fontSize: '0.7rem', padding: '0.4rem 0.8rem' }}>GITHUB</a>
                 <a href="https://x.com/FossRadar" target="_blank" rel="noreferrer" className="btn-link" style={{ fontSize: '0.7rem', padding: '0.4rem 0.8rem' }}>𝕏 / FOSSRADAR</a>
-                <a href="https://github.com/saurabhsharma2u/FossRadar/issues" target="_blank" rel="noreferrer" className="btn-link" style={{ fontSize: '0.7rem', padding: '0.4rem 0.8rem' }}>SUGGEST</a>
+                <a href="https://github.com/saurabhsharma2u/FossRadar/issues/new?template=suggest_project.yml" target="_blank" rel="noreferrer" className="btn-link" style={{ fontSize: '0.7rem', padding: '0.4rem 0.8rem' }}>SUGGEST</a>
             </div>
 
             <div style={{ marginTop: '2rem', fontSize: '0.75rem', fontWeight: 900, opacity: 0.4, textTransform: 'uppercase' }}>
