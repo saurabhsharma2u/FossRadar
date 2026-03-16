@@ -1,12 +1,21 @@
+import ignored from '../data/ignored.json';
+
 export const UPSTREAMS = [
-  'https://raw.githubusercontent.com/sfermigier/awesome-foss-alternatives/refs/heads/main/README.md',
+  {
+    url: 'https://raw.githubusercontent.com/sfermigier/awesome-foss-alternatives/refs/heads/main/README.md',
+    isSelfHostable: false,
+    format: 'list' as const
+  },
+  {
+    url: 'https://raw.githubusercontent.com/awesome-selfhosted/awesome-selfhosted/master/README.md',
+    isSelfHostable: true,
+    format: 'list' as const
+  },
+  {
+    url: 'https://raw.githubusercontent.com/RunaCapital/awesome-oss-alternatives/main/README.md',
+    isSelfHostable: true,
+    format: 'table' as const
+  }
 ];
 
-export const IGNORED_REPOS = [
-  'abilian/awesome-free-software',
-  'johnjago/awesome-free-software',
-  'sfermigier/awesome-foss-alternatives',
-  'awesome-selfhosted/awesome-selfhosted',
-  'RunaCapital/awesome-oss-alternatives',
-  'abilian/nua'
-];
+export const IGNORED_REPOS = ignored;

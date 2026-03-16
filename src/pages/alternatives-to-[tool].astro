@@ -75,7 +75,7 @@ const description = `Discover ${repos.length} open-source alternatives to ${tool
     <section class="grid">
       {repos.map((repo) => (
         <div style="height: 100%">
-          <RepoCard client:load repo={repo} isExternal={true} />
+          <RepoCard client:load repo={repo} isExternal={false} />
         </div>
       ))}
     </section>

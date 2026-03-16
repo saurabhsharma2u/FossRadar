@@ -26,8 +26,29 @@ describe('parseMarkdown', () => {
     */
     // If AppFlowy exists twice in the map, it only exists ONCE in deduped.values().
     // The one in the map is the LAST one encountered ('PM').
-    // So why did it receive 'Notes'?
-    expect(repos.find((r) => r.repo === 'AppFlowy')?.category).toBe('Notes');
+    expect(repos.find((r) => r.repo === 'AppFlowy')?.category).toBe('PM');
+  });
+
+  it('handles "Source Code" links and tool names', () => {
+    const md = `### Analytics\n- [Aptabase](https://aptabase.com/) - Privacy first and simple analytics for mobile and desktop apps. ([Source Code](https://github.com/aptabase/aptabase))`;
+    const repos = parseMarkdown(md);
+    expect(repos).toHaveLength(1);
+    expect(repos[0].name).toBe('Aptabase');
+    expect(repos[0].owner).toBe('aptabase');
+    expect(repos[0].repo).toBe('aptabase');
+    expect(repos[0].category).toBe('Analytics');
+  });
+
+  it('handles table-based format (RunaCapital)', () => {
+    const md = `|Category|Company|Description|GitHub Stars|Alternative to|\n|:---|:---|:---|:---:|:---:|\n|API Gateway|[Apache APISIX](https://github.com/apache/apisix)|Cloud Native API Gateway...|<a href=...><img src=... /></a>|[apigee](https://cloud.google.com/apigee)|`;
+    const repos = parseMarkdown(md, true, 'table');
+    expect(repos).toHaveLength(1);
+    expect(repos[0].name).toBe('Apache APISIX');
+    expect(repos[0].owner).toBe('apache');
+    expect(repos[0].repo).toBe('apisix');
+    expect(repos[0].category).toBe('API Gateway');
+    expect(repos[0].replaces).toEqual(['apigee']);
+    expect(repos[0].self_hostable).toBe(true);
   });
 
   it('is stable for markdown noise', () => {
