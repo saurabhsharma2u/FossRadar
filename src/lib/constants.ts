@@ -7,5 +7,6 @@ export const IGNORED_REPOS = [
   'johnjago/awesome-free-software',
   'sfermigier/awesome-foss-alternatives',
   'awesome-selfhosted/awesome-selfhosted',
-  'RunaCapital/awesome-oss-alternatives'
+  'RunaCapital/awesome-oss-alternatives',
+  'abilian/nua'
 ];
