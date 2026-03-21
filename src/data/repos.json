@@ -31,7 +31,7 @@
       "publishedAt": "2026-01-16T15:52:12Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Aptabase",
@@ -61,7 +61,7 @@
     "archived": false,
     "homepage": "https://aptabase.com",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "AWStats",
@@ -90,7 +90,7 @@
       "publishedAt": "2025-08-26T11:29:01Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Countly Community Edition",
@@ -124,7 +124,7 @@
       "publishedAt": "2026-03-18T12:47:00Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Daily Stars Explorer",
@@ -158,7 +158,7 @@
       "publishedAt": "2026-02-08T09:04:59Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Druid",
@@ -175,7 +175,7 @@
       "druid"
     ],
     "language": "Java",
-    "lastCommit": "2026-03-20T21:23:02Z",
+    "lastCommit": "2026-03-21T03:59:15Z",
     "archived": false,
     "homepage": "https://druid.apache.org/",
     "latestRelease": {
@@ -183,7 +183,7 @@
       "publishedAt": "2026-02-09T14:50:03Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "EDA",
@@ -211,7 +211,7 @@
       "publishedAt": "2026-02-18T06:46:46Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "GoAccess",
@@ -241,7 +241,7 @@
     "archived": false,
     "homepage": "https://goaccess.io",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Litlyx",
@@ -275,7 +275,7 @@
       "publishedAt": "2025-12-01T10:04:14Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Liwan",
@@ -304,7 +304,7 @@
       "publishedAt": "2026-03-14T09:29:45Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Medama Analytics",
@@ -338,7 +338,7 @@
       "publishedAt": "2026-01-18T17:35:11Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Middleware",
@@ -372,7 +372,7 @@
       "publishedAt": "2025-05-30T15:28:57Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mixpost",
@@ -395,7 +395,7 @@
       "publishedAt": "2025-05-28T15:55:01Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Netron",
@@ -421,7 +421,7 @@
       "keras"
     ],
     "language": "JavaScript",
-    "lastCommit": "2026-03-21T01:54:23Z",
+    "lastCommit": "2026-03-21T02:45:14Z",
     "archived": false,
     "homepage": "https://netron.app",
     "latestRelease": {
@@ -429,7 +429,7 @@
       "publishedAt": "2026-03-20T13:41:55Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Offen",
@@ -458,7 +458,7 @@
       "publishedAt": "2024-05-22T18:34:03Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Prisme Analytics",
@@ -492,7 +492,7 @@
       "publishedAt": "2025-06-25T20:25:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Redash",
@@ -526,7 +526,7 @@
       "publishedAt": "2026-03-02T14:22:53Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Rybbit",
@@ -536,7 +536,7 @@
     "category": "Analytics",
     "self_hostable": true,
     "description": "🐸 Rybbit - open-source and privacy-friendly alternative to Google Analytics that is 10x more intuitive.",
-    "stars": 11866,
+    "stars": 11868,
     "forks": 630,
     "license": "AGPL-3.0",
     "topics": [
@@ -546,7 +546,7 @@
       "web-analytics"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-20T04:20:26Z",
+    "lastCommit": "2026-03-21T03:40:52Z",
     "archived": false,
     "homepage": "https://rybbit.com",
     "latestRelease": {
@@ -554,7 +554,7 @@
       "publishedAt": "2026-02-11T21:13:33Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Shaper",
@@ -574,7 +574,7 @@
       "duckdb"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-20T09:39:39Z",
+    "lastCommit": "2026-03-21T04:09:50Z",
     "archived": false,
     "homepage": "https://taleshape.com",
     "latestRelease": {
@@ -582,7 +582,7 @@
       "publishedAt": "2026-03-19T06:55:42Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Socioboard",
@@ -592,8 +592,8 @@
     "category": "Analytics",
     "self_hostable": true,
     "description": "Socioboard is world's first and open source Social Technology Enabler. Socioboard Core is our flagship product.",
-    "stars": 1427,
-    "forks": 408,
+    "stars": 1428,
+    "forks": 409,
     "license": "NOASSERTION",
     "topics": [
       "social-media",
@@ -610,7 +610,7 @@
       "publishedAt": "2019-11-15T10:42:36Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Statistics for Strava",
@@ -638,7 +638,7 @@
       "publishedAt": "2026-03-17T06:40:26Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Swetrix",
@@ -657,7 +657,7 @@
     "archived": false,
     "homepage": "https://swetrix.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Umami",
@@ -667,8 +667,8 @@
     "category": "Analytics",
     "self_hostable": true,
     "description": "Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.",
-    "stars": 35773,
-    "forks": 6707,
+    "stars": 35775,
+    "forks": 6710,
     "license": "MIT",
     "topics": [
       "analytics",
@@ -690,7 +690,7 @@
       "publishedAt": "2025-12-12T02:39:27Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Vince",
@@ -718,7 +718,7 @@
       "publishedAt": "2025-09-01T07:21:58Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Apache APISIX",
@@ -731,7 +731,7 @@
       "apigee"
     ],
     "description": "The Cloud-Native API Gateway and AI Gateway",
-    "stars": 16335,
+    "stars": 16336,
     "forks": 2811,
     "license": "Apache-2.0",
     "topics": [
@@ -755,7 +755,7 @@
       "publishedAt": "2026-02-05T13:55:04Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Firecamp",
@@ -792,7 +792,7 @@
       "publishedAt": "2024-03-04T12:46:18Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Fusio",
@@ -829,7 +829,7 @@
       "publishedAt": "2026-02-01T09:55:43Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Hoppscotch",
@@ -842,8 +842,8 @@
       "Postman"
     ],
     "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
-    "stars": 78550,
-    "forks": 5708,
+    "stars": 78555,
+    "forks": 5709,
     "license": "MIT",
     "topics": [
       "api",
@@ -866,7 +866,7 @@
       "publishedAt": "2026-03-05T07:46:22Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Keploy",
@@ -880,7 +880,7 @@
       "Newman"
     ],
     "description": "API, Integration, E2E Testing Agent for Developers that actually work. Generate tests, mocks/stubs for your APIs!",
-    "stars": 16308,
+    "stars": 16307,
     "forks": 2168,
     "license": "Apache-2.0",
     "topics": [
@@ -904,7 +904,7 @@
       "publishedAt": "2026-03-20T14:44:24Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Step CI",
@@ -942,7 +942,7 @@
       "publishedAt": "2024-06-10T10:19:31Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FreeATS",
@@ -969,7 +969,7 @@
     "archived": false,
     "homepage": "https://www.freeats.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ArchiveBox",
@@ -979,7 +979,7 @@
     "category": "Archiving and Digital Preservation (DP)",
     "self_hostable": true,
     "description": "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...",
-    "stars": 27094,
+    "stars": 27093,
     "forks": 1496,
     "license": "MIT",
     "topics": [
@@ -1003,7 +1003,7 @@
       "publishedAt": "2024-12-15T10:18:06Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ArchivesSpace",
@@ -1037,7 +1037,7 @@
       "publishedAt": "2025-07-01T14:38:57Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "bitmagnet",
@@ -1071,7 +1071,7 @@
       "publishedAt": "2025-03-02T15:13:47Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CKAN",
@@ -1105,7 +1105,7 @@
       "publishedAt": "2025-10-29T13:27:24Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Collective Access - Providence",
@@ -1128,7 +1128,7 @@
       "publishedAt": "2026-03-16T18:12:22Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Ganymede",
@@ -1162,7 +1162,7 @@
       "publishedAt": "2026-03-07T15:02:37Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "mail-archiver",
@@ -1193,7 +1193,7 @@
       "publishedAt": "2026-03-10T11:51:08Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Omeka S",
@@ -1220,7 +1220,7 @@
       "publishedAt": "2025-12-04T20:58:44Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Open Archiver",
@@ -1243,7 +1243,7 @@
       "publishedAt": "2026-03-20T13:13:23Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Piler",
@@ -1269,7 +1269,7 @@
       "publishedAt": "2025-09-24T06:51:38Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Wallabag",
@@ -1300,7 +1300,7 @@
       "publishedAt": "2025-10-07T08:06:17Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Wayback",
@@ -1326,7 +1326,7 @@
       "mastodon"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-16T14:52:08Z",
+    "lastCommit": "2026-03-21T04:39:39Z",
     "archived": false,
     "homepage": "https://docs.wabarc.eu.org",
     "latestRelease": {
@@ -1334,7 +1334,7 @@
       "publishedAt": "2024-07-02T09:04:07Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Webarchive",
@@ -1357,7 +1357,7 @@
       "publishedAt": "2025-03-13T20:13:30Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "BoxyHQ",
@@ -1394,7 +1394,7 @@
       "publishedAt": "2026-03-20T18:49:46Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Cerbos",
@@ -1429,7 +1429,7 @@
       "publishedAt": "2026-02-04T09:23:48Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FusionAuth",
@@ -1459,7 +1459,7 @@
     "archived": false,
     "homepage": "https://fusionauth.io/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Hanko",
@@ -1497,7 +1497,7 @@
       "publishedAt": "2026-03-03T08:17:35Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Keycloak",
@@ -1511,7 +1511,7 @@
       "Auth0"
     ],
     "description": "Open Source Identity and Access Management For Modern Applications and Services",
-    "stars": 33456,
+    "stars": 33457,
     "forks": 8160,
     "license": "Apache-2.0",
     "topics": [
@@ -1528,7 +1528,7 @@
       "publishedAt": "2026-03-19T06:45:39Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OPAL (Permit.io)",
@@ -1566,7 +1566,7 @@
       "publishedAt": "2026-01-22T11:31:58Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Ory",
@@ -1604,7 +1604,7 @@
       "publishedAt": "2026-03-20T14:10:32Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Oso",
@@ -1631,7 +1631,7 @@
       "publishedAt": "2023-12-18T17:48:49Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Supertokens",
@@ -1645,7 +1645,7 @@
       "Auth0"
     ],
     "description": "Open source alternative to Auth0 / Firebase Auth / AWS Cognito ",
-    "stars": 14982,
+    "stars": 14983,
     "forks": 652,
     "license": "NOASSERTION",
     "topics": [
@@ -1669,7 +1669,7 @@
       "publishedAt": "2026-03-19T07:21:48Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Warrant",
@@ -1707,7 +1707,7 @@
       "publishedAt": "2024-06-10T20:02:54Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Zitadel",
@@ -1737,7 +1737,7 @@
       "oauth2"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-20T22:45:56Z",
+    "lastCommit": "2026-03-21T05:36:44Z",
     "archived": false,
     "homepage": "https://zitadel.com",
     "latestRelease": {
@@ -1745,7 +1745,7 @@
       "publishedAt": "2026-03-17T12:20:11Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Apache Airflow",
@@ -1755,7 +1755,7 @@
     "category": "Automation",
     "self_hostable": true,
     "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-    "stars": 44721,
+    "stars": 44723,
     "forks": 16752,
     "license": "Apache-2.0",
     "topics": [
@@ -1771,7 +1771,7 @@
       "data-integration"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-21T01:20:37Z",
+    "lastCommit": "2026-03-21T05:37:03Z",
     "archived": false,
     "homepage": "https://airflow.apache.org/",
     "latestRelease": {
@@ -1779,7 +1779,7 @@
       "publishedAt": "2026-03-19T10:35:06Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Automatisch",
@@ -1810,7 +1810,7 @@
       "publishedAt": "2025-08-08T13:07:43Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "BookBounty",
@@ -1833,7 +1833,7 @@
       "publishedAt": "2026-02-20T22:14:22Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "changedetection.io",
@@ -1843,7 +1843,7 @@
     "category": "Automation",
     "self_hostable": true,
     "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
-    "stars": 30728,
+    "stars": 30730,
     "forks": 1725,
     "license": "Apache-2.0",
     "topics": [
@@ -1867,7 +1867,7 @@
       "publishedAt": "2026-03-17T10:54:00Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ChiefOnboarding",
@@ -1897,7 +1897,7 @@
       "publishedAt": "2026-02-24T18:09:08Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Cronicle",
@@ -1925,7 +1925,7 @@
       "publishedAt": "2026-03-19T17:08:37Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Cronmaster",
@@ -1954,7 +1954,7 @@
       "publishedAt": "2026-02-11T19:29:11Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Dagu",
@@ -1988,7 +1988,7 @@
       "publishedAt": "2026-03-19T10:26:29Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Discount Bandit",
@@ -2022,7 +2022,7 @@
       "publishedAt": "2026-01-31T12:25:19Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Dittofeed",
@@ -2056,7 +2056,7 @@
       "publishedAt": "2025-12-01T18:41:29Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "feedmixer",
@@ -2083,7 +2083,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Fredy",
@@ -2117,7 +2117,7 @@
       "publishedAt": "2026-03-20T18:22:13Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Github Ntfy",
@@ -2140,7 +2140,7 @@
       "publishedAt": "2025-06-16T08:43:47Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "gocron",
@@ -2173,7 +2173,7 @@
       "publishedAt": "2026-03-18T13:03:30Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "HandBrake Web",
@@ -2206,7 +2206,7 @@
       "publishedAt": "2025-12-10T20:08:10Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Healthchecks",
@@ -2236,7 +2236,7 @@
       "publishedAt": "2026-03-20T06:18:35Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Huginn",
@@ -2246,8 +2246,8 @@
     "category": "Automation",
     "self_hostable": true,
     "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
-    "stars": 48905,
-    "forks": 4238,
+    "stars": 48906,
+    "forks": 4239,
     "license": "MIT",
     "topics": [
       "automation",
@@ -2262,7 +2262,7 @@
       "twitter-streaming"
     ],
     "language": "Ruby",
-    "lastCommit": "2026-03-21T02:26:38Z",
+    "lastCommit": "2026-03-21T03:36:22Z",
     "archived": false,
     "homepage": "",
     "latestRelease": {
@@ -2270,7 +2270,7 @@
       "publishedAt": "2022-08-18T03:34:55Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kibitzr",
@@ -2299,7 +2299,7 @@
       "publishedAt": "2025-05-05T16:24:26Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Leon",
@@ -2325,11 +2325,11 @@
       "speech-synthesis"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-19T14:50:05Z",
+    "lastCommit": "2026-03-21T06:53:44Z",
     "archived": false,
     "homepage": "https://getleon.ai",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Matchering",
@@ -2363,7 +2363,7 @@
       "publishedAt": "2022-10-19T08:31:45Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mylar3",
@@ -2386,7 +2386,7 @@
       "publishedAt": "2025-08-17T06:24:54Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OliveTin",
@@ -2396,7 +2396,7 @@
     "category": "Automation",
     "self_hostable": true,
     "description": "OliveTin gives safe and simple access to predefined shell commands from a web interface. ",
-    "stars": 3482,
+    "stars": 3483,
     "forks": 110,
     "license": "AGPL-3.0",
     "topics": [
@@ -2418,7 +2418,7 @@
       "publishedAt": "2026-03-11T00:50:50Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "pyLoad",
@@ -2428,8 +2428,8 @@
     "category": "Automation",
     "self_hostable": true,
     "description": "The free and open-source Download Manager written in pure Python",
-    "stars": 3721,
-    "forks": 741,
+    "stars": 3722,
+    "forks": 742,
     "license": "NOASSERTION",
     "topics": [
       "python",
@@ -2452,7 +2452,7 @@
       "publishedAt": "2026-01-01T00:31:29Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "StackStorm",
@@ -2486,7 +2486,7 @@
       "publishedAt": "2026-01-12T05:44:00Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "µTask",
@@ -2520,7 +2520,7 @@
       "publishedAt": "2026-03-18T11:24:54Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "AceBase",
@@ -2557,7 +2557,7 @@
       "publishedAt": "2023-10-02T10:38:34Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Amplication",
@@ -2594,7 +2594,7 @@
       "publishedAt": "2025-04-25T07:44:27Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Appwrite",
@@ -2607,7 +2607,7 @@
       "Firebase"
     ],
     "description": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
-    "stars": 55183,
+    "stars": 55184,
     "forks": 5095,
     "license": "BSD-3-Clause",
     "topics": [
@@ -2631,7 +2631,7 @@
       "publishedAt": "2025-12-23T18:17:09Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CASE",
@@ -2644,7 +2644,7 @@
       "Firebase"
     ],
     "description": "Smart LLM Routing for OpenClaw. Cut Costs up to 70% 🦞🦚",
-    "stars": 3967,
+    "stars": 3971,
     "forks": 199,
     "license": "MIT",
     "topics": [
@@ -2668,7 +2668,7 @@
       "publishedAt": "2026-03-20T20:48:11Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Encore",
@@ -2705,7 +2705,7 @@
       "publishedAt": "2026-03-13T16:47:50Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kuzzle",
@@ -2742,7 +2742,7 @@
       "publishedAt": "2026-03-02T16:25:54Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Nhost",
@@ -2771,7 +2771,7 @@
       "flutter"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-20T20:33:53Z",
+    "lastCommit": "2026-03-21T06:15:16Z",
     "archived": false,
     "homepage": "https://nhost.io",
     "latestRelease": {
@@ -2779,7 +2779,7 @@
       "publishedAt": "2026-03-20T13:36:07Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PocketBase",
@@ -2792,7 +2792,7 @@
       "Firebase"
     ],
     "description": "Open Source realtime backend in 1 file",
-    "stars": 56934,
+    "stars": 56947,
     "forks": 3194,
     "license": "MIT",
     "topics": [
@@ -2810,7 +2810,7 @@
       "publishedAt": "2026-03-16T17:36:10Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Supabase",
@@ -2823,7 +2823,7 @@
       "Firebase"
     ],
     "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-    "stars": 99366,
+    "stars": 99372,
     "forks": 11846,
     "license": "Apache-2.0",
     "topics": [
@@ -2847,7 +2847,7 @@
       "publishedAt": "2026-03-05T18:43:08Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "btw",
@@ -2873,7 +2873,7 @@
     "archived": false,
     "homepage": "https://btw.so",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Antville",
@@ -2907,7 +2907,7 @@
       "publishedAt": "2025-03-01T19:20:17Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Chyrp Lite",
@@ -2941,7 +2941,7 @@
       "publishedAt": "2026-03-07T09:39:54Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Ech0",
@@ -2967,15 +2967,15 @@
       "microblog"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-20T13:29:05Z",
+    "lastCommit": "2026-03-21T06:40:52Z",
     "archived": false,
     "homepage": "https://Ech0.app",
     "latestRelease": {
-      "tagName": "v4.1.6",
-      "publishedAt": "2026-03-18T13:33:28Z"
+      "tagName": "v4.1.7",
+      "publishedAt": "2026-03-21T06:47:28Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FlatPress",
@@ -3007,7 +3007,7 @@
       "publishedAt": "2026-03-15T13:21:23Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "fx",
@@ -3017,7 +3017,7 @@
     "category": "Blogging Platforms",
     "self_hostable": true,
     "description": "An efficient (micro)blogging service that you can self-host",
-    "stars": 292,
+    "stars": 293,
     "forks": 14,
     "license": "MIT",
     "topics": [
@@ -3034,7 +3034,7 @@
       "publishedAt": "2026-02-27T08:33:00Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Haven",
@@ -3060,7 +3060,7 @@
     "archived": false,
     "homepage": "https://havenweb.org",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "HTMLy",
@@ -3092,7 +3092,7 @@
       "publishedAt": "2025-11-03T06:08:31Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Known",
@@ -3121,7 +3121,7 @@
       "publishedAt": "2026-03-01T04:29:08Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mataroa",
@@ -3152,7 +3152,7 @@
       "publishedAt": "2026-01-03T18:56:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PluXml",
@@ -3185,7 +3185,7 @@
       "publishedAt": "2025-11-12T08:49:02Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Serendipity",
@@ -3217,7 +3217,7 @@
       "publishedAt": "2024-02-13T19:25:25Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "WriteFreely",
@@ -3251,7 +3251,7 @@
       "publishedAt": "2025-08-29T19:30:02Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Alf.io",
@@ -3284,7 +3284,7 @@
       "publishedAt": "2025-09-10T16:45:08Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Cal.com",
@@ -3294,8 +3294,8 @@
     "category": "Booking and Scheduling",
     "self_hostable": true,
     "description": "Scheduling infrastructure for absolutely everyone.",
-    "stars": 40640,
-    "forks": 12258,
+    "stars": 40642,
+    "forks": 12259,
     "license": "NOASSERTION",
     "topics": [
       "open-source",
@@ -3310,7 +3310,7 @@
       "turborepo"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-20T21:10:18Z",
+    "lastCommit": "2026-03-21T06:15:31Z",
     "archived": false,
     "homepage": "https://cal.com",
     "latestRelease": {
@@ -3318,7 +3318,7 @@
       "publishedAt": "2026-03-01T23:49:01Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Easy!Appointments",
@@ -3352,7 +3352,7 @@
       "publishedAt": "2025-09-15T11:00:53Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Hi.Events",
@@ -3386,7 +3386,7 @@
       "publishedAt": "2026-03-18T22:28:21Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "LibreBooking",
@@ -3404,7 +3404,7 @@
       "scheduler"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-20T16:11:12Z",
+    "lastCommit": "2026-03-21T06:32:57Z",
     "archived": false,
     "homepage": "https://librebooking.readthedocs.io/",
     "latestRelease": {
@@ -3412,7 +3412,7 @@
       "publishedAt": "2026-03-03T01:13:58Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "QloApps",
@@ -3422,7 +3422,7 @@
     "category": "Booking and Scheduling",
     "self_hostable": true,
     "description": "QloApps is a Free and Open-source hotel management and reservation system to take a hotel business online. QloApps offers a Property Management System (PMS), a Booking Engine, and an attractive Hotel Website. Elevate hotel operations with QloApps to streamline processes and provide an enhanced experience for both hoteliers and guests.",
-    "stars": 12683,
+    "stars": 12685,
     "forks": 732,
     "license": "OSL-3.0",
     "topics": [
@@ -3446,7 +3446,7 @@
       "publishedAt": "2025-07-04T13:42:30Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Rallly",
@@ -3480,7 +3480,7 @@
       "publishedAt": "2026-02-14T11:23:37Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Seatsurfing",
@@ -3511,7 +3511,7 @@
       "publishedAt": "2026-03-20T19:50:13Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Briefkasten",
@@ -3536,7 +3536,7 @@
     "archived": false,
     "homepage": "https://briefkastenhq.com",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Buku",
@@ -3570,7 +3570,7 @@
       "publishedAt": "2025-12-07T15:14:15Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Espial",
@@ -3596,7 +3596,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Firefox Account Server",
@@ -3619,7 +3619,7 @@
       "publishedAt": "2025-10-16T19:04:20Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Grimoire",
@@ -3651,7 +3651,7 @@
       "publishedAt": "2025-02-21T18:38:15Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Karakeep",
@@ -3661,8 +3661,8 @@
     "category": "Bookmarks and Link Sharing",
     "self_hostable": true,
     "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
-    "stars": 24226,
-    "forks": 1111,
+    "stars": 24229,
+    "forks": 1110,
     "license": "AGPL-3.0",
     "topics": [
       "bookmarks",
@@ -3682,7 +3682,7 @@
       "publishedAt": "2026-02-22T11:49:08Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "LinkAce",
@@ -3716,7 +3716,7 @@
       "publishedAt": "2026-03-08T09:47:56Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "linkding",
@@ -3726,7 +3726,7 @@
     "category": "Bookmarks and Link Sharing",
     "self_hostable": true,
     "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker.",
-    "stars": 10326,
+    "stars": 10327,
     "forks": 543,
     "license": "MIT",
     "topics": [
@@ -3744,7 +3744,7 @@
       "publishedAt": "2026-01-06T20:31:04Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "LinkWarden",
@@ -3776,7 +3776,7 @@
       "publishedAt": "2025-12-28T09:15:51Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "NeonLink",
@@ -3799,7 +3799,7 @@
       "publishedAt": "2025-06-17T11:49:08Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Servas",
@@ -3832,7 +3832,7 @@
       "publishedAt": "2025-11-17T20:56:02Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Shaarli",
@@ -3860,7 +3860,7 @@
       "publishedAt": "2026-01-24T12:30:57Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Shiori",
@@ -3890,7 +3890,7 @@
       "publishedAt": "2025-09-26T15:52:29Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Slash",
@@ -3921,7 +3921,7 @@
       "publishedAt": "2024-02-06T13:30:43Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Redmine",
@@ -3935,18 +3935,11 @@
     "license": "NOASSERTION",
     "topics": [],
     "language": "Ruby",
-    "lastCommit": "2026-03-20T07:05:09Z",
+    "lastCommit": "2026-03-21T03:25:08Z",
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
-  },
-  {
-    "name": "Taiga",
-    "owner": "taigaio",
-    "repo": "taiga",
-    "url": "https://github.com/taigaio/taiga",
-    "category": "Bug tracking (Jira alternatives):"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Metabase",
@@ -3961,7 +3954,7 @@
       "DataStudio"
     ],
     "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
-    "stars": 46485,
+    "stars": 46488,
     "forks": 6316,
     "license": "NOASSERTION",
     "topics": [
@@ -3977,7 +3970,7 @@
       "postgresql"
     ],
     "language": "Clojure",
-    "lastCommit": "2026-03-21T02:10:11Z",
+    "lastCommit": "2026-03-21T06:38:21Z",
     "archived": false,
     "homepage": "https://metabase.com",
     "latestRelease": {
@@ -3985,7 +3978,7 @@
       "publishedAt": "2026-03-18T16:13:33Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Preset",
@@ -4000,8 +3993,8 @@
       "Mode Analytics"
     ],
     "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
-    "stars": 71030,
-    "forks": 16830,
+    "stars": 71033,
+    "forks": 16832,
     "license": "Apache-2.0",
     "topics": [
       "superset",
@@ -4016,7 +4009,7 @@
       "asf"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-21T02:27:37Z",
+    "lastCommit": "2026-03-21T05:26:27Z",
     "archived": false,
     "homepage": "https://superset.apache.org/",
     "latestRelease": {
@@ -4024,7 +4017,7 @@
       "publishedAt": "2025-12-18T18:18:13Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Baïkal",
@@ -4047,7 +4040,7 @@
       "publishedAt": "2025-11-30T14:54:03Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Davis",
@@ -4076,7 +4069,7 @@
       "publishedAt": "2026-03-14T17:41:46Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Manage My Damn Life",
@@ -4109,7 +4102,7 @@
       "publishedAt": "2025-12-21T03:53:53Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Radicale",
@@ -4137,7 +4130,7 @@
       "publishedAt": "2026-02-24T06:36:23Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SabreDAV",
@@ -4160,7 +4153,7 @@
       "publishedAt": "2024-10-29T11:51:18Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Xandikos",
@@ -4190,7 +4183,7 @@
       "publishedAt": "2026-01-22T12:33:39Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "RelatedChat",
@@ -4208,7 +4201,7 @@
     "archived": false,
     "homepage": "https://relatedcode.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Spacebar",
@@ -4233,7 +4226,7 @@
     "archived": false,
     "homepage": "https://spacebar.chat",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Databend",
@@ -4262,7 +4255,7 @@
       "vector-database"
     ],
     "language": "Rust",
-    "lastCommit": "2026-03-21T01:25:15Z",
+    "lastCommit": "2026-03-21T05:53:54Z",
     "archived": false,
     "homepage": "https://docs.databend.com",
     "latestRelease": {
@@ -4270,7 +4263,7 @@
       "publishedAt": "2026-02-09T22:39:28Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Gitpod",
@@ -4307,7 +4300,7 @@
       "publishedAt": "2023-06-05T12:24:19Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Minio",
@@ -4321,7 +4314,7 @@
     ],
     "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
     "stars": 60522,
-    "forks": 7285,
+    "forks": 7286,
     "license": "AGPL-3.0",
     "topics": [
       "go",
@@ -4344,7 +4337,7 @@
       "publishedAt": "2025-10-16T19:33:51Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Storj",
@@ -4378,7 +4371,7 @@
       "publishedAt": "2026-03-17T12:32:41Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Deepfence ThreatMapper",
@@ -4415,7 +4408,7 @@
       "publishedAt": "2026-03-07T16:54:37Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Builder",
@@ -4452,7 +4445,7 @@
       "publishedAt": "2026-03-17T07:54:00Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Concrete",
@@ -4485,7 +4478,7 @@
       "publishedAt": "2025-12-02T22:54:01Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Decap CMS",
@@ -4498,7 +4491,7 @@
       "Contentful"
     ],
     "description": "A Git-based CMS for Static Site Generators",
-    "stars": 18997,
+    "stars": 18998,
     "forks": 3105,
     "license": "MIT",
     "topics": [
@@ -4522,7 +4515,7 @@
       "publishedAt": "2026-02-23T08:55:21Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Directus",
@@ -4535,7 +4528,7 @@
       "Contentful"
     ],
     "description": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
-    "stars": 34527,
+    "stars": 34530,
     "forks": 4639,
     "license": "NOASSERTION",
     "topics": [
@@ -4559,7 +4552,7 @@
       "publishedAt": "2026-03-10T22:20:52Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Ghost",
@@ -4595,7 +4588,7 @@
       "publishedAt": "2026-03-20T15:25:05Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Plasmic",
@@ -4628,7 +4621,7 @@
     "archived": false,
     "homepage": "https://www.plasmic.app",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Strapi",
@@ -4641,7 +4634,7 @@
       "Contentful"
     ],
     "description": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
-    "stars": 71659,
+    "stars": 71662,
     "forks": 9568,
     "license": "NOASSERTION",
     "topics": [
@@ -4665,7 +4658,7 @@
       "publishedAt": "2026-03-18T13:33:01Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Sulu",
@@ -4699,7 +4692,7 @@
       "publishedAt": "2026-02-12T18:34:05Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tina",
@@ -4712,7 +4705,7 @@
       "Contentful"
     ],
     "description": "A fully open-source headless CMS that supports Markdown and Visual Editing",
-    "stars": 13220,
+    "stars": 13219,
     "forks": 682,
     "license": "Apache-2.0",
     "topics": [
@@ -4735,7 +4728,7 @@
       "publishedAt": "2026-03-19T04:15:51Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Webiny",
@@ -4772,7 +4765,7 @@
       "publishedAt": "2026-03-11T11:38:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Gitlab",
@@ -4781,7 +4774,7 @@
     "url": "https://github.com/gitlabhq/gitlabhq",
     "category": "Code hosting & collaboration (Github alternatives)",
     "description": "GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com",
-    "stars": 24269,
+    "stars": 24270,
     "forks": 5789,
     "license": "NOASSERTION",
     "topics": [
@@ -4790,11 +4783,11 @@
       "rails"
     ],
     "language": "Ruby",
-    "lastCommit": "2026-03-21T00:10:35Z",
+    "lastCommit": "2026-03-21T03:07:49Z",
     "archived": false,
     "homepage": "https://about.gitlab.com/getting-help/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Pagure",
@@ -4817,7 +4810,7 @@
     "archived": false,
     "homepage": "https://pagure.io/pagure",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Fonoster",
@@ -4854,7 +4847,7 @@
       "publishedAt": "2026-01-30T02:08:54Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Novu",
@@ -4869,7 +4862,7 @@
       "Knock"
     ],
     "description": "The open-source notification Inbox infrastructure. E-mail, SMS, Push and Slack Integrations.",
-    "stars": 38713,
+    "stars": 38714,
     "forks": 4241,
     "license": "NOASSERTION",
     "topics": [
@@ -4893,7 +4886,7 @@
       "publishedAt": "2026-02-27T16:04:33Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "AnyCable",
@@ -4920,7 +4913,7 @@
       "publishedAt": "2026-03-09T15:10:49Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Apprise",
@@ -4930,7 +4923,7 @@
     "category": "Communication - Custom Communication Systems",
     "self_hostable": true,
     "description": "Apprise - Push Notifications that work with just about every platform!",
-    "stars": 16099,
+    "stars": 16101,
     "forks": 573,
     "license": "BSD-2-Clause",
     "topics": [
@@ -4954,7 +4947,7 @@
       "publishedAt": "2026-03-08T21:01:54Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Centrifugo",
@@ -4988,7 +4981,7 @@
       "publishedAt": "2026-03-12T20:33:26Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Chitchatter",
@@ -5018,7 +5011,7 @@
     "archived": false,
     "homepage": "https://chitchatter.im/",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Databag",
@@ -5052,7 +5045,7 @@
       "publishedAt": "2024-06-20T20:35:26Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Element",
@@ -5062,7 +5055,7 @@
     "category": "Communication - Custom Communication Systems",
     "self_hostable": true,
     "description": "A glossy Matrix collaboration client for the web.",
-    "stars": 12867,
+    "stars": 12868,
     "forks": 2515,
     "license": "AGPL-3.0",
     "topics": [
@@ -5078,7 +5071,7 @@
       "publishedAt": "2026-03-10T14:05:35Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "GlobaLeaks",
@@ -5112,7 +5105,7 @@
       "publishedAt": "2026-03-19T22:12:22Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Gotify",
@@ -5122,7 +5115,7 @@
     "category": "Communication - Custom Communication Systems",
     "self_hostable": true,
     "description": "A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui)",
-    "stars": 14769,
+    "stars": 14770,
     "forks": 811,
     "license": "NOASSERTION",
     "topics": [
@@ -5146,7 +5139,7 @@
       "publishedAt": "2026-02-28T19:07:07Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Hyphanet",
@@ -5169,7 +5162,7 @@
       "publishedAt": "2026-02-15T23:50:12Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Live Helper Chat",
@@ -5203,7 +5196,7 @@
       "publishedAt": "2026-03-19T13:18:54Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mumble",
@@ -5237,7 +5230,7 @@
       "publishedAt": "2025-10-21T22:43:14Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Notifo",
@@ -5271,7 +5264,7 @@
       "publishedAt": "2022-11-30T20:07:06Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ntfy",
@@ -5281,8 +5274,8 @@
     "category": "Communication - Custom Communication Systems",
     "self_hostable": true,
     "description": "Send push notifications to your phone or desktop using PUT/POST",
-    "stars": 29325,
-    "forks": 1206,
+    "stars": 29327,
+    "forks": 1207,
     "license": "Apache-2.0",
     "topics": [
       "rest-api",
@@ -5302,7 +5295,7 @@
       "publishedAt": "2026-03-17T00:27:04Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "One Time Secret",
@@ -5325,7 +5318,7 @@
       "onetimesecret"
     ],
     "language": "Ruby",
-    "lastCommit": "2026-03-21T01:53:11Z",
+    "lastCommit": "2026-03-21T06:51:59Z",
     "archived": false,
     "homepage": "https://uk.onetimesecret.com",
     "latestRelease": {
@@ -5333,7 +5326,7 @@
       "publishedAt": "2026-03-17T10:29:04Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OTS",
@@ -5361,7 +5354,7 @@
       "publishedAt": "2026-03-15T12:12:26Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PushBits",
@@ -5395,7 +5388,7 @@
       "publishedAt": "2025-05-29T22:25:59Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "RetroShare",
@@ -5418,7 +5411,7 @@
       "publishedAt": "2023-11-30T10:07:16Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SAMA",
@@ -5450,7 +5443,7 @@
       "publishedAt": "2026-03-02T10:59:26Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Screego",
@@ -5480,7 +5473,7 @@
       "publishedAt": "2026-01-01T13:11:03Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Shhh",
@@ -5503,7 +5496,7 @@
       "publishedAt": "2026-01-22T20:05:36Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SimpleX Chat",
@@ -5513,7 +5506,7 @@
     "category": "Communication - Custom Communication Systems",
     "self_hostable": true,
     "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-    "stars": 10718,
+    "stars": 10719,
     "forks": 580,
     "license": "AGPL-3.0",
     "topics": [
@@ -5536,7 +5529,7 @@
       "publishedAt": "2026-01-29T12:44:46Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Spectrum 2",
@@ -5559,7 +5552,7 @@
       "publishedAt": "2023-06-12T10:50:03Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Stoat",
@@ -5585,7 +5578,7 @@
     "archived": false,
     "homepage": "https://stoat.chat",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Synapse",
@@ -5608,7 +5601,7 @@
       "publishedAt": "2026-03-11T10:06:44Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tailchat",
@@ -5642,7 +5635,7 @@
       "publishedAt": "2025-01-02T17:00:14Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tiledesk",
@@ -5676,7 +5669,7 @@
       "publishedAt": "2021-11-29T12:20:17Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tox",
@@ -5706,7 +5699,7 @@
       "publishedAt": "2026-02-07T22:36:59Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tuwunel",
@@ -5740,7 +5733,7 @@
       "publishedAt": "2026-03-07T13:17:45Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Typebot",
@@ -5770,7 +5763,7 @@
       "publishedAt": "2026-01-11T21:26:18Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "WBO",
@@ -5797,7 +5790,7 @@
     "archived": false,
     "homepage": "https://wbo.ophir.dev",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "AnonAddy",
@@ -5807,7 +5800,7 @@
     "category": "Communication - Email - Complete Solutions",
     "self_hostable": true,
     "description": "Anonymous email forwarding",
-    "stars": 4509,
+    "stars": 4510,
     "forks": 250,
     "license": "AGPL-3.0",
     "topics": [
@@ -5824,7 +5817,7 @@
       "publishedAt": "2026-02-18T12:46:33Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "DebOps",
@@ -5858,7 +5851,7 @@
       "publishedAt": "2026-03-13T19:44:40Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "docker-mailserver",
@@ -5868,7 +5861,7 @@
     "category": "Communication - Email - Complete Solutions",
     "self_hostable": true,
     "description": "Production-ready fullstack but simple mail server (SMTP, IMAP, LDAP, Antispam, Antivirus, etc.) running inside a container.",
-    "stars": 18026,
+    "stars": 18027,
     "forks": 2007,
     "license": "MIT",
     "topics": [
@@ -5892,7 +5885,7 @@
       "publishedAt": "2025-08-12T21:49:26Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "emailwiz",
@@ -5902,7 +5895,7 @@
     "category": "Communication - Email - Complete Solutions",
     "self_hostable": true,
     "description": "Script that installs/configures a Dovecot, Postfix, Spam Assassin, OpenDKIM Debian web server",
-    "stars": 2146,
+    "stars": 2145,
     "forks": 337,
     "license": "GPL-3.0",
     "topics": [],
@@ -5911,7 +5904,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "iRedMail",
@@ -5941,7 +5934,7 @@
     "archived": false,
     "homepage": "https://www.iredmail.org/",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Maddy Mail Server",
@@ -5972,7 +5965,7 @@
       "publishedAt": "2026-01-14T15:33:52Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mail-in-a-Box",
@@ -6000,7 +5993,7 @@
       "publishedAt": "2026-01-04T14:47:12Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mailcow",
@@ -6010,8 +6003,8 @@
     "category": "Communication - Email - Complete Solutions",
     "self_hostable": true,
     "description": "mailcow: dockerized - 🐮 + 🐋 = 💕",
-    "stars": 12390,
-    "forks": 1637,
+    "stars": 12392,
+    "forks": 1636,
     "license": "GPL-3.0",
     "topics": [
       "mailcow",
@@ -6034,7 +6027,7 @@
       "publishedAt": "2026-03-13T12:20:30Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mailu",
@@ -6068,7 +6061,7 @@
       "publishedAt": "2026-03-20T10:26:20Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Modoboa",
@@ -6102,7 +6095,7 @@
       "publishedAt": "2026-02-25T09:02:51Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mox",
@@ -6112,7 +6105,7 @@
     "category": "Communication - Email - Complete Solutions",
     "self_hostable": true,
     "description": "modern full-featured open source secure mail server for low-maintenance self-hosted email",
-    "stars": 5586,
+    "stars": 5587,
     "forks": 184,
     "license": "MIT",
     "topics": [],
@@ -6125,7 +6118,7 @@
       "publishedAt": "2025-04-18T19:47:02Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Postal",
@@ -6154,7 +6147,7 @@
       "publishedAt": "2026-02-01T14:55:53Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SimpleLogin",
@@ -6183,7 +6176,7 @@
       "publishedAt": "2026-03-17T10:46:45Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Stalwart Mail Server",
@@ -6193,8 +6186,8 @@
     "category": "Communication - Email - Complete Solutions",
     "self_hostable": true,
     "description": "All-in-one Mail & Collaboration server. Secure, scalable and fluent in every protocol (IMAP, JMAP, SMTP, CalDAV, CardDAV, WebDAV).",
-    "stars": 12001,
-    "forks": 679,
+    "stars": 12003,
+    "forks": 680,
     "license": "",
     "topics": [
       "imap",
@@ -6217,7 +6210,7 @@
       "publishedAt": "2026-02-14T20:20:27Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "wildduck",
@@ -6245,7 +6238,7 @@
       "publishedAt": "2026-03-12T13:08:45Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Cyrus IMAP",
@@ -6268,7 +6261,7 @@
       "publishedAt": "2025-06-27T04:59:04Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "DavMail",
@@ -6298,7 +6291,7 @@
     "archived": false,
     "homepage": "https://davmail.sourceforge.net",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Dovecot",
@@ -6330,7 +6323,7 @@
       "publishedAt": "2025-10-29T07:39:49Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "DragonFly",
@@ -6349,7 +6342,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Haraka",
@@ -6380,7 +6373,7 @@
       "publishedAt": "2026-02-20T23:06:24Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OpenTrashmail",
@@ -6407,7 +6400,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Listmonk",
@@ -6417,7 +6410,7 @@
     "category": "Communication - Email - Mailing Lists and Newsletters",
     "self_hostable": true,
     "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
-    "stars": 19309,
+    "stars": 19308,
     "forks": 1958,
     "license": "AGPL-3.0",
     "topics": [
@@ -6433,7 +6426,7 @@
       "campaign"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-20T21:53:05Z",
+    "lastCommit": "2026-03-21T05:24:20Z",
     "archived": false,
     "homepage": "https://listmonk.app",
     "latestRelease": {
@@ -6441,7 +6434,7 @@
       "publishedAt": "2026-01-02T17:51:28Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mautic",
@@ -6475,7 +6468,7 @@
       "publishedAt": "2026-02-24T14:52:23Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "phpList",
@@ -6509,7 +6502,7 @@
       "publishedAt": "2025-05-26T11:32:24Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Sympa",
@@ -6530,7 +6523,7 @@
       "hacktoberfest"
     ],
     "language": "Perl",
-    "lastCommit": "2026-03-20T06:57:37Z",
+    "lastCommit": "2026-03-21T03:54:37Z",
     "archived": false,
     "homepage": "https://www.sympa.community/sympa",
     "latestRelease": {
@@ -6538,7 +6531,7 @@
       "publishedAt": "2025-02-04T00:45:08Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Cypht",
@@ -6572,7 +6565,7 @@
       "publishedAt": "2026-02-27T12:53:34Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Roundcube",
@@ -6595,7 +6588,7 @@
       "publishedAt": "2026-03-18T14:11:53Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SnappyMail",
@@ -6618,7 +6611,7 @@
       "publishedAt": "2024-10-09T19:43:31Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Ergo",
@@ -6628,7 +6621,7 @@
     "category": "Communication - IRC",
     "self_hostable": true,
     "description": "A modern IRC server (daemon/ircd) written in Go.",
-    "stars": 3141,
+    "stars": 3142,
     "forks": 230,
     "license": "MIT",
     "topics": [
@@ -6651,7 +6644,7 @@
       "publishedAt": "2025-12-22T08:14:51Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Glowing Bear",
@@ -6678,7 +6671,7 @@
       "publishedAt": "2020-07-06T19:25:41Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "InspIRCd",
@@ -6688,7 +6681,7 @@
     "category": "Communication - IRC",
     "self_hostable": true,
     "description": "A high-performance Internet Relay Chat (IRCv3) server for UNIX-like and Windows systems",
-    "stars": 1303,
+    "stars": 1304,
     "forks": 278,
     "license": "",
     "topics": [
@@ -6710,7 +6703,7 @@
       "publishedAt": "2025-12-06T08:58:40Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kiwi IRC",
@@ -6720,7 +6713,7 @@
     "category": "Communication - IRC",
     "self_hostable": true,
     "description": "🥝 Next generation of the Kiwi IRC web client",
-    "stars": 962,
+    "stars": 963,
     "forks": 231,
     "license": "Apache-2.0",
     "topics": [
@@ -6740,7 +6733,7 @@
       "publishedAt": "2023-09-13T12:24:25Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ngircd",
@@ -6774,7 +6767,7 @@
       "publishedAt": "2024-04-26T15:23:58Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Quassel IRC",
@@ -6802,7 +6795,7 @@
       "publishedAt": "2022-01-01T21:03:36Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Robust IRC",
@@ -6827,7 +6820,7 @@
     "archived": false,
     "homepage": "https://robustirc.net/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "The Lounge",
@@ -6837,7 +6830,7 @@
     "category": "Communication - IRC",
     "self_hostable": true,
     "description": "💬  ‎ Modern, responsive, cross-platform, self-hosted web IRC client",
-    "stars": 6193,
+    "stars": 6194,
     "forks": 748,
     "license": "MIT",
     "topics": [
@@ -6860,7 +6853,7 @@
       "publishedAt": "2024-04-06T11:53:32Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "UnrealIRCd",
@@ -6887,7 +6880,7 @@
     "archived": false,
     "homepage": "https://www.unrealircd.org",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Weechat",
@@ -6921,7 +6914,7 @@
       "publishedAt": "2026-03-06T22:25:38Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ZNC",
@@ -6945,7 +6938,7 @@
     "archived": false,
     "homepage": "https://znc.in/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Asterisk",
@@ -6974,7 +6967,7 @@
       "publishedAt": "2026-02-05T16:58:16Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Flexisip",
@@ -7003,7 +6996,7 @@
     "archived": false,
     "homepage": "https://www.linphone.org/en/flexisip-sip-server/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FreeSWITCH",
@@ -7036,7 +7029,7 @@
       "publishedAt": "2024-08-03T15:48:16Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FusionPBX",
@@ -7047,7 +7040,7 @@
     "self_hostable": true,
     "description": "Official FusionPBX - A full-featured domain based multi-tenant PBX and voice switch for FreeSwitch.",
     "stars": 989,
-    "forks": 748,
+    "forks": 749,
     "license": "",
     "topics": [],
     "language": "PHP",
@@ -7059,7 +7052,7 @@
       "publishedAt": "2026-01-29T13:24:20Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kamailio",
@@ -7090,7 +7083,7 @@
       "publishedAt": "2026-03-05T13:08:20Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "openSIPS",
@@ -7109,7 +7102,7 @@
     "archived": false,
     "homepage": "https://opensips.org",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Routr",
@@ -7143,7 +7136,7 @@
       "publishedAt": "2025-12-24T16:13:24Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SIPCAPTURE Homer",
@@ -7173,7 +7166,7 @@
     "archived": false,
     "homepage": "https://sipcapture.org",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Answer",
@@ -7206,7 +7199,7 @@
       "publishedAt": "2026-02-03T02:04:18Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Artalk",
@@ -7240,7 +7233,7 @@
       "publishedAt": "2024-09-18T16:00:19Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "BuddyPress",
@@ -7262,7 +7255,7 @@
     "archived": false,
     "homepage": "https://buddypress.org",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Chirpy",
@@ -7290,7 +7283,7 @@
       "publishedAt": "2024-10-30T07:06:11Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Coral",
@@ -7322,7 +7315,7 @@
       "publishedAt": "2026-01-13T19:22:32Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "diaspora*",
@@ -7353,7 +7346,7 @@
       "publishedAt": "2024-06-16T00:56:09Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Elgg",
@@ -7382,7 +7375,7 @@
       "publishedAt": "2026-01-16T13:23:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Enigma 1/2 BBS",
@@ -7412,7 +7405,7 @@
     "archived": false,
     "homepage": "https://nuskooler.github.io/enigma-bbs/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Flarum",
@@ -7422,7 +7415,7 @@
     "category": "Communication - Social Networks and Forums",
     "self_hostable": true,
     "description": "Simple forum software for building great communities.",
-    "stars": 16216,
+    "stars": 16215,
     "forks": 1678,
     "license": "MIT",
     "topics": [
@@ -7440,7 +7433,7 @@
       "publishedAt": "2024-01-02T15:20:50Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Friendica",
@@ -7472,7 +7465,7 @@
       "publishedAt": "2026-01-27T08:20:58Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Hatsu",
@@ -7506,7 +7499,7 @@
       "publishedAt": "2025-12-14T06:08:52Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "HumHub",
@@ -7539,7 +7532,7 @@
       "publishedAt": "2026-03-02T14:30:37Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Isso",
@@ -7568,7 +7561,7 @@
       "publishedAt": "2023-02-05T18:43:56Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Lemmy",
@@ -7579,7 +7572,7 @@
     "self_hostable": true,
     "description": "🐀 A decentralised discussion platform for communities.",
     "stars": 14314,
-    "forks": 945,
+    "forks": 946,
     "license": "AGPL-3.0",
     "topics": [
       "link-aggregator",
@@ -7599,7 +7592,7 @@
       "publishedAt": "2026-03-03T14:16:30Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Loomio",
@@ -7622,7 +7615,7 @@
       "publishedAt": "2026-02-25T02:02:11Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Mastodon",
@@ -7647,7 +7640,7 @@
       "social-web"
     ],
     "language": "Ruby",
-    "lastCommit": "2026-03-20T16:53:11Z",
+    "lastCommit": "2026-03-21T04:49:16Z",
     "archived": false,
     "homepage": "https://joinmastodon.org",
     "latestRelease": {
@@ -7655,7 +7648,7 @@
       "publishedAt": "2026-02-24T13:59:28Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Misago",
@@ -7685,7 +7678,7 @@
       "publishedAt": "2025-08-09T13:25:50Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Misskey",
@@ -7706,7 +7699,7 @@
       "federation"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-20T11:25:00Z",
+    "lastCommit": "2026-03-21T03:32:27Z",
     "archived": false,
     "homepage": "https://misskey-hub.net/",
     "latestRelease": {
@@ -7714,7 +7707,7 @@
       "publishedAt": "2026-03-09T01:02:58Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Movim",
@@ -7724,7 +7717,7 @@
     "category": "Communication - Social Networks and Forums",
     "self_hostable": true,
     "description": "Movim - Decentralized social platform",
-    "stars": 1975,
+    "stars": 1976,
     "forks": 270,
     "license": "AGPL-3.0",
     "topics": [
@@ -7744,7 +7737,7 @@
       "publishedAt": "2025-11-17T07:17:50Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "MyBB",
@@ -7774,7 +7767,7 @@
       "publishedAt": "2025-06-02T15:28:53Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "NodeBB",
@@ -7808,7 +7801,7 @@
       "publishedAt": "2026-03-19T16:20:34Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OSSN",
@@ -7842,7 +7835,7 @@
       "publishedAt": "2026-03-18T20:32:58Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "phpBB",
@@ -7867,7 +7860,7 @@
     "archived": false,
     "homepage": "https://www.phpbb.com",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PixelFed",
@@ -7897,7 +7890,7 @@
       "publishedAt": "2026-02-17T14:07:15Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "qpixel",
@@ -7925,7 +7918,7 @@
       "publishedAt": "2026-02-27T17:03:19Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Redlib",
@@ -7935,7 +7928,7 @@
     "category": "Communication - Social Networks and Forums",
     "self_hostable": true,
     "description": " Private front-end for Reddit ",
-    "stars": 3178,
+    "stars": 3180,
     "forks": 218,
     "license": "AGPL-3.0",
     "topics": [
@@ -7953,7 +7946,7 @@
       "publishedAt": "2025-03-20T03:06:11Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "remark42",
@@ -7984,7 +7977,7 @@
       "publishedAt": "2025-12-24T08:43:38Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Scoold",
@@ -8018,7 +8011,7 @@
       "publishedAt": "2026-01-26T17:39:31Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Simple Machines Forum",
@@ -8043,7 +8036,7 @@
       "simplemachinesforum"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-20T23:23:20Z",
+    "lastCommit": "2026-03-21T05:42:19Z",
     "archived": false,
     "homepage": "https://www.simplemachines.org/",
     "latestRelease": {
@@ -8051,7 +8044,7 @@
       "publishedAt": "2026-03-08T12:29:46Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Socialhome",
@@ -8084,7 +8077,7 @@
       "publishedAt": "2018-08-29T19:28:17Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Talkyard",
@@ -8118,7 +8111,7 @@
       "publishedAt": "2025-05-01T06:04:44Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "BigBlueButton",
@@ -8148,7 +8141,7 @@
       "publishedAt": "2026-03-16T16:33:46Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Galene",
@@ -8176,7 +8169,7 @@
     "archived": false,
     "homepage": "https://galene.org",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Janus",
@@ -8195,7 +8188,7 @@
     "archived": false,
     "homepage": "https://janus.conf.meetecho.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Jitsi Video Bridge",
@@ -8218,7 +8211,7 @@
       "publishedAt": "2026-02-02T17:08:40Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "MiroTalk C2C",
@@ -8248,7 +8241,7 @@
     "archived": false,
     "homepage": "https://c2c.mirotalk.com",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "MiroTalk P2P",
@@ -8278,7 +8271,7 @@
     "archived": false,
     "homepage": "https://p2p.mirotalk.com",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "MiroTalk SFU",
@@ -8308,7 +8301,7 @@
     "archived": false,
     "homepage": "https://sfu.mirotalk.com",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "plugNmeet",
@@ -8342,7 +8335,7 @@
       "publishedAt": "2026-03-02T10:25:36Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ejabberd",
@@ -8352,7 +8345,7 @@
     "category": "Communication - XMPP - Servers",
     "self_hostable": true,
     "description": "Robust, Ubiquitous and Massively Scalable Messaging Platform (XMPP, MQTT, SIP Server)",
-    "stars": 6614,
+    "stars": 6615,
     "forks": 1541,
     "license": "NOASSERTION",
     "topics": [
@@ -8376,7 +8369,7 @@
       "publishedAt": "2026-02-11T10:12:51Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "MongooseIM",
@@ -8407,7 +8400,7 @@
       "publishedAt": "2026-03-18T13:12:43Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Openfire",
@@ -8438,7 +8431,7 @@
       "publishedAt": "2026-03-17T18:26:04Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Snikket",
@@ -8457,7 +8450,7 @@
     "archived": false,
     "homepage": "https://snikket.org/service/",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tigase",
@@ -8491,7 +8484,7 @@
       "publishedAt": "2024-06-03T19:17:57Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Converse.js",
@@ -8521,7 +8514,7 @@
       "publishedAt": "2025-08-28T15:32:02Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "crowd.dev",
@@ -8553,7 +8546,7 @@
       "publishedAt": "2023-11-21T10:31:03Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ACP Admin",
@@ -8579,7 +8572,7 @@
     "archived": false,
     "homepage": "https://csa-admin.org",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "E-Label",
@@ -8612,7 +8605,7 @@
       "publishedAt": "2025-06-16T15:18:48Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FoodCoopShop",
@@ -8640,7 +8633,7 @@
       "publishedAt": "2026-03-04T11:53:49Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Foodsoft",
@@ -8671,7 +8664,7 @@
       "publishedAt": "2025-03-20T14:31:06Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Hive-Pal",
@@ -8696,7 +8689,7 @@
       "publishedAt": "2026-03-02T18:41:51Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "juntagrico",
@@ -8724,7 +8717,7 @@
       "publishedAt": "2026-03-17T00:17:45Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Open Food Network",
@@ -8756,7 +8749,7 @@
       "publishedAt": "2026-03-17T02:31:32Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OpenOlitor",
@@ -8779,7 +8772,7 @@
       "publishedAt": "2026-03-16T17:02:56Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "teikei",
@@ -8805,7 +8798,7 @@
     "archived": false,
     "homepage": "https://ernte-teilen.org/karte",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "indico",
@@ -8835,7 +8828,7 @@
       "publishedAt": "2026-02-27T16:23:24Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "motion.tools (Antragsgrün)",
@@ -8862,7 +8855,7 @@
       "publishedAt": "2026-01-10T17:26:09Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OpenSlides",
@@ -8885,7 +8878,7 @@
       "publishedAt": "2026-01-17T18:32:16Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "osem",
@@ -8918,7 +8911,7 @@
       "publishedAt": "2016-05-24T13:03:39Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "pretalx",
@@ -8929,7 +8922,7 @@
     "self_hostable": true,
     "description": "Conference planning tool: CfP, scheduling, speaker management",
     "stars": 888,
-    "forks": 243,
+    "forks": 244,
     "license": "NOASSERTION",
     "topics": [
       "conference",
@@ -8952,7 +8945,7 @@
       "publishedAt": "2025-12-05T22:39:04Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Alfresco Community Edition",
@@ -8975,7 +8968,7 @@
     "archived": false,
     "homepage": "https://www.alfresco.com/it/ecm-software/alfresco-community-edition",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Apostrophe",
@@ -9004,7 +8997,7 @@
     "archived": false,
     "homepage": "https://apostrophecms.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Automad",
@@ -9032,7 +9025,7 @@
       "publishedAt": "2026-03-15T16:03:45Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Backdrop CMS",
@@ -9058,7 +9051,7 @@
       "publishedAt": "2026-01-27T03:12:44Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "BigTree CMS",
@@ -9076,7 +9069,7 @@
     "archived": false,
     "homepage": "http://www.bigtreecms.org",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Bludit",
@@ -9110,7 +9103,7 @@
       "publishedAt": "2026-03-17T21:15:44Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Bolt CMS",
@@ -9144,7 +9137,7 @@
       "publishedAt": "2026-01-12T07:27:18Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Cockpit",
@@ -9178,7 +9171,7 @@
       "publishedAt": "2026-03-09T03:10:37Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Concrete 5 CMS",
@@ -9208,7 +9201,7 @@
       "publishedAt": "2025-12-02T22:54:01Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Contao",
@@ -9233,7 +9226,7 @@
     "archived": false,
     "homepage": "https://contao.org",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CouchCMS",
@@ -9256,7 +9249,7 @@
       "publishedAt": "2023-10-15T21:10:37Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "eLabFTW",
@@ -9267,7 +9260,7 @@
     "self_hostable": true,
     "description": ":notebook: eLabFTW is the most popular open source electronic lab notebook for research labs.",
     "stars": 1291,
-    "forks": 285,
+    "forks": 286,
     "license": "AGPL-3.0",
     "topics": [
       "laboratory",
@@ -9286,7 +9279,7 @@
       "publishedAt": "2026-03-16T10:23:13Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Expressa",
@@ -9314,7 +9307,7 @@
       "publishedAt": "2025-10-19T14:36:47Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Joomla!",
@@ -9346,7 +9339,7 @@
       "publishedAt": "2026-02-17T16:00:02Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "KeystoneJS",
@@ -9376,7 +9369,7 @@
       "publishedAt": "2026-03-20T00:04:21Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Localess",
@@ -9408,7 +9401,7 @@
       "publishedAt": "2026-03-12T22:33:57Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "MODX",
@@ -9433,7 +9426,7 @@
     "archived": false,
     "homepage": "https://modx.com/",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Omeka",
@@ -9456,7 +9449,7 @@
       "publishedAt": "2025-08-28T19:57:55Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Payload CMS",
@@ -9490,7 +9483,7 @@
       "publishedAt": "2026-03-20T18:09:51Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Pimcore",
@@ -9524,7 +9517,7 @@
       "publishedAt": "2026-02-19T14:53:36Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Publify",
@@ -9552,7 +9545,7 @@
       "publishedAt": "2024-06-28T16:00:08Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "REDAXO",
@@ -9581,7 +9574,7 @@
       "publishedAt": "2026-01-05T12:33:34Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Squidex",
@@ -9614,7 +9607,7 @@
       "publishedAt": "2025-07-23T16:50:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Superdesk",
@@ -9641,7 +9634,7 @@
       "publishedAt": "2026-02-23T09:12:03Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Textpattern",
@@ -9673,7 +9666,7 @@
       "publishedAt": "2026-02-14T17:07:18Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Typemill",
@@ -9707,7 +9700,7 @@
       "publishedAt": "2026-03-16T20:44:13Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "TYPO3",
@@ -9732,7 +9725,7 @@
     "archived": false,
     "homepage": "https://typo3.org",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Umbraco",
@@ -9763,7 +9756,7 @@
       "publishedAt": "2026-03-10T05:32:02Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Vvveb CMS",
@@ -9797,7 +9790,7 @@
       "publishedAt": "2026-02-19T00:39:36Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Wagtail",
@@ -9826,7 +9819,7 @@
       "publishedAt": "2026-03-03T15:51:37Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "WinterCMS",
@@ -9857,7 +9850,7 @@
       "publishedAt": "2026-02-20T20:58:25Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "WonderCMS",
@@ -9891,7 +9884,7 @@
       "publishedAt": "2025-12-31T23:27:55Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "WordPress",
@@ -9910,7 +9903,7 @@
     "archived": false,
     "homepage": "https://wordpress.org",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Buildbot",
@@ -9919,7 +9912,7 @@
     "url": "https://github.com/buildbot/buildbot",
     "category": "Continuous integration (CircleCI alternatives)",
     "description": "Python-based continuous integration testing framework; your pull requests are more than welcome!",
-    "stars": 5440,
+    "stars": 5441,
     "forks": 1666,
     "license": "GPL-2.0",
     "topics": [
@@ -9937,7 +9930,7 @@
       "publishedAt": "2025-05-12T20:33:21Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Drone",
@@ -9970,7 +9963,7 @@
       "publishedAt": "2026-03-11T08:34:17Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Jenkins",
@@ -10003,7 +9996,7 @@
       "publishedAt": "2026-03-18T15:00:22Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SuiteCRM",
@@ -10036,7 +10029,7 @@
       "publishedAt": "2026-03-19T10:43:27Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Jitsu",
@@ -10072,7 +10065,7 @@
       "publishedAt": "2025-08-14T12:06:33Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Rudderstack",
@@ -10109,7 +10102,7 @@
       "publishedAt": "2026-03-19T08:48:09Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tracardi",
@@ -10147,7 +10140,7 @@
       "publishedAt": "2026-03-10T10:50:43Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Chaskiq",
@@ -10185,7 +10178,7 @@
       "publishedAt": "2023-11-14T20:58:55Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Chatwoot",
@@ -10199,7 +10192,7 @@
       "Zendesk"
     ],
     "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-    "stars": 27940,
+    "stars": 27946,
     "forks": 6635,
     "license": "NOASSERTION",
     "topics": [
@@ -10223,19 +10216,7 @@
       "publishedAt": "2026-03-17T23:58:03Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
-  },
-  {
-    "name": "Papercups",
-    "owner": "papercups-io",
-    "repo": "papercups",
-    "url": "https://github.com/papercups-io/papercups",
-    "category": "Customer Engagement",
-    "self_hostable": true,
-    "replaces": [
-      "Intercom",
-      "Zendesk"
-    ]
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Corteza",
@@ -10265,7 +10246,7 @@
       "publishedAt": "2026-01-29T10:08:10Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Django-CRM",
@@ -10291,7 +10272,7 @@
       "django-framework"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-20T06:04:51Z",
+    "lastCommit": "2026-03-21T05:43:44Z",
     "archived": false,
     "homepage": "https://DjangoCRM.github.io/info/",
     "latestRelease": {
@@ -10299,7 +10280,7 @@
       "publishedAt": "2026-03-15T12:42:02Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "EspoCRM",
@@ -10309,7 +10290,7 @@
     "category": "Customer Relationship Management (CRM)",
     "self_hostable": true,
     "description": "EspoCRM – Open Source CRM Application",
-    "stars": 2837,
+    "stars": 2836,
     "forks": 809,
     "license": "AGPL-3.0",
     "topics": [
@@ -10333,7 +10314,7 @@
       "publishedAt": "2026-03-10T13:16:38Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Krayin",
@@ -10343,8 +10324,8 @@
     "category": "Customer Relationship Management (CRM)",
     "self_hostable": true,
     "description": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.",
-    "stars": 21915,
-    "forks": 1396,
+    "stars": 21917,
+    "forks": 1397,
     "license": "MIT",
     "topics": [
       "php",
@@ -10367,7 +10348,7 @@
       "publishedAt": "2026-03-17T11:30:52Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Monica",
@@ -10377,8 +10358,8 @@
     "category": "Customer Relationship Management (CRM)",
     "self_hostable": true,
     "description": "Personal CRM. Remember everything about your friends, family and business relationships.",
-    "stars": 24387,
-    "forks": 2437,
+    "stars": 24389,
+    "forks": 2438,
     "license": "AGPL-3.0",
     "topics": [
       "laravel",
@@ -10399,7 +10380,7 @@
       "publishedAt": "2024-05-04T08:06:50Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SuiteCRM",
@@ -10433,7 +10414,7 @@
       "publishedAt": "2026-03-19T10:43:27Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Twenty",
@@ -10443,7 +10424,7 @@
     "category": "Customer Relationship Management (CRM)",
     "self_hostable": true,
     "description": "Building a modern alternative to Salesforce, powered by the community.",
-    "stars": 40596,
+    "stars": 40600,
     "forks": 5406,
     "license": "NOASSERTION",
     "topics": [
@@ -10459,7 +10440,7 @@
       "reactjs"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-20T20:30:11Z",
+    "lastCommit": "2026-03-21T03:26:22Z",
     "archived": false,
     "homepage": "https://twenty.com",
     "latestRelease": {
@@ -10467,7 +10448,7 @@
       "publishedAt": "2026-02-19T17:39:18Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CloudQuery",
@@ -10506,7 +10487,7 @@
       "publishedAt": "2026-03-17T13:44:24Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CrowdSec",
@@ -10541,7 +10522,7 @@
       "publishedAt": "2026-01-23T09:41:22Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Faraday",
@@ -10579,7 +10560,7 @@
       "publishedAt": "2026-01-26T21:13:29Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Firezone",
@@ -10608,7 +10589,7 @@
       "self-hosted"
     ],
     "language": "Elixir",
-    "lastCommit": "2026-03-20T23:03:05Z",
+    "lastCommit": "2026-03-21T03:48:25Z",
     "archived": false,
     "homepage": "https://www.firezone.dev",
     "latestRelease": {
@@ -10616,7 +10597,7 @@
       "publishedAt": "2026-03-17T02:42:14Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Gravitl",
@@ -10654,7 +10635,7 @@
       "publishedAt": "2026-02-11T18:12:30Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "LunaTrace",
@@ -10693,7 +10674,7 @@
       "publishedAt": "2022-04-05T05:46:47Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Matano",
@@ -10727,7 +10708,7 @@
     "archived": false,
     "homepage": "https://matano.dev",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "NetBird",
@@ -10741,7 +10722,7 @@
       "OpenVPN"
     ],
     "description": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
-    "stars": 23683,
+    "stars": 23686,
     "forks": 1194,
     "license": "NOASSERTION",
     "topics": [
@@ -10765,7 +10746,7 @@
       "publishedAt": "2026-03-11T18:48:30Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Nuclei",
@@ -10778,7 +10759,7 @@
       "Tenable Nessus"
     ],
     "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.",
-    "stars": 27556,
+    "stars": 27559,
     "forks": 3314,
     "license": "MIT",
     "topics": [
@@ -10802,7 +10783,7 @@
       "publishedAt": "2026-03-05T11:00:12Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Adminer",
@@ -10832,7 +10813,7 @@
       "publishedAt": "2026-02-08T15:51:52Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Azimutt",
@@ -10862,7 +10843,7 @@
     "archived": false,
     "homepage": "https://azimutt.app",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Bytebase",
@@ -10872,7 +10853,7 @@
     "category": "Database Management",
     "self_hostable": true,
     "description": "World's most advanced database DevSecOps solution for Developer, Security, DBA and Platform Engineering teams. The GitHub/GitLab for database DevSecOps.",
-    "stars": 13836,
+    "stars": 13837,
     "forks": 928,
     "license": "NOASSERTION",
     "topics": [
@@ -10896,7 +10877,7 @@
       "publishedAt": "2026-03-12T10:47:56Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Chartbrew",
@@ -10930,7 +10911,7 @@
       "publishedAt": "2026-03-11T19:29:38Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ChartDB",
@@ -10964,7 +10945,7 @@
       "publishedAt": "2026-03-04T13:51:11Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CloudBeaver",
@@ -10990,7 +10971,7 @@
     "archived": false,
     "homepage": "https://dbeaver.com/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Databunker",
@@ -11020,7 +11001,7 @@
     "archived": false,
     "homepage": "https://databunker.org/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Datasette",
@@ -11030,7 +11011,7 @@
     "category": "Database Management",
     "self_hostable": true,
     "description": "An open source multi-tool for exploring and publishing data",
-    "stars": 10850,
+    "stars": 10852,
     "forks": 815,
     "license": "Apache-2.0",
     "topics": [
@@ -11054,7 +11035,7 @@
       "publishedAt": "2025-11-05T18:20:30Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kottster",
@@ -11088,7 +11069,7 @@
       "publishedAt": "2026-01-12T20:04:24Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Limbas",
@@ -12089,7 +12070,7 @@
     "category": "Document Management - E-books",
     "self_hostable": true,
     "description": "Kapowarr is a software to build and manage a comic book library, fitting in the *arr suite of software.",
-    "stars": 895,
+    "stars": 896,
     "forks": 52,
     "license": "GPL-3.0",
     "topics": [
@@ -12101,7 +12082,7 @@
       "comicvine-api"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-19T10:42:24Z",
+    "lastCommit": "2026-03-20T11:36:40Z",
     "archived": false,
     "homepage": "https://casvt.github.io/Kapowarr/",
     "latestRelease": {
@@ -12109,7 +12090,7 @@
       "publishedAt": "2026-03-06T16:38:21Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-20T07:04:47.877Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kavita",
@@ -12119,7 +12100,7 @@
     "category": "Document Management - E-books",
     "self_hostable": true,
     "description": "Kavita is a fast, feature rich, cross platform reading server. Built with the goal of being a full solution for all your reading needs. Setup your own server and share your reading collection with your friends and family.",
-    "stars": 10137,
+    "stars": 10147,
     "forks": 577,
     "license": "GPL-3.0",
     "topics": [
@@ -12135,7 +12116,7 @@
       "epub-reader"
     ],
     "language": "C#",
-    "lastCommit": "2026-03-19T22:39:11Z",
+    "lastCommit": "2026-03-20T19:38:53Z",
     "archived": false,
     "homepage": "http://www.kavitareader.com",
     "latestRelease": {
@@ -12143,7 +12124,7 @@
       "publishedAt": "2026-01-18T23:04:08Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-20T07:04:47.877Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "kiwix-serve",
@@ -12173,7 +12154,7 @@
       "publishedAt": "2026-03-02T08:24:42Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Komga",
@@ -12183,7 +12164,7 @@
     "category": "Document Management - E-books",
     "self_hostable": true,
     "description": "Media server for comics/mangas/BDs/magazines/eBooks with API, OPDS, Kobo Sync and KOReader Sync support",
-    "stars": 6058,
+    "stars": 6060,
     "forks": 350,
     "license": "MIT",
     "topics": [
@@ -12207,7 +12188,7 @@
       "publishedAt": "2026-01-29T05:20:30Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "MyMangaDB",
@@ -12241,7 +12222,7 @@
       "publishedAt": "2025-12-22T13:21:47Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Stump",
@@ -12251,7 +12232,7 @@
     "category": "Document Management - E-books",
     "self_hostable": true,
     "description": "A free and open source comics, manga and digital book server with OPDS support (WIP)",
-    "stars": 2092,
+    "stars": 2093,
     "forks": 101,
     "license": "MIT",
     "topics": [
@@ -12273,7 +12254,7 @@
       "publishedAt": "2025-10-05T19:51:03Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "DSpace",
@@ -12303,7 +12284,7 @@
       "publishedAt": "2025-12-17T20:59:02Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "EPrints",
@@ -12326,7 +12307,7 @@
       "publishedAt": "2025-08-29T13:06:51Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Fedora Commons Repository",
@@ -12349,7 +12330,7 @@
       "publishedAt": "2025-01-16T14:05:14Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "InvenioRDM",
@@ -12368,7 +12349,7 @@
     "archived": false,
     "homepage": "https://inveniordm.docs.cern.ch",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Islandora",
@@ -12394,7 +12375,7 @@
       "publishedAt": "2026-03-16T15:38:53Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Samvera Hyrax",
@@ -12427,7 +12408,7 @@
       "publishedAt": "2025-07-09T17:59:43Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Evergreen",
@@ -12446,7 +12427,7 @@
     "archived": false,
     "homepage": "http://evergreen-ils.org/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Koha",
@@ -12465,7 +12446,7 @@
     "archived": false,
     "homepage": "https://koha-community.org/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "RERO ILS",
@@ -12494,7 +12475,7 @@
       "publishedAt": "2026-02-09T15:48:23Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Alfresco",
@@ -12521,7 +12502,7 @@
       "publishedAt": "2026-03-11T16:20:05Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "LogicalDOC",
@@ -12550,7 +12531,7 @@
       "publishedAt": "2025-08-12T13:57:56Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Nuxeo",
@@ -12568,7 +12549,7 @@
     "archived": false,
     "homepage": "http://www.nuxeo.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OpenKM",
@@ -12601,7 +12582,7 @@
       "publishedAt": "2026-02-03T16:20:18Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Aimeos",
@@ -12631,7 +12612,7 @@
     "archived": false,
     "homepage": "https://aimeos.org/Laravel",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Bagisto",
@@ -12645,7 +12626,7 @@
       "Ecwid"
     ],
     "description": "Free and open source laravel eCommerce platform",
-    "stars": 26168,
+    "stars": 26171,
     "forks": 3023,
     "license": "MIT",
     "topics": [
@@ -12669,7 +12650,7 @@
       "publishedAt": "2026-03-19T05:43:53Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CoreShop",
@@ -12695,7 +12676,7 @@
       "coreshop"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-20T04:19:08Z",
+    "lastCommit": "2026-03-21T04:08:54Z",
     "archived": false,
     "homepage": "http://www.coreshop.com",
     "latestRelease": {
@@ -12703,7 +12684,7 @@
       "publishedAt": "2026-01-07T12:13:05Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "EverShop",
@@ -12732,7 +12713,7 @@
       "publishedAt": "2026-02-25T04:53:21Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Litecart",
@@ -12766,7 +12747,7 @@
       "publishedAt": "2026-01-27T13:12:36Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Magento Open Source",
@@ -12796,7 +12777,7 @@
       "publishedAt": "2026-03-10T14:04:22Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Medusa",
@@ -12810,8 +12791,8 @@
       "Ecwid"
     ],
     "description": "The world's most flexible commerce platform.",
-    "stars": 32395,
-    "forks": 4162,
+    "stars": 32398,
+    "forks": 4163,
     "license": "MIT",
     "topics": [
       "nodejs",
@@ -12833,7 +12814,7 @@
       "publishedAt": "2026-03-14T10:14:04Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Microweber",
@@ -12867,7 +12848,7 @@
       "publishedAt": "2025-08-14T12:50:57Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Open Source POS",
@@ -12877,8 +12858,8 @@
     "category": "E-commerce",
     "self_hostable": true,
     "description": "Open Source Point of Sale is a web based point of sale application written in PHP using CodeIgniter framework. It uses MySQL as the data back end and has a Bootstrap 3 based user interface. If you like this project, please give it a star! Doing so helps maintain Popular OSS status for the project.",
-    "stars": 4086,
-    "forks": 2498,
+    "stars": 4087,
+    "forks": 2499,
     "license": "NOASSERTION",
     "topics": [
       "point-of-sale",
@@ -12897,7 +12878,7 @@
       "publishedAt": "2025-06-05T19:34:51Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OpenCart",
@@ -12931,7 +12912,7 @@
       "publishedAt": "2025-12-12T10:27:11Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PrestaShop",
@@ -12963,7 +12944,7 @@
       "publishedAt": "2026-02-03T10:01:48Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Pretix",
@@ -12993,7 +12974,7 @@
     "archived": false,
     "homepage": "https://pretix.eu",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "s-cart",
@@ -13016,7 +12997,7 @@
       "publishedAt": "2025-08-30T15:52:01Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Saleor",
@@ -13030,7 +13011,7 @@
       "Ecwid"
     ],
     "description": "Saleor Core: the high performance, composable, headless commerce API.",
-    "stars": 22721,
+    "stars": 22723,
     "forks": 5959,
     "license": "BSD-3-Clause",
     "topics": [
@@ -13054,7 +13035,7 @@
       "publishedAt": "2026-03-19T13:13:39Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Shopware Community Edition",
@@ -13080,7 +13061,7 @@
       "experience-manager"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-21T01:16:32Z",
+    "lastCommit": "2026-03-21T04:38:14Z",
     "archived": false,
     "homepage": "https://shopware.com",
     "latestRelease": {
@@ -13088,19 +13069,7 @@
       "publishedAt": "2026-03-18T15:05:49Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
-  },
-  {
-    "name": "Shuup",
-    "owner": "shuup",
-    "repo": "shuup",
-    "url": "https://github.com/shuup/shuup",
-    "category": "E-commerce",
-    "self_hostable": true,
-    "replaces": [
-      "Shopify",
-      "Ecwid"
-    ]
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Solidus",
@@ -13132,7 +13101,7 @@
       "publishedAt": "2025-11-27T10:20:07Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Spree Commerce",
@@ -13142,7 +13111,7 @@
     "category": "E-commerce",
     "self_hostable": true,
     "description": "Spree is an API-first, open-source eCommerce platform for fast growing businesses and enterprises. Spree supports complex commerce scenarios natively — from B2B wholesale to multi-vendor marketplace to global multi-region or multi-tenant distributor platforms. Use each model independently or combine them as your business evolves.",
-    "stars": 15280,
+    "stars": 15282,
     "forks": 5245,
     "license": "BSD-3-Clause",
     "topics": [
@@ -13166,7 +13135,7 @@
       "publishedAt": "2026-03-12T20:25:32Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Sylius",
@@ -13196,7 +13165,7 @@
       "headless"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-20T12:09:49Z",
+    "lastCommit": "2026-03-21T02:54:56Z",
     "archived": false,
     "homepage": "https://sylius.com",
     "latestRelease": {
@@ -13204,7 +13173,7 @@
       "publishedAt": "2026-03-18T19:33:39Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Thelia",
@@ -13234,7 +13203,7 @@
       "publishedAt": "2025-11-17T15:18:13Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Vendure",
@@ -13268,7 +13237,7 @@
       "publishedAt": "2026-02-27T13:47:22Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Vendure",
@@ -13306,7 +13275,7 @@
       "publishedAt": "2026-02-27T13:47:22Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Vue Storefront",
@@ -13343,7 +13312,7 @@
       "publishedAt": "2025-04-23T07:41:06Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "WooCommerce",
@@ -13375,7 +13344,7 @@
       "publishedAt": "2026-03-12T19:14:25Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Airbyte",
@@ -13388,7 +13357,7 @@
       "Fivetran"
     ],
     "description": "The leading data integration platform for ETL / ELT data pipelines from APIs, databases & files to data warehouses, data lakes & data lakehouses. Both self-hosted and Cloud-hosted.",
-    "stars": 20916,
+    "stars": 20918,
     "forks": 5098,
     "license": "NOASSERTION",
     "topics": [
@@ -13412,7 +13381,7 @@
       "publishedAt": "2025-10-15T21:21:41Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Benthos",
@@ -13425,7 +13394,7 @@
       "Fivetran"
     ],
     "description": "Fancy stream processing made operationally mundane",
-    "stars": 8613,
+    "stars": 8612,
     "forks": 927,
     "license": "",
     "topics": [
@@ -13449,7 +13418,7 @@
       "publishedAt": "2026-03-20T16:20:43Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Dagster",
@@ -13462,7 +13431,7 @@
       "Fivetran"
     ],
     "description": "An orchestration platform for the development, production, and observation of data assets.",
-    "stars": 15126,
+    "stars": 15127,
     "forks": 2032,
     "license": "Apache-2.0",
     "topics": [
@@ -13486,7 +13455,7 @@
       "publishedAt": "2026-03-19T20:34:40Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kestra",
@@ -13523,18 +13492,7 @@
       "publishedAt": "2026-03-17T14:43:18Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
-  },
-  {
-    "name": "Orchest",
-    "owner": "orchest",
-    "repo": "orchest",
-    "url": "https://github.com/orchest/orchest",
-    "category": "ELT / ETL",
-    "self_hostable": true,
-    "replaces": [
-      "Fivetran"
-    ]
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Prefect",
@@ -13563,7 +13521,7 @@
       "automation"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-21T01:39:47Z",
+    "lastCommit": "2026-03-21T03:19:56Z",
     "archived": false,
     "homepage": "https://prefect.io",
     "latestRelease": {
@@ -13571,18 +13529,7 @@
       "publishedAt": "2026-03-19T20:54:30Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
-  },
-  {
-    "name": "Selefra",
-    "owner": "selefra",
-    "repo": "selefra",
-    "url": "https://github.com/selefra/selefra",
-    "category": "ELT / ETL",
-    "self_hostable": true,
-    "replaces": [
-      "Fivetran"
-    ]
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Keila",
@@ -13609,7 +13556,7 @@
       "publishedAt": "2026-02-25T10:24:31Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "AppBase",
@@ -13646,7 +13593,7 @@
       "publishedAt": "2025-03-10T08:58:16Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "deepset",
@@ -13660,8 +13607,8 @@
       "QnA Maker"
     ],
     "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
-    "stars": 24569,
-    "forks": 2667,
+    "stars": 24572,
+    "forks": 2668,
     "license": "Apache-2.0",
     "topics": [
       "nlp",
@@ -13684,7 +13631,7 @@
       "publishedAt": "2026-03-20T09:44:14Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Jina.ai",
@@ -13721,7 +13668,7 @@
       "publishedAt": "2024-11-12T08:26:45Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Manticore Search",
@@ -13750,7 +13697,7 @@
       "sql"
     ],
     "language": "C++",
-    "lastCommit": "2026-03-21T01:58:29Z",
+    "lastCommit": "2026-03-21T05:16:55Z",
     "archived": false,
     "homepage": "https://manticoresearch.com",
     "latestRelease": {
@@ -13758,7 +13705,7 @@
       "publishedAt": "2026-02-07T09:25:27Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Meilisearch",
@@ -13771,8 +13718,8 @@
       "Algolia"
     ],
     "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
-    "stars": 56596,
-    "forks": 2435,
+    "stars": 56606,
+    "forks": 2436,
     "license": "NOASSERTION",
     "topics": [
       "search-engine",
@@ -13787,7 +13734,7 @@
       "instantsearch"
     ],
     "language": "Rust",
-    "lastCommit": "2026-03-21T01:11:24Z",
+    "lastCommit": "2026-03-21T03:27:15Z",
     "archived": false,
     "homepage": "https://www.meilisearch.com",
     "latestRelease": {
@@ -13795,7 +13742,7 @@
       "publishedAt": "2026-03-16T12:54:55Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Qdrant",
@@ -13809,8 +13756,8 @@
       "Algolia"
     ],
     "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
-    "stars": 29727,
-    "forks": 2116,
+    "stars": 29730,
+    "forks": 2117,
     "license": "Apache-2.0",
     "topics": [
       "neural-network",
@@ -13833,7 +13780,7 @@
       "publishedAt": "2026-02-20T11:11:50Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SeMI",
@@ -13847,7 +13794,7 @@
       "Algolia"
     ],
     "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
-    "stars": 15839,
+    "stars": 15840,
     "forks": 1227,
     "license": "BSD-3-Clause",
     "topics": [
@@ -13871,7 +13818,7 @@
       "publishedAt": "2026-03-19T18:42:52Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "TypeSense",
@@ -13884,7 +13831,7 @@
       "Algolia"
     ],
     "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
-    "stars": 25420,
+    "stars": 25421,
     "forks": 866,
     "license": "GPL-3.0",
     "topics": [
@@ -13908,7 +13855,7 @@
       "publishedAt": "2026-01-29T04:01:59Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Zilliz",
@@ -13921,7 +13868,7 @@
       "Google Vertex AI"
     ],
     "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
-    "stars": 43422,
+    "stars": 43425,
     "forks": 3909,
     "license": "Apache-2.0",
     "topics": [
@@ -13937,7 +13884,7 @@
       "vector-store"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-21T00:05:28Z",
+    "lastCommit": "2026-03-21T05:06:43Z",
     "archived": false,
     "homepage": "https://milvus.io",
     "latestRelease": {
@@ -13945,7 +13892,7 @@
       "publishedAt": "2026-03-13T07:24:42Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Zinc Labs",
@@ -13980,7 +13927,7 @@
       "publishedAt": "2024-01-14T09:56:46Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "DoliCloud",
@@ -14019,7 +13966,7 @@
       "publishedAt": "2026-03-05T00:39:17Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ERPNext",
@@ -14033,7 +13980,7 @@
       "Odoo"
     ],
     "description": "Free and Open Source Enterprise Resource Planning (ERP)",
-    "stars": 32366,
+    "stars": 32371,
     "forks": 10715,
     "license": "GPL-3.0",
     "topics": [
@@ -14057,7 +14004,7 @@
       "publishedAt": "2026-03-19T10:07:50Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ERP5",
@@ -14075,7 +14022,7 @@
     "archived": false,
     "homepage": "https://www.erp5.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "IDURAR ERP CRM",
@@ -14084,7 +14031,7 @@
     "url": "https://github.com/idurar/idurar-erp-crm",
     "category": "ERP (SAP Alternatives)",
     "description": "Free Open Source ERP CRM Software Accounting Invoicing | Node Js React",
-    "stars": 8262,
+    "stars": 8263,
     "forks": 2938,
     "license": "AGPL-3.0",
     "topics": [
@@ -14108,7 +14055,7 @@
       "publishedAt": "2026-03-16T19:17:57Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "theme.park",
@@ -14142,7 +14089,7 @@
       "publishedAt": "2026-01-03T12:29:49Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FlagSmith",
@@ -14155,7 +14102,7 @@
       "LaunchDarkly"
     ],
     "description": "Flagsmith is an open source feature flagging and remote config service. Self-host or use our hosted version at https://app.flagsmith.com.",
-    "stars": 6271,
+    "stars": 6272,
     "forks": 494,
     "license": "BSD-3-Clause",
     "topics": [
@@ -14179,7 +14126,7 @@
       "publishedAt": "2026-03-19T07:09:11Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "GrowthBook",
@@ -14208,7 +14155,7 @@
       "analytics"
     ],
     "language": "TypeScript",
-    "lastCommit": "2026-03-20T23:19:27Z",
+    "lastCommit": "2026-03-21T06:18:22Z",
     "archived": false,
     "homepage": "https://www.growthbook.io",
     "latestRelease": {
@@ -14216,7 +14163,7 @@
       "publishedAt": "2026-02-04T02:41:58Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Unleash",
@@ -14253,7 +14200,7 @@
       "publishedAt": "2026-03-10T08:41:32Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Bubo Reader",
@@ -14284,7 +14231,7 @@
       "publishedAt": "2023-06-03T19:36:07Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "CommaFeed",
@@ -14313,7 +14260,7 @@
       "publishedAt": "2026-02-21T21:54:15Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FeedCord",
@@ -14336,7 +14283,7 @@
       "publishedAt": "2025-02-20T21:24:17Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Feedpushr",
@@ -14369,7 +14316,7 @@
       "publishedAt": "2025-01-25T16:21:24Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Feeds Fun",
@@ -14399,7 +14346,7 @@
     "archived": false,
     "homepage": "https://feeds.fun",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "FreshRSS",
@@ -14409,8 +14356,8 @@
     "category": "Feed Readers",
     "self_hostable": true,
     "description": "A free, self-hostable news aggregator…",
-    "stars": 14448,
-    "forks": 1128,
+    "stars": 14453,
+    "forks": 1129,
     "license": "AGPL-3.0",
     "topics": [
       "freshrss",
@@ -14432,7 +14379,7 @@
       "publishedAt": "2026-01-25T18:20:14Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Fusion",
@@ -14460,7 +14407,7 @@
       "publishedAt": "2026-02-23T05:55:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "JARR",
@@ -14489,7 +14436,7 @@
       "publishedAt": "2016-07-25T00:13:25Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Kriss Feed",
@@ -14508,7 +14455,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Leed",
@@ -14537,7 +14484,7 @@
       "publishedAt": "2026-01-12T21:43:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Miniflux",
@@ -14571,7 +14518,7 @@
       "publishedAt": "2026-03-15T01:47:53Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "NewsBlur",
@@ -14597,7 +14544,7 @@
       "feed-reader"
     ],
     "language": "Python",
-    "lastCommit": "2026-03-20T23:57:41Z",
+    "lastCommit": "2026-03-21T06:29:07Z",
     "archived": false,
     "homepage": "http://www.newsblur.com",
     "latestRelease": {
@@ -14605,7 +14552,7 @@
       "publishedAt": "2026-03-17T22:20:13Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "reader",
@@ -14639,7 +14586,7 @@
       "publishedAt": "2026-01-12T11:09:04Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Readflow",
@@ -14673,7 +14620,7 @@
       "publishedAt": "2024-03-04T08:34:15Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "RSS Monster",
@@ -14703,7 +14650,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "RSS-Bridge",
@@ -14735,7 +14682,7 @@
       "publishedAt": "2025-08-05T17:52:31Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "RSS2EMail",
@@ -14754,7 +14701,7 @@
     "archived": false,
     "homepage": "https://pypi.org/project/rss2email/",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "RSSHub",
@@ -14764,8 +14711,8 @@
     "category": "Feed Readers",
     "self_hostable": true,
     "description": "🧡 Everything is RSSible",
-    "stars": 42852,
-    "forks": 9452,
+    "stars": 42857,
+    "forks": 9448,
     "license": "AGPL-3.0",
     "topics": [
       "rss",
@@ -14784,7 +14731,7 @@
     "archived": false,
     "homepage": "https://docs.rsshub.app",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Selfoss",
@@ -14817,7 +14764,7 @@
       "publishedAt": "2022-10-12T12:41:26Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Stringer",
@@ -14838,11 +14785,11 @@
       "feedjira"
     ],
     "language": "Ruby",
-    "lastCommit": "2026-03-20T06:14:43Z",
+    "lastCommit": "2026-03-21T06:11:04Z",
     "archived": false,
     "homepage": "",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Tiny Tiny RSS",
@@ -14867,7 +14814,7 @@
     "archived": false,
     "homepage": "",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "TinyFeed",
@@ -14900,7 +14847,7 @@
       "publishedAt": "2025-07-27T16:14:53Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Upvote RSS",
@@ -14934,7 +14881,7 @@
       "publishedAt": "2026-03-13T19:04:31Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Yarr",
@@ -14957,7 +14904,7 @@
       "publishedAt": "2025-11-24T21:16:04Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Filestash",
@@ -14991,7 +14938,7 @@
     "archived": false,
     "homepage": "https://www.filestash.app/",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Nextcloud",
@@ -15021,7 +14968,7 @@
       "federation"
     ],
     "language": "PHP",
-    "lastCommit": "2026-03-21T02:10:21Z",
+    "lastCommit": "2026-03-21T03:38:44Z",
     "archived": false,
     "homepage": "https://nextcloud.com",
     "latestRelease": {
@@ -15029,7 +14976,7 @@
       "publishedAt": "2026-02-18T12:41:19Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Owncloud",
@@ -15063,7 +15010,7 @@
     "archived": false,
     "homepage": "https://owncloud.com",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Spacedrive",
@@ -15077,8 +15024,8 @@
       "Google Drive"
     ],
     "description": "Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.",
-    "stars": 37425,
-    "forks": 1235,
+    "stars": 37427,
+    "forks": 1234,
     "license": "AGPL-3.0",
     "topics": [
       "file-manager",
@@ -15099,7 +15046,7 @@
       "publishedAt": "2025-03-24T14:16:59Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Harbor",
@@ -15109,7 +15056,7 @@
     "category": "File Transfer - Object Storage & File Servers",
     "self_hostable": true,
     "description": "An open source trusted cloud native registry project that stores, signs, and scans content.",
-    "stars": 27775,
+    "stars": 27776,
     "forks": 5135,
     "license": "Apache-2.0",
     "topics": [
@@ -15133,7 +15080,7 @@
       "publishedAt": "2026-03-20T04:36:02Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "SeaweedFS",
@@ -15143,7 +15090,7 @@
     "category": "File Transfer - Object Storage & File Servers",
     "self_hostable": true,
     "description": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
-    "stars": 31048,
+    "stars": 31051,
     "forks": 2754,
     "license": "Apache-2.0",
     "topics": [
@@ -15159,7 +15106,7 @@
       "kubernetes"
     ],
     "language": "Go",
-    "lastCommit": "2026-03-20T05:01:09Z",
+    "lastCommit": "2026-03-21T06:52:14Z",
     "archived": false,
     "homepage": "https://seaweedfs.com",
     "latestRelease": {
@@ -15167,7 +15114,7 @@
       "publishedAt": "2026-03-11T09:30:38Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Zenko CloudServer",
@@ -15201,7 +15148,7 @@
       "publishedAt": "2026-03-17T10:34:38Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ZOT OCI Registry",
@@ -15232,7 +15179,7 @@
       "publishedAt": "2026-03-08T22:31:57Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "bittorrent-tracker",
@@ -15266,7 +15213,7 @@
       "publishedAt": "2025-09-06T12:28:43Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PrivyDrop",
@@ -15295,7 +15242,7 @@
       "publishedAt": "2025-11-25T15:26:26Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "qBittorrent",
@@ -15305,7 +15252,7 @@
     "category": "File Transfer - Peer-to-peer Filesharing",
     "self_hostable": true,
     "description": "qBittorrent BitTorrent client",
-    "stars": 36082,
+    "stars": 36083,
     "forks": 4597,
     "license": "NOASSERTION",
     "topics": [
@@ -15317,11 +15264,11 @@
       "torrent-client"
     ],
     "language": "C++",
-    "lastCommit": "2026-03-20T09:59:45Z",
+    "lastCommit": "2026-03-21T05:15:39Z",
     "archived": false,
     "homepage": "https://www.qbittorrent.org",
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "slskd",
@@ -15341,7 +15288,7 @@
       "hacktoberfest"
     ],
     "language": "C#",
-    "lastCommit": "2026-03-21T02:02:13Z",
+    "lastCommit": "2026-03-21T06:21:24Z",
     "archived": false,
     "homepage": "https://slskd.org",
     "latestRelease": {
@@ -15349,7 +15296,7 @@
       "publishedAt": "2026-03-01T04:00:42Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Transmission",
@@ -15359,7 +15306,7 @@
     "category": "File Transfer - Peer-to-peer Filesharing",
     "self_hostable": true,
     "description": "Official Transmission BitTorrent client repository",
-    "stars": 14475,
+    "stars": 14476,
     "forks": 1361,
     "license": "NOASSERTION",
     "topics": [],
@@ -15372,7 +15319,7 @@
       "publishedAt": "2026-02-20T04:45:41Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Webtor",
@@ -15395,7 +15342,7 @@
       "publishedAt": "2025-11-24T21:30:40Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "015",
@@ -15423,7 +15370,7 @@
       "publishedAt": "2026-03-09T03:35:08Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Chibisafe",
@@ -15457,7 +15404,7 @@
       "publishedAt": "2025-07-05T20:20:58Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Enclosed",
@@ -15488,7 +15435,7 @@
       "publishedAt": "2025-07-22T19:32:09Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Files Sharing",
@@ -15517,7 +15464,7 @@
       "publishedAt": "2025-08-20T10:00:09Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Flare",
@@ -15551,7 +15498,7 @@
       "publishedAt": "2026-03-07T20:36:19Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Gokapi",
@@ -15585,7 +15532,7 @@
       "publishedAt": "2026-03-10T15:44:19Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "goploader",
@@ -15614,7 +15561,7 @@
       "publishedAt": "2026-03-12T23:06:32Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "OnionShare",
@@ -15647,7 +15594,7 @@
       "publishedAt": "2025-02-25T09:34:51Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Pairdrop",
@@ -15657,8 +15604,8 @@
     "category": "File Transfer - Single-click & Drag-n-drop Upload",
     "self_hostable": true,
     "description": "PairDrop: Transfer Files Cross-Platform. No Setup, No Signup.",
-    "stars": 9998,
-    "forks": 595,
+    "stars": 9999,
+    "forks": 596,
     "license": "GPL-3.0",
     "topics": [
       "nodejs",
@@ -15677,7 +15624,7 @@
       "publishedAt": "2025-02-24T19:47:06Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PicoShare",
@@ -15700,7 +15647,7 @@
       "publishedAt": "2025-08-24T14:10:48Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Picsur",
@@ -15733,7 +15680,7 @@
       "publishedAt": "2024-11-01T19:20:58Z"
     },
     "hasFunding": true,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "PictShare",
@@ -15760,7 +15707,7 @@
     "archived": false,
     "homepage": "https://www.pictshare.net",
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "Plik",
@@ -15791,7 +15738,7 @@
       "publishedAt": "2026-03-08T20:09:25Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-03-21T02:34:08.532Z"
+    "lastSynced": "2026-03-21T06:55:26.334Z"
   },
   {
     "name": "ProjectSend",
