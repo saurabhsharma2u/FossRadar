@@ -3999,6 +3999,13 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Taiga",
+    "owner": "taigaio",
+    "repo": "taiga",
+    "url": "https://github.com/taigaio/taiga",
+    "category": "Bug tracking (Jira alternatives):"
+  },
+  {
     "name": "Metabase",
     "owner": "metabase",
     "repo": "metabase",
@@ -6431,6 +6438,14 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
+    "name": "OpenSMTPD",
+    "owner": "OpenSMTPD",
+    "repo": "OpenSMTPD",
+    "url": "https://github.com/OpenSMTPD/OpenSMTPD/",
+    "category": "Communication - Email - Mail Transfer Agents",
+    "self_hostable": true
   },
   {
     "name": "OpenTrashmail",
@@ -10276,6 +10291,18 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Papercups",
+    "owner": "papercups-io",
+    "repo": "papercups",
+    "url": "https://github.com/papercups-io/papercups",
+    "category": "Customer Engagement",
+    "self_hostable": true,
+    "replaces": [
+      "Intercom",
+      "Zendesk"
+    ]
+  },
+  {
     "name": "Corteza",
     "owner": "cortezaproject",
     "repo": "corteza",
@@ -13129,6 +13156,18 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Shuup",
+    "owner": "shuup",
+    "repo": "shuup",
+    "url": "https://github.com/shuup/shuup",
+    "category": "E-commerce",
+    "self_hostable": true,
+    "replaces": [
+      "Shopify",
+      "Ecwid"
+    ]
+  },
+  {
     "name": "Solidus",
     "owner": "solidusio",
     "repo": "solidus",
@@ -13552,6 +13591,17 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Orchest",
+    "owner": "orchest",
+    "repo": "orchest",
+    "url": "https://github.com/orchest/orchest",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
+  },
+  {
     "name": "Prefect",
     "owner": "prefecthq",
     "repo": "prefect",
@@ -13587,6 +13637,17 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
+    "name": "Selefra",
+    "owner": "selefra",
+    "repo": "selefra",
+    "url": "https://github.com/selefra/selefra",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
   },
   {
     "name": "Keila",
@@ -20311,6 +20372,40 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Planka",
+    "owner": "plankanban",
+    "repo": "planka",
+    "url": "https://github.com/plankanban/planka",
+    "category": "Kanban board (Trello alternatives)",
+    "self_hostable": true,
+    "description": "PLANKA is the Kanban-style project mastering tool for everyone",
+    "stars": 11754,
+    "forks": 1217,
+    "license": "NOASSERTION",
+    "topics": [
+      "trello",
+      "agile",
+      "kanban",
+      "collaboration",
+      "javascript",
+      "react",
+      "docker",
+      "project-management",
+      "self-hosted",
+      "real-time"
+    ],
+    "language": "JavaScript",
+    "lastCommit": "2026-03-27T14:25:59Z",
+    "archived": false,
+    "homepage": "https://planka.app",
+    "latestRelease": {
+      "tagName": "v2.1.0",
+      "publishedAt": "2026-03-19T10:17:22Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
     "name": "MediaWiki",
     "owner": "wikimedia",
     "repo": "mediawiki",
@@ -21117,6 +21212,14 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
+    "name": "Bicimon",
+    "owner": "knrdl",
+    "repo": "bicimon",
+    "url": "https://github.com/knrdl/bicimon",
+    "category": "Maps and Global Positioning System (GPS)",
+    "self_hostable": true
   },
   {
     "name": "Dawarich",
@@ -22437,6 +22540,14 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
+    "name": "LibreTime",
+    "owner": "sourcefabric",
+    "repo": "Airtime",
+    "url": "https://github.com/sourcefabric/Airtime",
+    "category": "Media Streaming - Audio Streaming",
+    "self_hostable": true
   },
   {
     "name": "LMS",
@@ -23975,6 +24086,17 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "MetriQL",
+    "owner": "metriql",
+    "repo": "metriql",
+    "url": "https://github.com/metriql/metriql",
+    "category": "Metrics store",
+    "self_hostable": true,
+    "replaces": [
+      "Looker"
+    ]
+  },
+  {
     "name": "MLCraft",
     "owner": "mlcraft-io",
     "repo": "mlcraft",
@@ -25096,6 +25218,14 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
+    "name": "POMjs",
+    "owner": "joho1968",
+    "repo": "POMjs",
+    "url": "https://github.com/joho1968/POMjs",
+    "category": "Miscellaneous",
+    "self_hostable": true
   },
   {
     "name": "Pønskelisten",
@@ -27901,6 +28031,14 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Writing",
+    "owner": "josephernest",
+    "repo": "writing",
+    "url": "https://github.com/josephernest/writing",
+    "category": "Note-taking & Editors",
+    "self_hostable": true
+  },
+  {
     "name": "AppFlowy",
     "owner": "AppFlowy-IO",
     "repo": "appflowy",
@@ -27936,6 +28074,17 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
+    "name": "Athens Research",
+    "owner": "athensresearch",
+    "repo": "athens",
+    "url": "https://github.com/athensresearch/athens",
+    "category": "Notetaking",
+    "self_hostable": true,
+    "replaces": [
+      "Roam Research"
+    ]
   },
   {
     "name": "Bangle.io",
@@ -29622,6 +29771,14 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-03-30T03:22:15.965Z"
+  },
+  {
+    "name": "Homepage by tomershvueli",
+    "owner": "tomershvueli",
+    "repo": "homepage",
+    "url": "https://github.com/tomershvueli/homepage",
+    "category": "Personal Dashboards",
+    "self_hostable": true
   },
   {
     "name": "Homer",
@@ -35563,6 +35720,17 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Glimesh",
+    "owner": "glimesh",
+    "repo": "glimesh.tv",
+    "url": "https://github.com/glimesh/glimesh.tv",
+    "category": "Streaming",
+    "self_hostable": true,
+    "replaces": [
+      "Twitch"
+    ]
+  },
+  {
     "name": "LimeSurvey",
     "owner": "LimeSurvey",
     "repo": "LimeSurvey",
@@ -35772,6 +35940,14 @@
     "lastSynced": "2026-03-30T03:22:15.965Z"
   },
   {
+    "name": "Nullboard",
+    "owner": "apankrat",
+    "repo": "nullboard",
+    "url": "https://github.com/apankrat/nullboard",
+    "category": "Task Management & To-do Lists",
+    "self_hostable": true
+  },
+  {
     "name": "OpenHabitTracker",
     "owner": "Jinjinov",
     "repo": "OpenHabitTracker",
@@ -35828,40 +36004,6 @@
     "latestRelease": {
       "tagName": "4.2.0",
       "publishedAt": "2026-03-03T17:27:45Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-03-30T03:22:15.965Z"
-  },
-  {
-    "name": "Planka",
-    "owner": "plankanban",
-    "repo": "planka",
-    "url": "https://github.com/plankanban/planka",
-    "category": "Task Management & To-do Lists",
-    "self_hostable": true,
-    "description": "PLANKA is the Kanban-style project mastering tool for everyone",
-    "stars": 11754,
-    "forks": 1217,
-    "license": "NOASSERTION",
-    "topics": [
-      "trello",
-      "agile",
-      "kanban",
-      "collaboration",
-      "javascript",
-      "react",
-      "docker",
-      "project-management",
-      "self-hosted",
-      "real-time"
-    ],
-    "language": "JavaScript",
-    "lastCommit": "2026-03-27T14:25:59Z",
-    "archived": false,
-    "homepage": "https://planka.app",
-    "latestRelease": {
-      "tagName": "v2.1.0",
-      "publishedAt": "2026-03-19T10:17:22Z"
     },
     "hasFunding": true,
     "lastSynced": "2026-03-30T03:22:15.965Z"
