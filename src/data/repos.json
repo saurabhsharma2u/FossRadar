@@ -3999,6 +3999,13 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Taiga",
+    "owner": "taigaio",
+    "repo": "taiga",
+    "url": "https://github.com/taigaio/taiga",
+    "category": "Bug tracking (Jira alternatives):"
+  },
+  {
     "name": "Metabase",
     "owner": "metabase",
     "repo": "metabase",
@@ -10299,6 +10306,18 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Papercups",
+    "owner": "papercups-io",
+    "repo": "papercups",
+    "url": "https://github.com/papercups-io/papercups",
+    "category": "Customer Engagement",
+    "self_hostable": true,
+    "replaces": [
+      "Intercom",
+      "Zendesk"
+    ]
+  },
+  {
     "name": "Quackback",
     "owner": "QuackbackIO",
     "repo": "quackback",
@@ -13182,6 +13201,18 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Shuup",
+    "owner": "shuup",
+    "repo": "shuup",
+    "url": "https://github.com/shuup/shuup",
+    "category": "E-commerce",
+    "self_hostable": true,
+    "replaces": [
+      "Shopify",
+      "Ecwid"
+    ]
+  },
+  {
     "name": "Solidus",
     "owner": "solidusio",
     "repo": "solidus",
@@ -13605,6 +13636,17 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Orchest",
+    "owner": "orchest",
+    "repo": "orchest",
+    "url": "https://github.com/orchest/orchest",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
+  },
+  {
     "name": "Prefect",
     "owner": "prefecthq",
     "repo": "prefect",
@@ -13640,6 +13682,17 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
+    "name": "Selefra",
+    "owner": "selefra",
+    "repo": "selefra",
+    "url": "https://github.com/selefra/selefra",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
   },
   {
     "name": "Keila",
@@ -20404,6 +20457,40 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Super Productivity",
+    "owner": "johannesjo",
+    "repo": "super-productivity",
+    "url": "https://github.com/johannesjo/super-productivity",
+    "category": "Kanban board (Trello alternatives)",
+    "self_hostable": true,
+    "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+    "stars": 18378,
+    "forks": 1590,
+    "license": "MIT",
+    "topics": [
+      "task-manager",
+      "linux",
+      "macos",
+      "time-tracker",
+      "to-do-list",
+      "productivity",
+      "todo",
+      "flowmodoro",
+      "pomodoro",
+      "pomodoro-timer"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-04-02T13:26:47Z",
+    "archived": false,
+    "homepage": "http://super-productivity.com?ref=github",
+    "latestRelease": {
+      "tagName": "v18.1.3",
+      "publishedAt": "2026-04-01T20:24:14Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
     "name": "MediaWiki",
     "owner": "wikimedia",
     "repo": "mediawiki",
@@ -21210,6 +21297,14 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
+    "name": "Bicimon",
+    "owner": "knrdl",
+    "repo": "bicimon",
+    "url": "https://github.com/knrdl/bicimon",
+    "category": "Maps and Global Positioning System (GPS)",
+    "self_hostable": true
   },
   {
     "name": "Dawarich",
@@ -22530,6 +22625,14 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
+    "name": "LibreTime",
+    "owner": "sourcefabric",
+    "repo": "Airtime",
+    "url": "https://github.com/sourcefabric/Airtime",
+    "category": "Media Streaming - Audio Streaming",
+    "self_hostable": true
   },
   {
     "name": "LMS",
@@ -24068,6 +24171,17 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "MetriQL",
+    "owner": "metriql",
+    "repo": "metriql",
+    "url": "https://github.com/metriql/metriql",
+    "category": "Metrics store",
+    "self_hostable": true,
+    "replaces": [
+      "Looker"
+    ]
+  },
+  {
     "name": "MLCraft",
     "owner": "mlcraft-io",
     "repo": "mlcraft",
@@ -25189,6 +25303,14 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
+    "name": "POMjs",
+    "owner": "joho1968",
+    "repo": "POMjs",
+    "url": "https://github.com/joho1968/POMjs",
+    "category": "Miscellaneous",
+    "self_hostable": true
   },
   {
     "name": "Pønskelisten",
@@ -27994,6 +28116,14 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Writing",
+    "owner": "josephernest",
+    "repo": "writing",
+    "url": "https://github.com/josephernest/writing",
+    "category": "Note-taking & Editors",
+    "self_hostable": true
+  },
+  {
     "name": "AppFlowy",
     "owner": "AppFlowy-IO",
     "repo": "appflowy",
@@ -28029,6 +28159,17 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
+    "name": "Athens Research",
+    "owner": "athensresearch",
+    "repo": "athens",
+    "url": "https://github.com/athensresearch/athens",
+    "category": "Notetaking",
+    "self_hostable": true,
+    "replaces": [
+      "Roam Research"
+    ]
   },
   {
     "name": "Bangle.io",
@@ -29715,6 +29856,14 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
+    "name": "Homepage by tomershvueli",
+    "owner": "tomershvueli",
+    "repo": "homepage",
+    "url": "https://github.com/tomershvueli/homepage",
+    "category": "Personal Dashboards",
+    "self_hostable": true
   },
   {
     "name": "Homer",
@@ -32653,6 +32802,17 @@
     "homepage": "https://ofbiz.apache.org/",
     "hasFunding": false,
     "lastSynced": "2026-04-03T02:54:25.460Z"
+  },
+  {
+    "name": "Grouparoo",
+    "owner": "grouparoo",
+    "repo": "grouparoo",
+    "url": "https://github.com/grouparoo/grouparoo",
+    "category": "Reverse ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Hightouch"
+    ]
   },
   {
     "name": "RoboCorp",
@@ -35652,6 +35812,17 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Glimesh",
+    "owner": "glimesh",
+    "repo": "glimesh.tv",
+    "url": "https://github.com/glimesh/glimesh.tv",
+    "category": "Streaming",
+    "self_hostable": true,
+    "replaces": [
+      "Twitch"
+    ]
+  },
+  {
     "name": "LimeSurvey",
     "owner": "LimeSurvey",
     "repo": "LimeSurvey",
@@ -35861,6 +36032,14 @@
     "lastSynced": "2026-04-03T02:54:25.460Z"
   },
   {
+    "name": "Nullboard",
+    "owner": "apankrat",
+    "repo": "nullboard",
+    "url": "https://github.com/apankrat/nullboard",
+    "category": "Task Management & To-do Lists",
+    "self_hostable": true
+  },
+  {
     "name": "OpenHabitTracker",
     "owner": "Jinjinov",
     "repo": "OpenHabitTracker",
@@ -35923,37 +36102,11 @@
   },
   {
     "name": "Super Productivity",
-    "owner": "johannesjo",
+    "owner": "super-productivity",
     "repo": "super-productivity",
-    "url": "https://github.com/johannesjo/super-productivity",
+    "url": "https://github.com/super-productivity/super-productivity",
     "category": "Task Management & To-do Lists",
-    "self_hostable": true,
-    "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
-    "stars": 18378,
-    "forks": 1590,
-    "license": "MIT",
-    "topics": [
-      "task-manager",
-      "linux",
-      "macos",
-      "time-tracker",
-      "to-do-list",
-      "productivity",
-      "todo",
-      "flowmodoro",
-      "pomodoro",
-      "pomodoro-timer"
-    ],
-    "language": "TypeScript",
-    "lastCommit": "2026-04-02T13:26:47Z",
-    "archived": false,
-    "homepage": "http://super-productivity.com?ref=github",
-    "latestRelease": {
-      "tagName": "v18.1.3",
-      "publishedAt": "2026-04-01T20:24:14Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-04-03T02:54:25.460Z"
+    "self_hostable": true
   },
   {
     "name": "Task Keeper",
