@@ -521,40 +521,6 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
-    "name": "Prisme Analytics",
-    "owner": "prismelabs",
-    "repo": "analytics",
-    "url": "https://github.com/prismelabs/analytics",
-    "category": "Analytics",
-    "self_hostable": true,
-    "description": "◢ High-perfomance, self-hosted and privacy-focused web analytics service. Written in Go.",
-    "stars": 126,
-    "forks": 3,
-    "license": "AGPL-3.0",
-    "topics": [
-      "analytics",
-      "chart",
-      "clickhouse",
-      "go",
-      "google-analytics",
-      "grafana",
-      "marketing",
-      "metrics",
-      "privacy",
-      "progressive"
-    ],
-    "language": "TypeScript",
-    "lastCommit": "2026-02-12T21:59:23Z",
-    "archived": false,
-    "homepage": "https://www.prismeanalytics.com",
-    "latestRelease": {
-      "tagName": "v0.20.0",
-      "publishedAt": "2025-06-25T20:25:15Z"
-    },
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
     "name": "Redash",
     "owner": "getredash",
     "repo": "redash",
@@ -717,39 +683,6 @@
     "archived": false,
     "homepage": "https://swetrix.com",
     "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Umami",
-    "owner": "umami-software",
-    "repo": "umami",
-    "url": "https://github.com/umami-software/umami",
-    "category": "Analytics",
-    "self_hostable": true,
-    "description": "Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.",
-    "stars": 37520,
-    "forks": 7461,
-    "license": "MIT",
-    "topics": [
-      "analytics",
-      "charts",
-      "statistics",
-      "google-analytics",
-      "web-analytics",
-      "audience-segmentation",
-      "cohort-analysis",
-      "product-analytics",
-      "user-journey"
-    ],
-    "language": "TypeScript",
-    "lastCommit": "2026-07-06T22:34:05Z",
-    "archived": false,
-    "homepage": "https://umami.is",
-    "latestRelease": {
-      "tagName": "v3.2.0",
-      "publishedAt": "2026-06-24T23:24:23Z"
-    },
-    "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
@@ -3010,6 +2943,40 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Manifest",
+    "owner": "mnfst",
+    "repo": "manifest",
+    "url": "https://github.com/mnfst/manifest",
+    "category": "Backend-as-a-Service (Firebase alternatives)",
+    "self_hostable": true,
+    "description": "Connect Your Agents And Harnesses With Any Provider 🦚",
+    "stars": 7219,
+    "forks": 473,
+    "license": "MIT",
+    "topics": [
+      "openclaw",
+      "cost-tracking",
+      "llm-observability",
+      "token-tracking",
+      "llm-router",
+      "hermes-agent",
+      "ai",
+      "ai-",
+      "byok",
+      "gateway"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-07-07T19:45:14Z",
+    "archived": false,
+    "homepage": "https://manifest.build",
+    "latestRelease": {
+      "tagName": "manifest@6.13.5",
+      "publishedAt": "2026-07-06T09:15:27Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
     "name": "btw",
     "owner": "btw-so",
     "repo": "btw",
@@ -3033,6 +3000,40 @@
     "archived": false,
     "homepage": "https://btw.so",
     "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "WriteFreely",
+    "owner": "writefreely",
+    "repo": "writefreely",
+    "url": "https://github.com/writefreely/writefreely",
+    "category": "Blogging platform/ Personal website builder (Medium alternatives)",
+    "self_hostable": true,
+    "description": "A clean, Markdown-based publishing platform made for writers. Write together and build a community.",
+    "stars": 5196,
+    "forks": 381,
+    "license": "AGPL-3.0",
+    "topics": [
+      "writing",
+      "publishing",
+      "blogging",
+      "web-application",
+      "go",
+      "activitypub",
+      "federation",
+      "beta",
+      "writefreely",
+      "markdown"
+    ],
+    "language": "Go",
+    "lastCommit": "2026-07-07T19:36:07Z",
+    "archived": false,
+    "homepage": "https://writefreely.org",
+    "latestRelease": {
+      "tagName": "v0.16.0",
+      "publishedAt": "2025-08-29T19:30:02Z"
+    },
+    "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
@@ -3377,40 +3378,6 @@
       "publishedAt": "2026-04-10T15:28:24Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "WriteFreely",
-    "owner": "writefreely",
-    "repo": "writefreely",
-    "url": "https://github.com/writefreely/writefreely",
-    "category": "Blogging Platforms",
-    "self_hostable": true,
-    "description": "A clean, Markdown-based publishing platform made for writers. Write together and build a community.",
-    "stars": 5196,
-    "forks": 381,
-    "license": "AGPL-3.0",
-    "topics": [
-      "writing",
-      "publishing",
-      "blogging",
-      "web-application",
-      "go",
-      "activitypub",
-      "federation",
-      "beta",
-      "writefreely",
-      "markdown"
-    ],
-    "language": "Go",
-    "lastCommit": "2026-07-07T19:36:07Z",
-    "archived": false,
-    "homepage": "https://writefreely.org",
-    "latestRelease": {
-      "tagName": "v0.16.0",
-      "publishedAt": "2025-08-29T19:30:02Z"
-    },
-    "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
@@ -4160,6 +4127,27 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Bugzilla",
+    "owner": "bugzilla",
+    "repo": "bugzilla",
+    "url": "https://github.com/bugzilla/bugzilla",
+    "category": "Bug tracking (Jira alternatives):",
+    "self_hostable": true,
+    "description": "Official repository for the Bugzilla bug tracking system. Report bugs to https://bugzilla.mozilla.org/enter_bug.cgi?product=Bugzilla&format=__default__ . Main website:",
+    "stars": 838,
+    "forks": 316,
+    "license": "MPL-2.0",
+    "topics": [
+      "perl"
+    ],
+    "language": "Perl",
+    "lastCommit": "2026-07-06T06:11:12Z",
+    "archived": false,
+    "homepage": "http://www.bugzilla.org",
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
     "name": "Redmine",
     "owner": "redmine",
     "repo": "redmine",
@@ -4176,6 +4164,13 @@
     "homepage": "https://www.redmine.org",
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Taiga",
+    "owner": "taigaio",
+    "repo": "taiga",
+    "url": "https://github.com/taigaio/taiga",
+    "category": "Bug tracking (Jira alternatives):"
   },
   {
     "name": "Metabase",
@@ -5038,6 +5033,40 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Gitea",
+    "owner": "go-gitea",
+    "repo": "gitea",
+    "url": "https://github.com/go-gitea/gitea",
+    "category": "Code hosting & collaboration (Github alternatives)",
+    "self_hostable": true,
+    "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+    "stars": 56720,
+    "forks": 6886,
+    "license": "MIT",
+    "topics": [
+      "gitea",
+      "golang",
+      "devops",
+      "git",
+      "gitlab",
+      "github",
+      "go",
+      "hacktoberfest",
+      "git-gui",
+      "git-server"
+    ],
+    "language": "Go",
+    "lastCommit": "2026-07-08T00:16:33Z",
+    "archived": false,
+    "homepage": "https://gitea.com",
+    "latestRelease": {
+      "tagName": "v1.26.4",
+      "publishedAt": "2026-06-21T16:03:59Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
     "name": "Gitlab",
     "owner": "gitlabhq",
     "repo": "gitlabhq",
@@ -5056,6 +5085,40 @@
     "lastCommit": "2026-07-08T03:07:56Z",
     "archived": false,
     "homepage": "https://about.gitlab.com/getting-help/",
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Gogs",
+    "owner": "gogs",
+    "repo": "gogs",
+    "url": "https://github.com/gogs/gogs",
+    "category": "Code hosting & collaboration (Github alternatives)",
+    "self_hostable": true,
+    "description": "The painless way to host your own Git service",
+    "stars": 47661,
+    "forks": 5075,
+    "license": "MIT",
+    "topics": [
+      "gogs",
+      "go",
+      "git",
+      "docker",
+      "mysql",
+      "postgresql",
+      "raspberry-pi",
+      "self-hosted",
+      "sqlite3",
+      "version-control"
+    ],
+    "language": "Go",
+    "lastCommit": "2026-07-04T05:20:10Z",
+    "archived": false,
+    "homepage": "https://gogs.io",
+    "latestRelease": {
+      "tagName": "v0.14.3",
+      "publishedAt": "2026-06-07T20:51:06Z"
+    },
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
@@ -5080,6 +5143,57 @@
     "archived": false,
     "homepage": "https://pagure.io/pagure",
     "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Gerrit",
+    "owner": "GerritCodeReview",
+    "repo": "gerrit",
+    "url": "https://github.com/GerritCodeReview/gerrit",
+    "category": "Code review (Github alternatives)",
+    "self_hostable": true,
+    "description": "Gerrit Code Review - (mirror of https://gerrit.googlesource.com/gerrit)",
+    "stars": 1198,
+    "forks": 273,
+    "license": "Apache-2.0",
+    "topics": [
+      "codereview",
+      "gerrit"
+    ],
+    "language": "Java",
+    "lastCommit": "2026-07-07T21:51:27Z",
+    "archived": false,
+    "homepage": "",
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Review Board",
+    "owner": "reviewboard",
+    "repo": "reviewboard",
+    "url": "https://github.com/reviewboard/reviewboard",
+    "category": "Code review (Github alternatives)",
+    "self_hostable": true,
+    "description": "An extensible and friendly code review tool for projects and companies of all sizes.",
+    "stars": 1718,
+    "forks": 433,
+    "license": "MIT",
+    "topics": [
+      "code-review",
+      "codereview",
+      "python",
+      "javascript",
+      "developer-tools"
+    ],
+    "language": "Python",
+    "lastCommit": "2026-07-07T22:08:44Z",
+    "archived": false,
+    "homepage": "https://www.reviewboard.org/",
+    "latestRelease": {
+      "tagName": "release-8.0",
+      "publishedAt": "2026-06-09T20:54:00Z"
+    },
+    "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
@@ -5181,40 +5295,6 @@
     "latestRelease": {
       "tagName": "v1.6.15",
       "publishedAt": "2026-06-29T18:21:56Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Apprise",
-    "owner": "caronc",
-    "repo": "apprise",
-    "url": "https://github.com/caronc/apprise",
-    "category": "Communication - Custom Communication Systems",
-    "self_hostable": true,
-    "description": "Apprise - Push Notifications that work with just about every platform!",
-    "stars": 16851,
-    "forks": 622,
-    "license": "BSD-2-Clause",
-    "topics": [
-      "notifications",
-      "notification-hub",
-      "notification-api",
-      "python",
-      "notification-service",
-      "alerts",
-      "notify",
-      "push-notifications",
-      "framework",
-      "apprise"
-    ],
-    "language": "Python",
-    "lastCommit": "2026-07-07T19:46:42Z",
-    "archived": false,
-    "homepage": "https://hub.docker.com/r/caronc/apprise",
-    "latestRelease": {
-      "tagName": "v1.12.0",
-      "publishedAt": "2026-07-04T16:15:48Z"
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -5538,37 +5618,6 @@
       "publishedAt": "2022-11-30T20:07:06Z"
     },
     "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "ntfy",
-    "owner": "binwiederhier",
-    "repo": "ntfy",
-    "url": "https://github.com/binwiederhier/ntfy",
-    "category": "Communication - Custom Communication Systems",
-    "self_hostable": true,
-    "description": "Send push notifications to your phone or desktop using PUT/POST",
-    "stars": 31493,
-    "forks": 1372,
-    "license": "Apache-2.0",
-    "topics": [
-      "rest-api",
-      "pubsub",
-      "notifications",
-      "curl",
-      "push-notifications",
-      "ntfy",
-      "ntfysh"
-    ],
-    "language": "Go",
-    "lastCommit": "2026-07-07T21:44:07Z",
-    "archived": false,
-    "homepage": "https://ntfy.sh",
-    "latestRelease": {
-      "tagName": "v2.25.0",
-      "publishedAt": "2026-06-24T23:29:03Z"
-    },
-    "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
@@ -8415,64 +8464,6 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
-    "name": "BigBlueButton",
-    "owner": "bigbluebutton",
-    "repo": "bigbluebutton",
-    "url": "https://github.com/bigbluebutton/bigbluebutton",
-    "category": "Communication - Video Conferencing",
-    "self_hostable": true,
-    "description": "A complete web conferencing system for virtual classes and more!",
-    "stars": 9173,
-    "forks": 5983,
-    "license": "LGPL-3.0",
-    "topics": [
-      "conferencing",
-      "webrtc",
-      "video",
-      "collaboration",
-      "video-conferencing",
-      "bigbluebutton"
-    ],
-    "language": "JavaScript",
-    "lastCommit": "2026-07-07T21:03:02Z",
-    "archived": false,
-    "homepage": "https://bigbluebutton.org",
-    "latestRelease": {
-      "tagName": "v3.0.32",
-      "publishedAt": "2026-07-02T19:46:55Z"
-    },
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Galene",
-    "owner": "jech",
-    "repo": "galene",
-    "url": "https://github.com/jech/galene",
-    "category": "Communication - Video Conferencing",
-    "self_hostable": true,
-    "description": "The Galène videoconference server",
-    "stars": 1347,
-    "forks": 188,
-    "license": "MIT",
-    "topics": [
-      "sfu",
-      "videoconference",
-      "webapp",
-      "webrtc",
-      "file-sharing",
-      "galene",
-      "video-conference",
-      "video-conferencing"
-    ],
-    "language": "Go",
-    "lastCommit": "2026-06-26T23:55:57Z",
-    "archived": false,
-    "homepage": "https://galene.org",
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
     "name": "Janus",
     "owner": "meetecho",
     "repo": "janus-gateway",
@@ -10215,25 +10206,6 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
-    "name": "WordPress",
-    "owner": "WordPress",
-    "repo": "WordPress",
-    "url": "https://github.com/WordPress/WordPress",
-    "category": "Content Management Systems (CMS)",
-    "self_hostable": true,
-    "description": "WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.",
-    "stars": 21244,
-    "forks": 12948,
-    "license": "NOASSERTION",
-    "topics": [],
-    "language": "PHP",
-    "lastCommit": "2026-07-08T03:20:07Z",
-    "archived": false,
-    "homepage": "https://wordpress.org",
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
     "name": "Buildbot",
     "owner": "buildbot",
     "repo": "buildbot",
@@ -10355,6 +10327,40 @@
     "latestRelease": {
       "tagName": "v.1.1.0",
       "publishedAt": "2026-03-27T13:16:42Z"
+    },
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "EspoCRM",
+    "owner": "espocrm",
+    "repo": "espocrm",
+    "url": "https://github.com/espocrm/espocrm",
+    "category": "CRM (Salesforce alternatives)",
+    "self_hostable": true,
+    "description": "EspoCRM – Open Source CRM Application",
+    "stars": 3122,
+    "forks": 895,
+    "license": "AGPL-3.0",
+    "topics": [
+      "crm",
+      "php",
+      "single-page-application",
+      "customer-portal",
+      "calendar",
+      "kanban",
+      "open-source",
+      "platform",
+      "sales-automation",
+      "customizable"
+    ],
+    "language": "PHP",
+    "lastCommit": "2026-07-07T16:51:57Z",
+    "archived": false,
+    "homepage": "https://www.espocrm.com",
+    "latestRelease": {
+      "tagName": "10.0.1",
+      "publishedAt": "2026-07-07T06:18:45Z"
     },
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -10580,6 +10586,18 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Papercups",
+    "owner": "papercups-io",
+    "repo": "papercups",
+    "url": "https://github.com/papercups-io/papercups",
+    "category": "Customer Engagement",
+    "self_hostable": true,
+    "replaces": [
+      "Intercom",
+      "Zendesk"
+    ]
+  },
+  {
     "name": "Quackback",
     "owner": "QuackbackIO",
     "repo": "quackback",
@@ -10671,40 +10689,6 @@
     "latestRelease": {
       "tagName": "v2.4.0",
       "publishedAt": "2026-05-16T09:48:36Z"
-    },
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "EspoCRM",
-    "owner": "espocrm",
-    "repo": "espocrm",
-    "url": "https://github.com/espocrm/espocrm",
-    "category": "Customer Relationship Management (CRM)",
-    "self_hostable": true,
-    "description": "EspoCRM – Open Source CRM Application",
-    "stars": 3122,
-    "forks": 895,
-    "license": "AGPL-3.0",
-    "topics": [
-      "crm",
-      "php",
-      "single-page-application",
-      "customer-portal",
-      "calendar",
-      "kanban",
-      "open-source",
-      "platform",
-      "sales-automation",
-      "customizable"
-    ],
-    "language": "PHP",
-    "lastCommit": "2026-07-07T16:51:57Z",
-    "archived": false,
-    "homepage": "https://www.espocrm.com",
-    "latestRelease": {
-      "tagName": "10.0.1",
-      "publishedAt": "2026-07-07T06:18:45Z"
     },
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -11029,6 +11013,19 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "LunaTrace",
+    "owner": "lunasec-io",
+    "repo": "lunasec",
+    "url": "https://github.com/lunasec-io/lunasec",
+    "category": "Cybersecurity",
+    "self_hostable": true,
+    "replaces": [
+      "GitHub Dependabot",
+      "Snyk.io",
+      "SonaType Nexus"
+    ]
   },
   {
     "name": "Matano",
@@ -13566,6 +13563,18 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Shuup",
+    "owner": "shuup",
+    "repo": "shuup",
+    "url": "https://github.com/shuup/shuup",
+    "category": "E-commerce",
+    "self_hostable": true,
+    "replaces": [
+      "Shopify",
+      "Ecwid"
+    ]
+  },
+  {
     "name": "Solidus",
     "owner": "solidusio",
     "repo": "solidus",
@@ -13989,6 +13998,17 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Orchest",
+    "owner": "orchest",
+    "repo": "orchest",
+    "url": "https://github.com/orchest/orchest",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
+  },
+  {
     "name": "Prefect",
     "owner": "prefecthq",
     "repo": "prefect",
@@ -14024,6 +14044,17 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Selefra",
+    "owner": "selefra",
+    "repo": "selefra",
+    "url": "https://github.com/selefra/selefra",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
   },
   {
     "name": "Aster Mail",
@@ -14578,6 +14609,33 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Odoo",
+    "owner": "odoo",
+    "repo": "odoo",
+    "url": "https://github.com/odoo/odoo",
+    "category": "ERP (SAP Alternatives)",
+    "self_hostable": true,
+    "description": "Odoo. Open Source Apps To Grow Your Business.",
+    "stars": 52873,
+    "forks": 33037,
+    "license": "NOASSERTION",
+    "topics": [
+      "odoo",
+      "python",
+      "business",
+      "management",
+      "odoo-apps",
+      "erp",
+      "apps"
+    ],
+    "language": "Python",
+    "lastCommit": "2026-07-07T20:05:15Z",
+    "archived": false,
+    "homepage": "https://www.odoo.com",
+    "hasFunding": false,
+    "lastSynced": "2026-07-07T20:04:57.921Z"
   },
   {
     "name": "theme.park",
@@ -21129,6 +21187,69 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "SolidInvoice",
+    "owner": "SolidInvoice",
+    "repo": "SolidInvoice",
+    "url": "https://github.com/SolidInvoice/SolidInvoice",
+    "category": "Invoicing (FreshBooks / QuickBooks alternatives)",
+    "self_hostable": true,
+    "description": "Simple and elegant invoicing solution.",
+    "stars": 929,
+    "forks": 226,
+    "license": "MIT",
+    "topics": [
+      "invoice",
+      "quotes",
+      "billing",
+      "invoicing",
+      "billing-application",
+      "invoicing-application",
+      "hacktoberfest",
+      "freelancer",
+      "php",
+      "self-hosted"
+    ],
+    "language": "PHP",
+    "lastCommit": "2026-07-07T19:41:09Z",
+    "archived": false,
+    "homepage": "http://solidinvoice.co",
+    "latestRelease": {
+      "tagName": "3.0.1",
+      "publishedAt": "2026-06-23T19:37:20Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Kanboard",
+    "owner": "kanboard",
+    "repo": "kanboard",
+    "url": "https://github.com/kanboard/kanboard",
+    "category": "Kanban board (Trello alternatives)",
+    "self_hostable": true,
+    "description": "Kanban project management software",
+    "stars": 9699,
+    "forks": 1972,
+    "license": "MIT",
+    "topics": [
+      "kanban",
+      "kanboard",
+      "agile",
+      "self-hosted",
+      "project-management"
+    ],
+    "language": "PHP",
+    "lastCommit": "2026-07-04T01:58:46Z",
+    "archived": false,
+    "homepage": "https://kanboard.org",
+    "latestRelease": {
+      "tagName": "v1.2.52",
+      "publishedAt": "2026-04-05T00:12:33Z"
+    },
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
     "name": "Planka",
     "owner": "plankanban",
     "repo": "planka",
@@ -21192,6 +21313,73 @@
     "latestRelease": {
       "tagName": "v18.13.1",
       "publishedAt": "2026-07-02T15:20:19Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "WeKan",
+    "owner": "wekan",
+    "repo": "wekan",
+    "url": "https://github.com/wekan/wekan",
+    "category": "Kanban board (Trello alternatives)",
+    "self_hostable": true,
+    "description": "The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . New English strings for new features at imports/i18n/data/en.i18n.json . Non-English translations at https://app.transifex.com/wekan/wekan only.",
+    "stars": 20984,
+    "forks": 2983,
+    "license": "MIT",
+    "topics": [
+      "kanban",
+      "meteor",
+      "wekan",
+      "docker-image",
+      "sandstorm",
+      "javascript",
+      "foss",
+      "real-time",
+      "snapcraft"
+    ],
+    "language": "JavaScript",
+    "lastCommit": "2026-07-06T16:07:03Z",
+    "archived": false,
+    "homepage": "https://wekan.fi",
+    "latestRelease": {
+      "tagName": "v9.80",
+      "publishedAt": "2026-07-06T15:45:58Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "AFFiNE",
+    "owner": "toeverything",
+    "repo": "AFFiNE",
+    "url": "https://github.com/toeverything/AFFiNE",
+    "category": "Knowledge Bases (Notion alternatives)",
+    "self_hostable": true,
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+    "stars": 70184,
+    "forks": 5025,
+    "license": "NOASSERTION",
+    "topics": [
+      "editor",
+      "crdt",
+      "knowledge-base",
+      "markdown",
+      "miro",
+      "notion",
+      "rust",
+      "rust-lang",
+      "whiteboard",
+      "wiki"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-07-07T10:35:44Z",
+    "archived": false,
+    "homepage": "https://affine.pro",
+    "latestRelease": {
+      "tagName": "v0.26.3",
+      "publishedAt": "2026-02-25T03:11:57Z"
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -21273,35 +21461,24 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
-    "name": "AFFiNE Community Edition",
-    "owner": "toeverything",
-    "repo": "AFFiNE",
-    "url": "https://github.com/toeverything/AFFiNE",
-    "category": "Knowledge Management Tools",
+    "name": "XWiki",
+    "owner": "xwiki",
+    "repo": "xwiki-platform",
+    "url": "https://github.com/xwiki/xwiki-platform",
+    "category": "Knowledge Bases (Notion alternatives)",
     "self_hostable": true,
-    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
-    "stars": 70184,
-    "forks": 5025,
-    "license": "NOASSERTION",
-    "topics": [
-      "editor",
-      "crdt",
-      "knowledge-base",
-      "markdown",
-      "miro",
-      "notion",
-      "rust",
-      "rust-lang",
-      "whiteboard",
-      "wiki"
-    ],
-    "language": "TypeScript",
-    "lastCommit": "2026-07-07T10:35:44Z",
+    "description": "The XWiki platform",
+    "stars": 1278,
+    "forks": 649,
+    "license": "LGPL-2.1",
+    "topics": [],
+    "language": "Java",
+    "lastCommit": "2026-07-08T01:26:55Z",
     "archived": false,
-    "homepage": "https://affine.pro",
+    "homepage": "http://platform.xwiki.org/",
     "latestRelease": {
-      "tagName": "v0.26.3",
-      "publishedAt": "2026-02-25T03:11:57Z"
+      "tagName": "xwiki-platform-18.4.2",
+      "publishedAt": "2026-06-30T11:49:38Z"
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -21362,40 +21539,6 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "SiYuan",
-    "owner": "siyuan-note",
-    "repo": "siyuan",
-    "url": "https://github.com/siyuan-note/siyuan",
-    "category": "Knowledge Management Tools",
-    "self_hostable": true,
-    "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
-    "stars": 44976,
-    "forks": 2872,
-    "license": "AGPL-3.0",
-    "topics": [
-      "note-taking",
-      "local-first",
-      "knowledge-base",
-      "markdown",
-      "s3",
-      "pdf",
-      "webdav",
-      "self-hosted",
-      "notes-app",
-      "electron"
-    ],
-    "language": "TypeScript",
-    "lastCommit": "2026-07-08T03:11:19Z",
-    "archived": false,
-    "homepage": "https://b3log.org/siyuan",
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z",
-    "latestRelease": {
-      "tagName": "v3.7.1",
-      "publishedAt": "2026-07-04T03:57:14Z"
-    }
   },
   {
     "name": "TeamMapper",
@@ -25052,6 +25195,17 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "MetriQL",
+    "owner": "metriql",
+    "repo": "metriql",
+    "url": "https://github.com/metriql/metriql",
+    "category": "Metrics store",
+    "self_hostable": true,
+    "replaces": [
+      "Looker"
+    ]
+  },
+  {
     "name": "MLCraft",
     "owner": "mlcraft-io",
     "repo": "mlcraft",
@@ -26775,6 +26929,17 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Cortex",
+    "owner": "cortexlabs",
+    "repo": "cortex",
+    "url": "https://github.com/cortexlabs/cortex",
+    "category": "ML Ops",
+    "self_hostable": true,
+    "replaces": [
+      "AWS SageMaker"
+    ]
+  },
+  {
     "name": "Metarank",
     "owner": "metarank",
     "repo": "metarank",
@@ -27895,40 +28060,6 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
-    "name": "SolidInvoice",
-    "owner": "SolidInvoice",
-    "repo": "SolidInvoice",
-    "url": "https://github.com/SolidInvoice/SolidInvoice",
-    "category": "Money, Budgeting & Management",
-    "self_hostable": true,
-    "description": "Simple and elegant invoicing solution.",
-    "stars": 929,
-    "forks": 226,
-    "license": "MIT",
-    "topics": [
-      "invoice",
-      "quotes",
-      "billing",
-      "invoicing",
-      "billing-application",
-      "invoicing-application",
-      "hacktoberfest",
-      "freelancer",
-      "php",
-      "self-hosted"
-    ],
-    "language": "PHP",
-    "lastCommit": "2026-07-07T19:41:09Z",
-    "archived": false,
-    "homepage": "http://solidinvoice.co",
-    "latestRelease": {
-      "tagName": "3.0.1",
-      "publishedAt": "2026-06-23T19:37:20Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
     "name": "Sure",
     "owner": "we-promise",
     "repo": "sure",
@@ -28664,6 +28795,40 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "SiYuan",
+    "owner": "siyuan-note",
+    "repo": "siyuan",
+    "url": "https://github.com/siyuan-note/siyuan",
+    "category": "Note-taking / Personal Knowledge Management (Evernote alternatives)",
+    "self_hostable": true,
+    "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+    "stars": 44976,
+    "forks": 2872,
+    "license": "AGPL-3.0",
+    "topics": [
+      "note-taking",
+      "local-first",
+      "knowledge-base",
+      "markdown",
+      "s3",
+      "pdf",
+      "webdav",
+      "self-hosted",
+      "notes-app",
+      "electron"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-07-08T03:11:19Z",
+    "archived": false,
+    "homepage": "https://b3log.org/siyuan",
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z",
+    "latestRelease": {
+      "tagName": "v3.7.1",
+      "publishedAt": "2026-07-04T03:57:14Z"
+    }
+  },
+  {
     "name": "Blinko",
     "owner": "blinkospace",
     "repo": "blinko",
@@ -29207,6 +29372,17 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Athens Research",
+    "owner": "athensresearch",
+    "repo": "athens",
+    "url": "https://github.com/athensresearch/athens",
+    "category": "Notetaking",
+    "self_hostable": true,
+    "replaces": [
+      "Roam Research"
+    ]
   },
   {
     "name": "Bangle.io",
@@ -32237,6 +32413,17 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Space Cloud",
+    "owner": "spacecloud-io",
+    "repo": "space-cloud",
+    "url": "https://github.com/spacecloud-io/space-cloud",
+    "category": "Platform as a service",
+    "self_hostable": true,
+    "replaces": [
+      "Heroku"
+    ]
+  },
+  {
     "name": "Abilian Hop3",
     "owner": "abilian",
     "repo": "hop3",
@@ -33156,6 +33343,71 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Apprise",
+    "owner": "caronc",
+    "repo": "apprise",
+    "url": "https://github.com/caronc/apprise",
+    "category": "Push notifications (OneSignal alternatives)",
+    "self_hostable": true,
+    "description": "Apprise - Push Notifications that work with just about every platform!",
+    "stars": 16851,
+    "forks": 622,
+    "license": "BSD-2-Clause",
+    "topics": [
+      "notifications",
+      "notification-hub",
+      "notification-api",
+      "python",
+      "notification-service",
+      "alerts",
+      "notify",
+      "push-notifications",
+      "framework",
+      "apprise"
+    ],
+    "language": "Python",
+    "lastCommit": "2026-07-07T19:46:42Z",
+    "archived": false,
+    "homepage": "https://hub.docker.com/r/caronc/apprise",
+    "latestRelease": {
+      "tagName": "v1.12.0",
+      "publishedAt": "2026-07-04T16:15:48Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "ntfy",
+    "owner": "binwiederhier",
+    "repo": "ntfy",
+    "url": "https://github.com/binwiederhier/ntfy",
+    "category": "Push notifications (OneSignal alternatives)",
+    "self_hostable": true,
+    "description": "Send push notifications to your phone or desktop using PUT/POST",
+    "stars": 31493,
+    "forks": 1372,
+    "license": "Apache-2.0",
+    "topics": [
+      "rest-api",
+      "pubsub",
+      "notifications",
+      "curl",
+      "push-notifications",
+      "ntfy",
+      "ntfysh"
+    ],
+    "language": "Go",
+    "lastCommit": "2026-07-07T21:44:07Z",
+    "archived": false,
+    "homepage": "https://ntfy.sh",
+    "latestRelease": {
+      "tagName": "v2.25.0",
+      "publishedAt": "2026-06-24T23:29:03Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
     "name": "Bar Assistant",
     "owner": "karlomikus",
     "repo": "bar-assistant",
@@ -33964,33 +34216,6 @@
     "lastSynced": "2026-07-07T20:04:57.921Z"
   },
   {
-    "name": "Odoo",
-    "owner": "odoo",
-    "repo": "odoo",
-    "url": "https://github.com/odoo/odoo",
-    "category": "Resource Planning",
-    "self_hostable": true,
-    "description": "Odoo. Open Source Apps To Grow Your Business.",
-    "stars": 52873,
-    "forks": 33037,
-    "license": "NOASSERTION",
-    "topics": [
-      "odoo",
-      "python",
-      "business",
-      "management",
-      "odoo-apps",
-      "erp",
-      "apps"
-    ],
-    "language": "Python",
-    "lastCommit": "2026-07-07T20:05:15Z",
-    "archived": false,
-    "homepage": "https://www.odoo.com",
-    "hasFunding": false,
-    "lastSynced": "2026-07-07T20:04:57.921Z"
-  },
-  {
     "name": "OFBiz",
     "owner": "apache",
     "repo": "ofbiz-framework",
@@ -34019,6 +34244,17 @@
     "homepage": "https://ofbiz.apache.org/",
     "hasFunding": false,
     "lastSynced": "2026-07-07T20:04:57.921Z"
+  },
+  {
+    "name": "Grouparoo",
+    "owner": "grouparoo",
+    "repo": "grouparoo",
+    "url": "https://github.com/grouparoo/grouparoo",
+    "category": "Reverse ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Hightouch"
+    ]
   },
   {
     "name": "RoboCorp",
@@ -36042,40 +36278,6 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
-    "name": "Manifest",
-    "owner": "mnfst",
-    "repo": "manifest",
-    "url": "https://github.com/mnfst/manifest",
-    "category": "Software Development - Low Code",
-    "self_hostable": true,
-    "description": "Connect Your Agents And Harnesses With Any Provider 🦚",
-    "stars": 7219,
-    "forks": 473,
-    "license": "MIT",
-    "topics": [
-      "openclaw",
-      "cost-tracking",
-      "llm-observability",
-      "token-tracking",
-      "llm-router",
-      "hermes-agent",
-      "ai",
-      "ai-",
-      "byok",
-      "gateway"
-    ],
-    "language": "TypeScript",
-    "lastCommit": "2026-07-07T19:45:14Z",
-    "archived": false,
-    "homepage": "https://manifest.build",
-    "latestRelease": {
-      "tagName": "manifest@6.13.5",
-      "publishedAt": "2026-07-06T09:15:27Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
     "name": "Saltcorn",
     "owner": "saltcorn",
     "repo": "saltcorn",
@@ -36159,28 +36361,6 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
-    "name": "Gerrit",
-    "owner": "GerritCodeReview",
-    "repo": "gerrit",
-    "url": "https://github.com/GerritCodeReview/gerrit",
-    "category": "Software Development - Project Management",
-    "self_hostable": true,
-    "description": "Gerrit Code Review - (mirror of https://gerrit.googlesource.com/gerrit)",
-    "stars": 1198,
-    "forks": 273,
-    "license": "Apache-2.0",
-    "topics": [
-      "codereview",
-      "gerrit"
-    ],
-    "language": "Java",
-    "lastCommit": "2026-07-07T21:51:27Z",
-    "archived": false,
-    "homepage": "",
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
     "name": "gitbucket",
     "owner": "gitbucket",
     "repo": "gitbucket",
@@ -36204,74 +36384,6 @@
     "latestRelease": {
       "tagName": "4.46.1",
       "publishedAt": "2026-04-18T02:27:19Z"
-    },
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Gitea",
-    "owner": "go-gitea",
-    "repo": "gitea",
-    "url": "https://github.com/go-gitea/gitea",
-    "category": "Software Development - Project Management",
-    "self_hostable": true,
-    "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-    "stars": 56720,
-    "forks": 6886,
-    "license": "MIT",
-    "topics": [
-      "gitea",
-      "golang",
-      "devops",
-      "git",
-      "gitlab",
-      "github",
-      "go",
-      "hacktoberfest",
-      "git-gui",
-      "git-server"
-    ],
-    "language": "Go",
-    "lastCommit": "2026-07-08T00:16:33Z",
-    "archived": false,
-    "homepage": "https://gitea.com",
-    "latestRelease": {
-      "tagName": "v1.26.4",
-      "publishedAt": "2026-06-21T16:03:59Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Gogs",
-    "owner": "gogs",
-    "repo": "gogs",
-    "url": "https://github.com/gogs/gogs",
-    "category": "Software Development - Project Management",
-    "self_hostable": true,
-    "description": "The painless way to host your own Git service",
-    "stars": 47661,
-    "forks": 5075,
-    "license": "MIT",
-    "topics": [
-      "gogs",
-      "go",
-      "git",
-      "docker",
-      "mysql",
-      "postgresql",
-      "raspberry-pi",
-      "self-hosted",
-      "sqlite3",
-      "version-control"
-    ],
-    "language": "Go",
-    "lastCommit": "2026-07-04T05:20:10Z",
-    "archived": false,
-    "homepage": "https://gogs.io",
-    "latestRelease": {
-      "tagName": "v0.14.3",
-      "publishedAt": "2026-06-07T20:51:06Z"
     },
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -36525,35 +36637,6 @@
     "latestRelease": {
       "tagName": "july-2026",
       "publishedAt": "2026-07-01T00:26:03Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Review Board",
-    "owner": "reviewboard",
-    "repo": "reviewboard",
-    "url": "https://github.com/reviewboard/reviewboard",
-    "category": "Software Development - Project Management",
-    "self_hostable": true,
-    "description": "An extensible and friendly code review tool for projects and companies of all sizes.",
-    "stars": 1718,
-    "forks": 433,
-    "license": "MIT",
-    "topics": [
-      "code-review",
-      "codereview",
-      "python",
-      "javascript",
-      "developer-tools"
-    ],
-    "language": "Python",
-    "lastCommit": "2026-07-07T22:08:44Z",
-    "archived": false,
-    "homepage": "https://www.reviewboard.org/",
-    "latestRelease": {
-      "tagName": "release-8.0",
-      "publishedAt": "2026-06-09T20:54:00Z"
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -37243,6 +37326,17 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Glimesh",
+    "owner": "glimesh",
+    "repo": "glimesh.tv",
+    "url": "https://github.com/glimesh/glimesh.tv",
+    "category": "Streaming",
+    "self_hostable": true,
+    "replaces": [
+      "Twitch"
+    ]
+  },
+  {
     "name": "LimeSurvey",
     "owner": "LimeSurvey",
     "repo": "LimeSurvey",
@@ -37427,35 +37521,6 @@
     "latestRelease": {
       "tagName": "android-2026.07.0500",
       "publishedAt": "2026-07-05T03:33:17Z"
-    },
-    "hasFunding": false,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Kanboard",
-    "owner": "kanboard",
-    "repo": "kanboard",
-    "url": "https://github.com/kanboard/kanboard",
-    "category": "Task Management & To-do Lists",
-    "self_hostable": true,
-    "description": "Kanban project management software",
-    "stars": 9699,
-    "forks": 1972,
-    "license": "MIT",
-    "topics": [
-      "kanban",
-      "kanboard",
-      "agile",
-      "self-hosted",
-      "project-management"
-    ],
-    "language": "PHP",
-    "lastCommit": "2026-07-04T01:58:46Z",
-    "archived": false,
-    "homepage": "https://kanboard.org",
-    "latestRelease": {
-      "tagName": "v1.2.52",
-      "publishedAt": "2026-04-05T00:12:33Z"
     },
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
@@ -37751,60 +37816,6 @@
       "tagName": "v2.3.0",
       "publishedAt": "2026-04-09T19:53:25Z"
     },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Wekan",
-    "owner": "wekan",
-    "repo": "wekan",
-    "url": "https://github.com/wekan/wekan",
-    "category": "Task Management & To-do Lists",
-    "self_hostable": true,
-    "description": "The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . New English strings for new features at imports/i18n/data/en.i18n.json . Non-English translations at https://app.transifex.com/wekan/wekan only.",
-    "stars": 20984,
-    "forks": 2983,
-    "license": "MIT",
-    "topics": [
-      "kanban",
-      "meteor",
-      "wekan",
-      "docker-image",
-      "sandstorm",
-      "javascript",
-      "foss",
-      "real-time",
-      "snapcraft"
-    ],
-    "language": "JavaScript",
-    "lastCommit": "2026-07-06T16:07:03Z",
-    "archived": false,
-    "homepage": "https://wekan.fi",
-    "latestRelease": {
-      "tagName": "v9.80",
-      "publishedAt": "2026-07-06T15:45:58Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "Bugzilla",
-    "owner": "bugzilla",
-    "repo": "bugzilla",
-    "url": "https://github.com/bugzilla/bugzilla",
-    "category": "Ticketing",
-    "self_hostable": true,
-    "description": "Official repository for the Bugzilla bug tracking system. Report bugs to https://bugzilla.mozilla.org/enter_bug.cgi?product=Bugzilla&format=__default__ . Main website:",
-    "stars": 838,
-    "forks": 316,
-    "license": "MPL-2.0",
-    "topics": [
-      "perl"
-    ],
-    "language": "Perl",
-    "lastCommit": "2026-07-06T06:11:12Z",
-    "archived": false,
-    "homepage": "http://www.bugzilla.org",
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
@@ -38931,6 +38942,36 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "BigBlueButton",
+    "owner": "bigbluebutton",
+    "repo": "bigbluebutton",
+    "url": "https://github.com/bigbluebutton/bigbluebutton",
+    "category": "Video Conferencing (Zoom, Webex, Google Meet, Skype... alternatives)",
+    "self_hostable": true,
+    "description": "A complete web conferencing system for virtual classes and more!",
+    "stars": 9173,
+    "forks": 5983,
+    "license": "LGPL-3.0",
+    "topics": [
+      "conferencing",
+      "webrtc",
+      "video",
+      "collaboration",
+      "video-conferencing",
+      "bigbluebutton"
+    ],
+    "language": "JavaScript",
+    "lastCommit": "2026-07-07T21:03:02Z",
+    "archived": false,
+    "homepage": "https://bigbluebutton.org",
+    "latestRelease": {
+      "tagName": "v3.0.32",
+      "publishedAt": "2026-07-02T19:46:55Z"
+    },
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
     "name": "Element Call",
     "owner": "vector-im",
     "repo": "element-call",
@@ -38954,6 +38995,34 @@
       "tagName": "v0.21.0",
       "publishedAt": "2026-07-07T07:56:01Z"
     },
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Galene",
+    "owner": "jech",
+    "repo": "galene",
+    "url": "https://github.com/jech/galene",
+    "category": "Video Conferencing (Zoom, Webex, Google Meet, Skype... alternatives)",
+    "self_hostable": true,
+    "description": "The Galène videoconference server",
+    "stars": 1347,
+    "forks": 188,
+    "license": "MIT",
+    "topics": [
+      "sfu",
+      "videoconference",
+      "webapp",
+      "webrtc",
+      "file-sharing",
+      "galene",
+      "video-conference",
+      "video-conferencing"
+    ],
+    "language": "Go",
+    "lastCommit": "2026-06-26T23:55:57Z",
+    "archived": false,
+    "homepage": "https://galene.org",
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
@@ -39213,6 +39282,40 @@
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
   {
+    "name": "Prisme Analytics",
+    "owner": "prismelabs",
+    "repo": "analytics",
+    "url": "https://github.com/prismelabs/analytics",
+    "category": "Web analytics (Google Analytics alternatives)",
+    "self_hostable": true,
+    "description": "◢ High-perfomance, self-hosted and privacy-focused web analytics service. Written in Go.",
+    "stars": 126,
+    "forks": 3,
+    "license": "AGPL-3.0",
+    "topics": [
+      "analytics",
+      "chart",
+      "clickhouse",
+      "go",
+      "google-analytics",
+      "grafana",
+      "marketing",
+      "metrics",
+      "privacy",
+      "progressive"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-02-12T21:59:23Z",
+    "archived": false,
+    "homepage": "https://www.prismeanalytics.com",
+    "latestRelease": {
+      "tagName": "v0.20.0",
+      "publishedAt": "2025-06-25T20:25:15Z"
+    },
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
     "name": "Shynet",
     "owner": "milesmcc",
     "repo": "shynet",
@@ -39242,6 +39345,58 @@
       "tagName": "v0.14.0",
       "publishedAt": "2026-03-15T23:00:30Z"
     },
+    "hasFunding": false,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Umami",
+    "owner": "umami-software",
+    "repo": "umami",
+    "url": "https://github.com/umami-software/umami",
+    "category": "Web analytics (Google Analytics alternatives)",
+    "self_hostable": true,
+    "description": "Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.",
+    "stars": 37520,
+    "forks": 7461,
+    "license": "MIT",
+    "topics": [
+      "analytics",
+      "charts",
+      "statistics",
+      "google-analytics",
+      "web-analytics",
+      "audience-segmentation",
+      "cohort-analysis",
+      "product-analytics",
+      "user-journey"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-07-06T22:34:05Z",
+    "archived": false,
+    "homepage": "https://umami.is",
+    "latestRelease": {
+      "tagName": "v3.2.0",
+      "publishedAt": "2026-06-24T23:24:23Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-08T03:26:08.965Z"
+  },
+  {
+    "name": "Wordpress",
+    "owner": "WordPress",
+    "repo": "WordPress",
+    "url": "https://github.com/WordPress/WordPress",
+    "category": "Web CMS and Blog Engines",
+    "self_hostable": true,
+    "description": "WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.",
+    "stars": 21244,
+    "forks": 12948,
+    "license": "NOASSERTION",
+    "topics": [],
+    "language": "PHP",
+    "lastCommit": "2026-07-08T03:20:07Z",
+    "archived": false,
+    "homepage": "https://wordpress.org",
     "hasFunding": false,
     "lastSynced": "2026-07-08T03:26:08.965Z"
   },
@@ -40569,29 +40724,6 @@
     "latestRelease": {
       "tagName": "1.0.89",
       "publishedAt": "2026-05-31T18:49:37Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-07-08T03:26:08.965Z"
-  },
-  {
-    "name": "XWiki",
-    "owner": "xwiki",
-    "repo": "xwiki-platform",
-    "url": "https://github.com/xwiki/xwiki-platform",
-    "category": "Wikis",
-    "self_hostable": true,
-    "description": "The XWiki platform",
-    "stars": 1278,
-    "forks": 649,
-    "license": "LGPL-2.1",
-    "topics": [],
-    "language": "Java",
-    "lastCommit": "2026-07-08T01:26:55Z",
-    "archived": false,
-    "homepage": "http://platform.xwiki.org/",
-    "latestRelease": {
-      "tagName": "xwiki-platform-18.4.2",
-      "publishedAt": "2026-06-30T11:49:38Z"
     },
     "hasFunding": true,
     "lastSynced": "2026-07-08T03:26:08.965Z"
