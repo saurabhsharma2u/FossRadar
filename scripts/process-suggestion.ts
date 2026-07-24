@@ -146,14 +146,14 @@ async function main() {
 
     const branchName = `suggest/add-${owner}-${repo}`.toLowerCase();
     console.log(`Creating branch ${branchName}...`);
-    execSync(`git checkout -b ${branchName}`, { stdio: 'inherit' });
+    execSync(`git checkout -B ${branchName}`, { stdio: 'inherit' });
 
     console.log('Committing changes...');
     execSync('git add src/data/repos.json src/data/history.json', { stdio: 'inherit' });
     execSync(`git commit -m "feat(data): add suggested project ${owner}/${repo}"`, { stdio: 'inherit' });
 
     console.log('Pushing branch...');
-    execSync(`git push origin ${branchName}`, { stdio: 'inherit' });
+    execSync(`git push -f origin ${branchName}`, { stdio: 'inherit' });
 
     console.log('Creating pull request...');
     execSync(
