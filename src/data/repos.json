@@ -41280,5 +41280,34 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-07-24T09:16:43.478Z"
+  },
+  {
+    "name": "openship",
+    "owner": "oblien",
+    "repo": "openship",
+    "url": "https://github.com/oblien/openship",
+    "category": "Platforms services and devops",
+    "self_hostable": true,
+    "alternatives": "coolify",
+    "description": "Self-hosted deployment platform",
+    "stars": 8076,
+    "forks": 622,
+    "license": "Apache-2.0",
+    "topics": [
+      "agents",
+      "ai",
+      "deployments",
+      "self-hosted"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-07-24T09:14:07Z",
+    "archived": false,
+    "homepage": "https://openship.io",
+    "latestRelease": {
+      "tagName": "v0.3.0",
+      "publishedAt": "2026-07-22T19:29:20Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-24T09:38:50.842Z"
   }
 ]
