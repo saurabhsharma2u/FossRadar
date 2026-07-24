@@ -12,7 +12,7 @@ jobs:
       issues: write
       pull-requests: write
       contents: write
-      workflows: write
+      actions: write
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v3
