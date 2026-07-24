@@ -6,7 +6,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug!
+        ### Thank you for contributing to FossRadar! 🚀
+        Before you submit, please consider **starring the repository** to help others discover this list.
+
+        Please fill out the form below as completely as possible.
   - type: textarea
     id: description
     attributes:

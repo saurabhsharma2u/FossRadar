@@ -1,6 +1,12 @@
 # FossRadar
 
 FossRadar is an open-source project designed to discover and track incredible free and open-source software alternatives.
+
+---
+
+⭐ **Please consider [starring the repository](https://github.com/saurabhsharma2u/FossRadar) to help others discover this list!** 🚀
+
+---
 <img width="1109" height="915" alt="image" src="https://github.com/user-attachments/assets/b1060af3-0dcc-400e-bb75-5687201a428e" />
 
 
