@@ -2,7 +2,7 @@ name: Process Project Suggestion
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
 
 jobs:
   process-suggestion:
