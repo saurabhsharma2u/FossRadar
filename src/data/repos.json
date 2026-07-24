@@ -41212,5 +41212,40 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-07-24T08:34:56.979Z"
+  },
+  {
+    "name": "light-ocr",
+    "owner": "arcships",
+    "repo": "light-ocr",
+    "url": "https://github.com/arcships/light-ocr",
+    "category": "Software development",
+    "self_hostable": false,
+    "alternatives": "",
+    "description": "Fast, offline OCR for Node.js & C++. PP-OCRv6 with Core ML / WebGPU hardware acceleration — recognize text in images with confidence scores & coordinates. npm: @arcships/light-ocr",
+    "stars": 407,
+    "forks": 36,
+    "license": "Apache-2.0",
+    "topics": [
+      "apple-silicon",
+      "computer-vision",
+      "coreml",
+      "cpp17",
+      "d3d12",
+      "image-processing",
+      "machine-learning",
+      "napi",
+      "native-addon",
+      "nodejs"
+    ],
+    "language": "C++",
+    "lastCommit": "2026-07-24T08:13:59Z",
+    "archived": false,
+    "homepage": "",
+    "latestRelease": {
+      "tagName": "v0.3.4",
+      "publishedAt": "2026-07-22T15:15:18Z"
+    },
+    "hasFunding": false,
+    "lastSynced": "2026-07-24T08:59:46.075Z"
   }
 ]
