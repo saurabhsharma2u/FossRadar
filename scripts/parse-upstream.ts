@@ -205,7 +205,7 @@ async function main() {
       ...existingRepo, 
       ...cleanP,
       replaces: mergedReplaces.length > 0 ? mergedReplaces : undefined
-    });
+    } as RepoRecord);
   }
 
   const merged = Array.from(finalMap.values()).sort(

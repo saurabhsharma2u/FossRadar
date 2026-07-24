@@ -9,15 +9,18 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
-    "baseUrl": ".",
+    "types": [
+      "node"
+    ],
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ]
     }
   },
   "include": [
     "src/**/*",
+    "scripts/**/*",
     ".astro/**/*"
   ]
 }

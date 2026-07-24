@@ -21,13 +21,12 @@ body:
       label: Category
       description: Select the most appropriate category for the project.
       options:
-        - Collaboration
         - Business
+        - Collaboration
+        - Other lists of free / open source software
+        - Platforms services and devops
+        - Software development
         - Web
-        - Platform Services
-        - DevOps
-        - Software Development
-        - Uncategorized
     validations:
       required: true
   - type: dropdown
@@ -38,6 +37,15 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Unknown"
+    validations:
+      required: true
+  - type: input
+    id: alternatives
+    attributes:
+      label: Alternatives to
+      description: Which proprietary / SaaS software is this a FOSS alternative to? (Separate multiple with commas)
+      placeholder: E.g., Slack, Microsoft Teams
     validations:
       required: true
   - type: textarea

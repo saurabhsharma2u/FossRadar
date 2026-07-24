@@ -15,7 +15,7 @@ export type RepoRecord = {
   homepage?: string;
   lastSynced?: string;
   self_hostable?: boolean;
-  alternatives?: string[];
+  alternatives?: string;
   replaces?: string[];
   latestRelease?: {
     tagName: string;
