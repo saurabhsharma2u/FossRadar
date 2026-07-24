@@ -41247,5 +41247,38 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-07-24T08:59:46.075Z"
+  },
+  {
+    "name": "search-console-mcp",
+    "owner": "saurabhsharma2u",
+    "repo": "search-console-mcp",
+    "url": "https://github.com/saurabhsharma2u/search-console-mcp",
+    "category": "Platforms services and devops",
+    "self_hostable": false,
+    "alternatives": "AminForou/mcp-gsc",
+    "description": "Search & analytics data as infrastructure — MCP server for Google Search Console, Bing Webmaster Tools, and GA4, designed for AI agents and automation.",
+    "stars": 231,
+    "forks": 23,
+    "license": "MIT",
+    "topics": [
+      "googlesearch",
+      "googlesearchconsole",
+      "mcp-server",
+      "seo",
+      "seo-optimization",
+      "bing-webmaster",
+      "ga4",
+      "googleanalytics"
+    ],
+    "language": "TypeScript",
+    "lastCommit": "2026-07-23T08:29:33Z",
+    "archived": false,
+    "homepage": "https://searchconsolemcp.saurabh.app/",
+    "latestRelease": {
+      "tagName": "v1.14.2",
+      "publishedAt": "2026-07-23T08:29:34Z"
+    },
+    "hasFunding": true,
+    "lastSynced": "2026-07-24T09:16:43.478Z"
   }
 ]
