@@ -14,21 +14,21 @@ function getActivityStatus(lastCommit?: string, latestReleaseDate?: string) {
     releaseDiffMonths = Math.floor((now.getTime() - releaseDate.getTime()) / (1000 * 60 * 60 * 24 * 30));
   }
 
-  if (commitDiffMonths < 3) {
+  if (commitDiffMonths < 6) {
     if (releaseDiffMonths !== -1 && releaseDiffMonths > 24) {
-      return { label: 'Slowing', class: 'stale', title: 'Active commits but no recent releases' };
+      return { label: 'Slowing', statusClass: 'status-warning', title: 'Active commits but no recent releases' };
     }
-    return { label: 'Active', class: 'active', title: 'Recent activity' };
-  } else if (commitDiffMonths < 12) {
-    if (releaseDiffMonths !== -1 && releaseDiffMonths > 12) {
-      return { label: 'At Risk', class: 'stale', title: 'Infrequent commits and no recent releases' };
+    return { label: 'Active', statusClass: 'status-active', title: 'Recent activity' };
+  } else if (commitDiffMonths < 18) {
+    if (releaseDiffMonths !== -1 && releaseDiffMonths > 18) {
+      return { label: 'At Risk', statusClass: 'status-warning', title: 'Infrequent commits and no recent releases' };
     }
-    return { label: `Slowing (${commitDiffMonths}mo)`, class: 'stale', title: `Slowing activity, last commit ${commitDiffMonths} months ago` };
+    return { label: `Slowing (${commitDiffMonths}mo)`, statusClass: 'status-warning', title: `Slowing activity, last commit ${commitDiffMonths} months ago` };
   } else {
     const years = Math.floor(commitDiffMonths / 12);
     return {
       label: years >= 1 ? `At Risk (${years}yr+)` : `At Risk (${commitDiffMonths}mo+)`,
-      class: 'abandoned',
+      statusClass: 'status-warning',
       title: 'Project appears to be at risk of abandonment'
     };
   }
@@ -82,7 +82,6 @@ export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Re
   const lastReleaseTime = repo.latestRelease?.publishedAt ? new Date(repo.latestRelease.publishedAt) : null;
   const lastCommitTime = repo.lastCommit ? new Date(repo.lastCommit) : null;
   
-  // Flag the gap when last commit >> last release (e.g. 6 months)
   const showStaleReleaseWarning = lastReleaseTime && lastCommitTime && 
     (lastCommitTime.getTime() - lastReleaseTime.getTime() > 1000 * 60 * 60 * 24 * 180);
 
@@ -113,8 +112,8 @@ export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Re
     const min = Math.min(...sparklineData);
     const max = Math.max(...sparklineData);
     const range = max - min || 1;
-    const width = 60;
-    const height = 15;
+    const width = 50;
+    const height = 12;
     
     const points = sparklineData.map((val, i) => {
       const x = (i / (sparklineData.length - 1)) * width;
@@ -123,14 +122,14 @@ export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Re
     }).join(' ');
 
     const isGrowing = sparklineData[sparklineData.length - 1] >= sparklineData[0];
-    const color = isGrowing ? '#10b981' : '#ef4444';
+    const color = isGrowing ? 'var(--accent)' : 'var(--warning)';
 
     return (
-      <svg viewBox={`0 0 ${width} ${height}`} style={{ width: '60px', height: '15px', overflow: 'visible', marginLeft: '0.5rem' }}>
+      <svg viewBox={`0 0 ${width} ${height}`} style={{ width: '40px', height: '10px', overflow: 'visible', marginLeft: '0.25rem', display: 'inline-block', verticalAlign: 'middle' }}>
         <polyline
           fill="none"
           stroke={color}
-          strokeWidth="2"
+          strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
           points={points}
@@ -141,53 +140,36 @@ export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Re
 
   return (
     <article className="card">
-      <div className="card-meta">
-        <span className="badge lang">{repo.language || 'Unknown'}</span>
-        {status && <span className={`badge ${status.class}`} title={status.title}>{status.label}</span>}
-        {repo.archived && <span className="badge abandoned">ARCHIVED</span>}
-        {repo.self_hostable && (
-          <span className="badge" style={{ background: '#ecfdf5', color: '#065f46', borderColor: '#10b981' }}>
-            SELF-HOSTABLE
+      <div className="card-title-row">
+        <a href={`/${repo.owner}/${repo.repo}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+          <h3>{repo.name}</h3>
+        </a>
+        
+        {/* Muted active/status text label (replacing neon pills) */}
+        {repo.archived ? (
+          <span className="status-text status-warning">Archived</span>
+        ) : status ? (
+          <span className={`status-text ${status.statusClass}`} title={status.title}>
+            {status.label}
           </span>
-        )}
-        {repo.hasFunding && (
-          <span className="badge" style={{ background: '#fdf2f8', color: '#be185d', borderColor: '#f43f5e' }} title="Project accepts funding/sponsorships">
-            💖 FUNDED
-          </span>
-        )}
-        {repo.securityAudit?.hasAudit && (
-          <a 
-            href={repo.securityAudit.reportUrl || '#'} 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="badge" 
-            style={{ background: '#f0fdf4', color: '#0369a1', borderColor: '#38bdf8', textDecoration: 'none' }} 
-            title="Third-party security audit completed"
-          >
-            🛡️ AUDITED
-          </a>
-        )}
+        ) : null}
       </div>
 
-      <a href={`/${repo.owner}/${repo.repo}`} style={{ textDecoration: 'none', color: 'inherit' }}>
-        <h3 style={{ margin: '1rem 0 0.5rem 0' }}>{repo.name}</h3>
-      </a>
-
       {hasReplacements && (
-        <div style={{ fontSize: '0.75rem', fontWeight: 900, marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-          <span style={{ opacity: 0.6 }}>REPLACES: </span>
-          <span style={{ color: 'var(--secondary)' }}>
+        <div className="card-replaces">
+          <span>replaces: </span>
+          <span>
             {repo.replaces ? (
               repo.replaces.map((tool, idx) => (
                 <span key={tool}>
-                  <a href={`/alternatives-to-${slugify(tool)}`} style={{ color: 'inherit', textDecoration: 'underline' }}>{tool}</a>
+                  <a href={`/alternatives-to-${slugify(tool)}`}>{tool}</a>
                   {idx < repo.replaces!.length - 1 ? ', ' : ''}
                 </span>
               ))
             ) : (
               repo.alternatives?.split(',').map((tool, idx, arr) => (
                 <span key={tool}>
-                  <a href={`/alternatives-to-${slugify(tool.trim())}`} style={{ color: 'inherit', textDecoration: 'underline' }}>{tool.trim()}</a>
+                  <a href={`/alternatives-to-${slugify(tool.trim())}`}>{tool.trim()}</a>
                   {idx < arr.length - 1 ? ', ' : ''}
                 </span>
               ))
@@ -196,101 +178,107 @@ export function RepoCard({ repo, isExternal = false, sparklineData }: { repo: Re
         </div>
       )}
 
-      <p style={{ opacity: 0.8, fontSize: '1rem', lineHeight: '1.4' }}>
+      <p>
         {repo.description || 'No description provided by the maintainer.'}
       </p>
 
-      <div className="card-stats" style={{ marginTop: '1rem', display: 'flex', alignItems: 'center' }}>
-        <span style={{ display: 'flex', alignItems: 'center' }}>
-          ⭐ {repo.stars?.toLocaleString() || 0}
-          {renderSparkline()}
-        </span>
-        <span style={{ marginLeft: '1rem' }}>🔱 {repo.forks?.toLocaleString() || 0}</span>
-      </div>
-
-      {repo.latestRelease && (
-        <div style={{ marginTop: '0.5rem', fontSize: '0.75rem', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <span className="badge" style={{ background: 'var(--accent)', color: '#000', padding: '0.1rem 0.4rem', border: '2px solid var(--border)', boxShadow: '2px 2px 0px var(--border)', fontSize: '0.6rem' }}>
-            v{repo.latestRelease.tagName}
+      {/* Muted Data Meta Row strictly in Monospace */}
+      <div className="meta-row">
+        {repo.stars !== undefined && (
+          <span className="meta-item" title={`${repo.stars.toLocaleString()} stars`}>
+            {repo.stars.toLocaleString()} stars
+            {renderSparkline()}
           </span>
-          <span style={{ opacity: 0.6 }}>
-            Released {getRelativeTime(repo.latestRelease.publishedAt)}
-          </span>
-          {showStaleReleaseWarning && (
-            <span title="Last commit is much newer than the last release - possible unmaintained release line" style={{ cursor: 'help' }}>
-              ⚠️
-            </span>
-          )}
-        </div>
-      )}
+        )}
+        
+        {repo.forks !== undefined && (
+          <>
+            <span className="meta-dot"></span>
+            <span className="meta-item">{repo.forks.toLocaleString()} forks</span>
+          </>
+        )}
 
-      <div className="card-meta" style={{ marginTop: 'auto', paddingTop: '1rem' }}>
-        {repo.license && <span className="badge license">{repo.license}</span>}
-        {(repo.platforms || []).map((platform) => {
-          const icons: Record<string, string> = {
-            Linux: '🐧', macOS: '🍎', Windows: '🪟', Docker: '🐳', Web: '🌐', iOS: '📱', Android: '🤖'
-          };
-          return (
-            <span className="badge" key={platform} style={{ background: '#e0f2fe', color: '#831843', borderColor: '#be185d' }} title={`Supports ${platform}`}>
-              {icons[platform] || '📦'} {platform}
+        {repo.language && (
+          <>
+            <span className="meta-dot"></span>
+            <span className="meta-item">
+              <span className="meta-lang-dot"></span>
+              {repo.language}
             </span>
-          );
-        })}
-        {(repo.topics || []).slice(0, 3).map((topic) => (
-          <span className="badge" key={topic} style={{ background: 'transparent', opacity: 0.7 }}>#{topic}</span>
-        ))}
+          </>
+        )}
+
+        {repo.license && (
+          <>
+            <span className="meta-dot"></span>
+            <span className="meta-item">{repo.license}</span>
+          </>
+        )}
+
+        {repo.self_hostable && (
+          <>
+            <span className="meta-dot"></span>
+            <span className="meta-item" style={{ color: 'var(--accent)', fontWeight: 600 }}>self-hostable</span>
+          </>
+        )}
+
+        {repo.hasFunding && (
+          <>
+            <span className="meta-dot"></span>
+            <span className="meta-item" style={{ color: 'var(--accent)', fontWeight: 600 }} title="Project accepts funding/sponsorships">♥ sponsored</span>
+          </>
+        )}
+
+        {repo.latestRelease && (
+          <>
+            <span className="meta-dot"></span>
+            <span className="meta-item" title={`Released ${getRelativeTime(repo.latestRelease.publishedAt)}`}>
+              {repo.latestRelease.tagName.toLowerCase().startsWith('v') ? repo.latestRelease.tagName : `v${repo.latestRelease.tagName}`}
+            </span>
+            {showStaleReleaseWarning && (
+              <span className="meta-item" title="Outdated release line" style={{ color: 'var(--warning)', cursor: 'help', marginLeft: '-2px' }}>
+                !
+              </span>
+            )}
+          </>
+        )}
       </div>
 
       <div className="card-footer">
-        <small
-          title={`Last Commit: ${absoluteTime}`}
-          style={{
-            fontWeight: 950,
-            opacity: 0.5,
-            cursor: 'help',
-            textDecoration: 'underline dotted',
-            textUnderlineOffset: '4px',
-            fontSize: '0.75rem'
-          }}
-        >
+        <span className="relative-time" title={`Last commit: ${absoluteTime}`}>
           {relativeTime}
-        </small>
+        </span>
 
-        <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
-          <div className="share-container">
+        <div className="card-actions">
+          <div className="share-dropdown-wrapper">
             <button
-              className="btn-link"
+              className="card-link"
               onClick={() => setIsShareOpen(!isShareOpen)}
-              style={{
-                background: copied ? '#10b981' : 'var(--accent)',
-                color: copied ? '#fff' : '#000',
-                padding: '0.5rem 1rem',
-                fontSize: '0.75rem'
-              }}
+              style={{ color: copied ? 'var(--accent)' : 'var(--text-muted)' }}
             >
-              {copied ? 'COPIED!' : 'SHARE'}
+              {copied ? 'copied' : 'share'}
             </button>
 
             {isShareOpen && (
-              <div className="share-dropdown">
-                <button className="share-item" onClick={handleCopy}>
-                  📋 Copy Link
+              <div className="share-popover">
+                <button className="share-popover-item" onClick={handleCopy}>
+                  Copy link
                 </button>
-                <button className="share-item" onClick={handleXShare}>
-                  𝕏 Share on X
+                <button className="share-popover-item" onClick={handleXShare}>
+                  Share on X
                 </button>
               </div>
             )}
           </div>
 
           <a
-            className="btn-link"
+            className="card-link"
             href={isExternal ? repo.url : `/${repo.owner}/${repo.repo}`}
             target={isExternal ? "_blank" : "_self"}
             rel={isExternal ? "noopener noreferrer" : ""}
-            style={{ padding: '0.5rem 1rem', fontSize: '0.75rem' }}
+            style={{ fontWeight: 600, color: 'var(--text)' }}
           >
-            EXPLORE →
+            explore
           </a>
         </div>
       </div>

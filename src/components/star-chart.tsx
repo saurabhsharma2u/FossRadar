@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 
 interface StarHistory {
   date: string;
@@ -13,7 +13,7 @@ export function StarChart({ history }: StarChartProps) {
   if (!history || history.length < 2) {
     return (
       <div className="card" style={{ padding: '2rem', textAlign: 'center', opacity: 0.6 }}>
-        <p style={{ fontWeight: 800 }}>Not enough history data for a star graph yet.</p>
+        <p style={{ fontWeight: 500, fontSize: '0.875rem' }}>Not enough history data for a star graph yet.</p>
       </div>
     );
   }
@@ -50,9 +50,9 @@ export function StarChart({ history }: StarChartProps) {
   return (
     <div className="card" style={{ width: '100%', maxWidth: '650px', padding: '1.5rem' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', alignItems: 'center' }}>
-        <h3 style={{ margin: 0, fontSize: '1rem' }}>Star Growth</h3>
-        <span className="badge" style={{ background: 'var(--accent)', color: '#000' }}>
-          +{maxStars - minStars} stars
+        <h3 style={{ margin: 0, fontSize: '0.875rem', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--text-muted)' }}>Star Growth</h3>
+        <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.75rem', fontWeight: 600, color: 'var(--accent)' }}>
+          +{ (maxStars - minStars).toLocaleString() } stars
         </span>
       </div>
       
@@ -67,7 +67,7 @@ export function StarChart({ history }: StarChartProps) {
           x2={width - padding}
           y2={height - padding}
           stroke="var(--border)"
-          strokeWidth="3"
+          strokeWidth="1"
         />
         <line
           x1={padding}
@@ -75,48 +75,48 @@ export function StarChart({ history }: StarChartProps) {
           x2={padding}
           y2={height - padding}
           stroke="var(--border)"
-          strokeWidth="3"
+          strokeWidth="1"
         />
 
         {/* Labels */}
         <text
           x={padding}
-          y={height - padding + 20}
-          fill="currentColor"
-          fontSize="12"
-          fontWeight="900"
+          y={height - padding + 18}
+          fill="var(--text-muted)"
+          fontSize="10"
+          fontFamily="var(--font-mono)"
           textAnchor="start"
         >
           {formatDate(minDate)}
         </text>
         <text
           x={width - padding}
-          y={height - padding + 20}
-          fill="currentColor"
-          fontSize="12"
-          fontWeight="900"
+          y={height - padding + 18}
+          fill="var(--text-muted)"
+          fontSize="10"
+          fontFamily="var(--font-mono)"
           textAnchor="end"
         >
           {formatDate(maxDate)}
         </text>
 
         <text
-          x={padding - 10}
+          x={padding - 8}
           y={padding}
-          fill="currentColor"
-          fontSize="12"
-          fontWeight="900"
+          fill="var(--text-muted)"
+          fontSize="10"
+          fontFamily="var(--font-mono)"
           textAnchor="end"
           alignmentBaseline="middle"
         >
           {maxStars.toLocaleString()}
         </text>
         <text
-          x={padding - 10}
+          x={padding - 8}
           y={height - padding}
-          fill="currentColor"
-          fontSize="12"
-          fontWeight="900"
+          fill="var(--text-muted)"
+          fontSize="10"
+          fontFamily="var(--font-mono)"
           textAnchor="end"
           alignmentBaseline="middle"
         >
@@ -125,20 +125,20 @@ export function StarChart({ history }: StarChartProps) {
 
         {/* The Line */}
         <polyline
+          className="chart-polyline-animated"
           fill="none"
-          stroke="var(--primary)"
-          strokeWidth="4"
+          stroke="var(--accent)"
+          strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
           points={points}
-          style={{ filter: 'drop-shadow(3px 3px 0px var(--border))' }}
         />
         
         {/* Shadow/Fill Area */}
         <path
+          className="chart-path-animated"
           d={`M ${points} L ${width - padding},${height - padding} L ${padding},${height - padding} Z`}
-          fill="var(--primary)"
-          style={{ opacity: 0.1 }}
+          fill="var(--accent)"
         />
       </svg>
     </div>

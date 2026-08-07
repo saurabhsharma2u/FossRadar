@@ -6,7 +6,7 @@
 
 ## Current State
 
-- 94 OSS projects tracked
+- 1300+ OSS projects tracked
 - Periodic sync of stars, forks, last updated, and metadata
 - Filter by category, language, sort by stars / recent / growth
 - Individual project pages
