@@ -966,6 +966,18 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Step CI",
+    "owner": "stepci",
+    "repo": "stepci",
+    "url": "https://github.com/stepci/stepci",
+    "category": "API Platform",
+    "self_hostable": true,
+    "replaces": [
+      "Checkly",
+      "Postman"
+    ]
+  },
+  {
     "name": "FreeATS",
     "owner": "freeats",
     "repo": "freeats",
@@ -4196,6 +4208,13 @@
     "homepage": "https://www.redmine.org",
     "hasFunding": false,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "Taiga",
+    "owner": "taigaio",
+    "repo": "taiga",
+    "url": "https://github.com/taigaio/taiga",
+    "category": "Bug tracking (Jira alternatives):"
   },
   {
     "name": "Metabase",
@@ -10668,6 +10687,18 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Papercups",
+    "owner": "papercups-io",
+    "repo": "papercups",
+    "url": "https://github.com/papercups-io/papercups",
+    "category": "Customer Engagement",
+    "self_hostable": true,
+    "replaces": [
+      "Intercom",
+      "Zendesk"
+    ]
+  },
+  {
     "name": "Quackback",
     "owner": "QuackbackIO",
     "repo": "quackback",
@@ -11117,6 +11148,19 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "LunaTrace",
+    "owner": "lunasec-io",
+    "repo": "lunasec",
+    "url": "https://github.com/lunasec-io/lunasec",
+    "category": "Cybersecurity",
+    "self_hostable": true,
+    "replaces": [
+      "GitHub Dependabot",
+      "Snyk.io",
+      "SonaType Nexus"
+    ]
   },
   {
     "name": "Matano",
@@ -13824,6 +13868,18 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Shuup",
+    "owner": "shuup",
+    "repo": "shuup",
+    "url": "https://github.com/shuup/shuup",
+    "category": "E-commerce",
+    "self_hostable": true,
+    "replaces": [
+      "Shopify",
+      "Ecwid"
+    ]
+  },
+  {
     "name": "Solidus",
     "owner": "solidusio",
     "repo": "solidus",
@@ -14247,6 +14303,17 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Orchest",
+    "owner": "orchest",
+    "repo": "orchest",
+    "url": "https://github.com/orchest/orchest",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
+  },
+  {
     "name": "Prefect",
     "owner": "prefecthq",
     "repo": "prefect",
@@ -14282,6 +14349,17 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "Selefra",
+    "owner": "selefra",
+    "repo": "selefra",
+    "url": "https://github.com/selefra/selefra",
+    "category": "ELT / ETL",
+    "self_hostable": true,
+    "replaces": [
+      "Fivetran"
+    ]
   },
   {
     "name": "Aster Mail",
@@ -21514,6 +21592,13 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Crater",
+    "owner": "crater-invoice",
+    "repo": "crater",
+    "url": "https://github.com/crater-invoice/crater",
+    "category": "Invoicing (FreshBooks / QuickBooks alternatives)"
+  },
+  {
     "name": "Invoice Ninja",
     "owner": "invoiceninja",
     "repo": "invoiceninja",
@@ -22504,6 +22589,14 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "Bicimon",
+    "owner": "knrdl",
+    "repo": "bicimon",
+    "url": "https://github.com/knrdl/bicimon",
+    "category": "Maps and Global Positioning System (GPS)",
+    "self_hostable": true
   },
   {
     "name": "Dawarich",
@@ -24016,6 +24109,14 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-08-17T18:47:31.825Z"
+  },
+  {
+    "name": "LibreTime",
+    "owner": "sourcefabric",
+    "repo": "Airtime",
+    "url": "https://github.com/sourcefabric/Airtime",
+    "category": "Media Streaming - Audio Streaming",
+    "self_hostable": true
   },
   {
     "name": "LMS",
@@ -25585,6 +25686,17 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "MetriQL",
+    "owner": "metriql",
+    "repo": "metriql",
+    "url": "https://github.com/metriql/metriql",
+    "category": "Metrics store",
+    "self_hostable": true,
+    "replaces": [
+      "Looker"
+    ]
+  },
+  {
     "name": "MLCraft",
     "owner": "mlcraft-io",
     "repo": "mlcraft",
@@ -26776,6 +26888,14 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "POMjs",
+    "owner": "joho1968",
+    "repo": "POMjs",
+    "url": "https://github.com/joho1968/POMjs",
+    "category": "Miscellaneous",
+    "self_hostable": true
+  },
+  {
     "name": "Pønskelisten",
     "owner": "aunefyren",
     "repo": "poenskelisten",
@@ -27342,6 +27462,17 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "Cortex",
+    "owner": "cortexlabs",
+    "repo": "cortex",
+    "url": "https://github.com/cortexlabs/cortex",
+    "category": "ML Ops",
+    "self_hostable": true,
+    "replaces": [
+      "AWS SageMaker"
+    ]
   },
   {
     "name": "Metarank",
@@ -29809,6 +29940,14 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Writing",
+    "owner": "josephernest",
+    "repo": "writing",
+    "url": "https://github.com/josephernest/writing",
+    "category": "Note-taking & Editors",
+    "self_hostable": true
+  },
+  {
     "name": "AppFlowy",
     "owner": "AppFlowy-IO",
     "repo": "appflowy",
@@ -29844,6 +29983,17 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "Athens Research",
+    "owner": "athensresearch",
+    "repo": "athens",
+    "url": "https://github.com/athensresearch/athens",
+    "category": "Notetaking",
+    "self_hostable": true,
+    "replaces": [
+      "Roam Research"
+    ]
   },
   {
     "name": "Bangle.io",
@@ -31664,6 +31814,14 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Homepage by tomershvueli",
+    "owner": "tomershvueli",
+    "repo": "homepage",
+    "url": "https://github.com/tomershvueli/homepage",
+    "category": "Personal Dashboards",
+    "self_hostable": true
+  },
+  {
     "name": "Homer",
     "owner": "bastienwirtz",
     "repo": "homer",
@@ -32940,6 +33098,17 @@
     "homepage": "https://www.qovery.com",
     "hasFunding": false,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "Space Cloud",
+    "owner": "spacecloud-io",
+    "repo": "space-cloud",
+    "url": "https://github.com/spacecloud-io/space-cloud",
+    "category": "Platform as a service",
+    "self_hostable": true,
+    "replaces": [
+      "Heroku"
+    ]
   },
   {
     "name": "Abilian Hop3",
@@ -38189,6 +38358,17 @@
     "lastSynced": "2026-08-18T01:37:10.214Z"
   },
   {
+    "name": "Glimesh",
+    "owner": "glimesh",
+    "repo": "glimesh.tv",
+    "url": "https://github.com/glimesh/glimesh.tv",
+    "category": "Streaming",
+    "self_hostable": true,
+    "replaces": [
+      "Twitch"
+    ]
+  },
+  {
     "name": "LimeSurvey",
     "owner": "LimeSurvey",
     "repo": "LimeSurvey",
@@ -38513,6 +38693,14 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-08-18T01:37:10.214Z"
+  },
+  {
+    "name": "Nullboard",
+    "owner": "apankrat",
+    "repo": "nullboard",
+    "url": "https://github.com/apankrat/nullboard",
+    "category": "Task Management & To-do Lists",
+    "self_hostable": true
   },
   {
     "name": "OpenHabitTracker",
