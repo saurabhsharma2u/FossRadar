@@ -87,6 +87,10 @@ async function main() {
       if (!prev || prev.stars !== repo.stars) {
         history[key].push({ date: now, stars: repo.stars });
       }
+      // Bound unbounded growth: detail charts don't need more than ~1yr of points.
+      if (history[key].length > 365) {
+        history[key] = history[key].slice(-365);
+      }
     }
   }
 

@@ -4,11 +4,14 @@ import { RepoCard } from '@/components/repo-card';
 import { Repo } from '@/lib/types';
 
 interface ExplorerProps {
-    repos: Repo[];
-    history: Record<string, { date: string; stars: number }[]>;
+    repos?: Repo[];
+    history?: Record<string, { date: string; stars: number }[]>;
 }
 
-export default function RadarExplorer({ repos, history }: ExplorerProps) {
+export default function RadarExplorer({ repos: initialRepos, history: initialHistory }: ExplorerProps) {
+    const [repos, setRepos] = useState<Repo[]>(initialRepos ?? []);
+    const [history, setHistory] = useState<Record<string, { date: string; stars: number }[]>>(initialHistory ?? {});
+    const [loading, setLoading] = useState(!initialRepos);
     const [query, setQuery] = useState('');
     const [category, setCategory] = useState('All');
     const [language, setLanguage] = useState('All');
@@ -19,6 +22,32 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
     const [onlyFunded, setOnlyFunded] = useState(false);
     const [visibleCount, setVisibleCount] = useState(12);
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+    useEffect(() => {
+        if (initialRepos) return;
+        let cancelled = false;
+        (async () => {
+            try {
+                const [reposRes, historyRes] = await Promise.all([
+                    fetch('/data/repos.json'),
+                    fetch('/data/history.json'),
+                ]);
+                if (!reposRes.ok || !historyRes.ok) throw new Error('data fetch failed');
+                const [reposJson, historyJson] = await Promise.all([reposRes.json(), historyRes.json()]);
+                if (!cancelled) {
+                    setRepos(reposJson);
+                    setHistory(historyJson);
+                }
+            } catch (e) {
+                console.error('Failed to load radar data', e);
+            } finally {
+                if (!cancelled) setLoading(false);
+            }
+        })();
+        return () => {
+            cancelled = true;
+        };
+    }, [initialRepos]);
 
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
@@ -125,6 +154,13 @@ export default function RadarExplorer({ repos, history }: ExplorerProps) {
 
     return (
         <>
+            {loading && (
+                <section className="hero">
+                    <p style={{ fontFamily: 'var(--font-mono)', fontSize: '0.875rem', color: 'var(--text-muted)' }}>
+                        Sweeping the radar…
+                    </p>
+                </section>
+            )}
             <section className="hero">
                 <div style={{
                     fontSize: '0.75rem',
