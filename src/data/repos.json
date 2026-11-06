@@ -1,5 +1,12 @@
 [
   {
+    "name": "Orbi",
+    "owner": "orbi-build",
+    "repo": "orbi",
+    "url": "https://github.com/orbi-build/orbi",
+    "category": "AI coding agents (Devin, GitHub Copilot coding agent alternatives)"
+  },
+  {
     "name": "ANALOG",
     "owner": "orangecoloured",
     "repo": "analog",
@@ -10723,6 +10730,13 @@
     "lastSynced": "2026-11-06T06:00:58.077Z"
   },
   {
+    "name": "SuperCI",
+    "owner": "supercorp-ai",
+    "repo": "superci",
+    "url": "https://github.com/supercorp-ai/superci",
+    "category": "Continuous integration (CircleCI alternatives)"
+  },
+  {
     "name": "Customermates",
     "owner": "customermates",
     "repo": "customermates",
@@ -15518,6 +15532,13 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-11-06T06:00:58.077Z"
+  },
+  {
+    "name": "Larder",
+    "owner": "just-every",
+    "repo": "run-larder",
+    "url": "https://github.com/just-every/run-larder",
+    "category": "ERP (SAP Alternatives)"
   },
   {
     "name": "OpenBooks",
@@ -28981,6 +29002,20 @@
     ]
   },
   {
+    "name": "Capgo",
+    "owner": "Cap-go",
+    "repo": "capgo",
+    "url": "https://github.com/Cap-go/capgo",
+    "category": "Mobile app live updates (Ionic Appflow, CodePush alternatives)"
+  },
+  {
+    "name": "OtaKit",
+    "owner": "OtaKit",
+    "repo": "otakit",
+    "url": "https://github.com/OtaKit/otakit",
+    "category": "Mobile app live updates (Ionic Appflow, CodePush alternatives)"
+  },
+  {
     "name": "Actual",
     "owner": "actualbudget",
     "repo": "actual",
@@ -30833,6 +30868,13 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-10-18T10:45:39.489Z"
+  },
+  {
+    "name": "Koru",
+    "owner": "koruworks",
+    "repo": "mono",
+    "url": "https://github.com/koruworks/mono",
+    "category": "Note-taking / Personal Knowledge Management (Evernote alternatives)"
   },
   {
     "name": "NoteGen",
@@ -33101,6 +33143,13 @@
     "lastSynced": "2026-11-06T06:00:58.077Z"
   },
   {
+    "name": "Inkvolt PDF",
+    "owner": "gabandres",
+    "repo": "inkvolt",
+    "url": "https://github.com/gabandres/inkvolt",
+    "category": "PDF editing (Adobe Acrobat alternatives)"
+  },
+  {
     "name": "OffPDF",
     "owner": "McanKul",
     "repo": "offpdf",
@@ -33132,6 +33181,13 @@
     },
     "hasFunding": false,
     "lastSynced": "2026-11-06T06:00:58.077Z"
+  },
+  {
+    "name": "Stayput",
+    "owner": "keenanlk",
+    "repo": "stayput",
+    "url": "https://github.com/keenanlk/stayput",
+    "category": "PDF editing (Adobe Acrobat alternatives)"
   },
   {
     "name": "Compass",
@@ -34744,6 +34800,13 @@
     "lastSynced": "2026-11-06T06:00:58.077Z"
   },
   {
+    "name": "Cloud in a Bottle",
+    "owner": "cloud-in-a-bottle",
+    "repo": "cloud-in-a-bottle",
+    "url": "https://github.com/cloud-in-a-bottle/cloud-in-a-bottle",
+    "category": "Platform as a Service / PaaS (Heroku, Fly, Render... alternatives):"
+  },
+  {
     "name": "France Nuage",
     "owner": "France-Nuage",
     "repo": "plateforme",
@@ -35325,6 +35388,13 @@
     },
     "hasFunding": true,
     "lastSynced": "2026-11-06T06:00:58.077Z"
+  },
+  {
+    "name": "Iris Chat",
+    "owner": "irislib",
+    "repo": "iris-chat-rs",
+    "url": "https://github.com/irislib/iris-chat-rs",
+    "category": "Private Messaging (Signal, WhatsApp, Telegram alternatives)"
   },
   {
     "name": "PostHog",
