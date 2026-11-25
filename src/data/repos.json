@@ -37700,40 +37700,6 @@
     "lastSynced": "2026-11-25T07:57:59.783Z"
   },
   {
-    "name": "Hister",
-    "owner": "asciimoo",
-    "repo": "nogon",
-    "url": "https://github.com/asciimoo/nogon",
-    "category": "Search Engines",
-    "self_hostable": true,
-    "description": "Your own search engine",
-    "stars": 6391,
-    "forks": 292,
-    "license": "AGPL-3.0",
-    "topics": [
-      "history",
-      "index",
-      "search",
-      "search-engine",
-      "web",
-      "mcp",
-      "privacy",
-      "semantic-search",
-      "browser-history",
-      "personal-search"
-    ],
-    "language": "Go",
-    "lastCommit": "2026-11-24T16:36:13Z",
-    "archived": false,
-    "homepage": "https://nogon.eu/",
-    "latestRelease": {
-      "tagName": "v0.22.0",
-      "publishedAt": "2026-11-19T08:24:33Z"
-    },
-    "hasFunding": true,
-    "lastSynced": "2026-11-25T07:57:59.783Z"
-  },
-  {
     "name": "Jina",
     "owner": "jina-ai",
     "repo": "serve",
@@ -37797,6 +37763,40 @@
       "publishedAt": "2026-08-05T00:10:49Z"
     },
     "hasFunding": false,
+    "lastSynced": "2026-11-25T07:57:59.783Z"
+  },
+  {
+    "name": "Nogon",
+    "owner": "asciimoo",
+    "repo": "nogon",
+    "url": "https://github.com/asciimoo/nogon",
+    "category": "Search Engines",
+    "self_hostable": true,
+    "description": "Your own search engine",
+    "stars": 6391,
+    "forks": 292,
+    "license": "AGPL-3.0",
+    "topics": [
+      "history",
+      "index",
+      "search",
+      "search-engine",
+      "web",
+      "mcp",
+      "privacy",
+      "semantic-search",
+      "browser-history",
+      "personal-search"
+    ],
+    "language": "Go",
+    "lastCommit": "2026-11-24T16:36:13Z",
+    "archived": false,
+    "homepage": "https://nogon.eu/",
+    "latestRelease": {
+      "tagName": "v0.22.0",
+      "publishedAt": "2026-11-19T08:24:33Z"
+    },
+    "hasFunding": true,
     "lastSynced": "2026-11-25T07:57:59.783Z"
   },
   {
